@@ -1,0 +1,5061 @@
+{
+ "policyArea": {
+  "Crime and Law Enforcement": {
+   "total": 80,
+   "committees": {
+    "Judiciary Committee": 0.8625,
+    "Energy and Commerce Committee": 0.05,
+    "Homeland Security Committee": 0.025,
+    "Ways and Means Committee": 0.0125,
+    "Health, Education, Labor, and Pensions Committee": 0.0125,
+    "Education and Workforce Committee": 0.0125,
+    "Homeland Security and Governmental Affairs Committee": 0.0125,
+    "Finance Committee": 0.0125
+   }
+  },
+  "Immigration": {
+   "total": 45,
+   "committees": {
+    "Judiciary Committee": 0.6666666666666666,
+    "Homeland Security Committee": 0.08888888888888889,
+    "Ways and Means Committee": 0.044444444444444446,
+    "Education and Workforce Committee": 0.044444444444444446,
+    "Financial Services Committee": 0.044444444444444446,
+    "Finance Committee": 0.044444444444444446,
+    "Appropriations Committee": 0.022222222222222223,
+    "Foreign Affairs Committee": 0.022222222222222223,
+    "Rules Committee": 0.022222222222222223
+   }
+  },
+  "Health": {
+   "total": 119,
+   "committees": {
+    "Energy and Commerce Committee": 0.44537815126050423,
+    "Health, Education, Labor, and Pensions Committee": 0.16806722689075632,
+    "Ways and Means Committee": 0.13445378151260504,
+    "Finance Committee": 0.07563025210084033,
+    "Judiciary Committee": 0.05042016806722689,
+    "Oversight and Government Reform Committee": 0.04201680672268908,
+    "Committee on House Administration": 0.025210084033613446,
+    "Education and Workforce Committee": 0.01680672268907563,
+    "Natural Resources Committee": 0.008403361344537815,
+    "Appropriations Committee": 0.008403361344537815
+   }
+  },
+  "Taxation": {
+   "total": 65,
+   "committees": {
+    "Ways and Means Committee": 0.5538461538461539,
+    "Finance Committee": 0.35384615384615387,
+    "Judiciary Committee": 0.07692307692307693,
+    "Armed Services Committee": 0.015384615384615385
+   }
+  },
+  "Government Operations and Politics": {
+   "total": 94,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.2553191489361702,
+    "Homeland Security and Governmental Affairs Committee": 0.2127659574468085,
+    "Judiciary Committee": 0.1276595744680851,
+    "Committee on House Administration": 0.1276595744680851,
+    "Rules Committee": 0.05319148936170213,
+    "Environment and Public Works Committee": 0.031914893617021274,
+    "Budget Committee": 0.02127659574468085,
+    "Armed Services Committee": 0.02127659574468085,
+    "Natural Resources Committee": 0.02127659574468085,
+    "Ways and Means Committee": 0.02127659574468085
+   }
+  },
+  "Armed Forces and National Security": {
+   "total": 46,
+   "committees": {
+    "Armed Services Committee": 0.5217391304347826,
+    "Veterans' Affairs Committee": 0.32608695652173914,
+    "Judiciary Committee": 0.043478260869565216,
+    "Intelligence (Permanent Select) Committee": 0.043478260869565216,
+    "Banking, Housing, and Urban Affairs Committee": 0.043478260869565216,
+    "Energy and Natural Resources Committee": 0.021739130434782608
+   }
+  },
+  "Emergency Management": {
+   "total": 14,
+   "committees": {
+    "Transportation and Infrastructure Committee": 0.35714285714285715,
+    "Homeland Security Committee": 0.14285714285714285,
+    "Rules Committee": 0.07142857142857142,
+    "Foreign Affairs Committee": 0.07142857142857142,
+    "Financial Services Committee": 0.07142857142857142,
+    "Small Business Committee": 0.07142857142857142,
+    "Homeland Security and Governmental Affairs Committee": 0.07142857142857142,
+    "Appropriations Committee": 0.07142857142857142,
+    "Health, Education, Labor, and Pensions Committee": 0.07142857142857142
+   }
+  },
+  "Finance and Financial Sector": {
+   "total": 22,
+   "committees": {
+    "Financial Services Committee": 0.45454545454545453,
+    "Banking, Housing, and Urban Affairs Committee": 0.3181818181818182,
+    "Judiciary Committee": 0.09090909090909091,
+    "Finance Committee": 0.09090909090909091,
+    "Oversight and Government Reform Committee": 0.045454545454545456
+   }
+  },
+  "Labor and Employment": {
+   "total": 24,
+   "committees": {
+    "Health, Education, Labor, and Pensions Committee": 0.4583333333333333,
+    "Education and Workforce Committee": 0.3333333333333333,
+    "Ways and Means Committee": 0.041666666666666664,
+    "Energy and Commerce Committee": 0.041666666666666664,
+    "Oversight and Government Reform Committee": 0.041666666666666664,
+    "Finance Committee": 0.041666666666666664,
+    "Agriculture, Nutrition, and Forestry Committee": 0.041666666666666664
+   }
+  },
+  "Science, Technology, Communications": {
+   "total": 12,
+   "committees": {
+    "Energy and Commerce Committee": 0.25,
+    "Science, Space, and Technology Committee": 0.25,
+    "Commerce, Science, and Transportation Committee": 0.25,
+    "Homeland Security Committee": 0.16666666666666666,
+    "Agriculture, Nutrition, and Forestry Committee": 0.08333333333333333
+   }
+  },
+  "International Affairs": {
+   "total": 41,
+   "committees": {
+    "Foreign Affairs Committee": 0.5365853658536586,
+    "Foreign Relations Committee": 0.14634146341463414,
+    "Judiciary Committee": 0.12195121951219512,
+    "Banking, Housing, and Urban Affairs Committee": 0.07317073170731707,
+    "Armed Services Committee": 0.024390243902439025,
+    "Energy and Commerce Committee": 0.024390243902439025,
+    "Education and Workforce Committee": 0.024390243902439025,
+    "Rules Committee": 0.024390243902439025,
+    "Homeland Security and Governmental Affairs Committee": 0.024390243902439025
+   }
+  },
+  "Commerce": {
+   "total": 19,
+   "committees": {
+    "Commerce, Science, and Transportation Committee": 0.2631578947368421,
+    "Energy and Commerce Committee": 0.15789473684210525,
+    "Small Business Committee": 0.15789473684210525,
+    "Small Business and Entrepreneurship Committee": 0.15789473684210525,
+    "Judiciary Committee": 0.10526315789473684,
+    "Banking, Housing, and Urban Affairs Committee": 0.10526315789473684,
+    "Appropriations Committee": 0.05263157894736842
+   }
+  },
+  "Energy": {
+   "total": 38,
+   "committees": {
+    "Energy and Natural Resources Committee": 0.5263157894736842,
+    "Energy and Commerce Committee": 0.23684210526315788,
+    "Natural Resources Committee": 0.10526315789473684,
+    "Science, Space, and Technology Committee": 0.05263157894736842,
+    "Transportation and Infrastructure Committee": 0.02631578947368421,
+    "Oversight and Government Reform Committee": 0.02631578947368421,
+    "Homeland Security and Governmental Affairs Committee": 0.02631578947368421
+   }
+  },
+  "Economics and Public Finance": {
+   "total": 25,
+   "committees": {
+    "Budget Committee": 0.28,
+    "Appropriations Committee": 0.16,
+    "Rules Committee": 0.16,
+    "Committee on House Administration": 0.12,
+    "Homeland Security and Governmental Affairs Committee": 0.12,
+    "Foreign Affairs Committee": 0.04,
+    "Oversight and Government Reform Committee": 0.04,
+    "Ways and Means Committee": 0.04,
+    "Finance Committee": 0.04
+   }
+  },
+  "Water Resources Development": {
+   "total": 3,
+   "committees": {
+    "Natural Resources Committee": 0.6666666666666666,
+    "Environment and Public Works Committee": 0.3333333333333333
+   }
+  },
+  "Public Lands and Natural Resources": {
+   "total": 26,
+   "committees": {
+    "Natural Resources Committee": 0.38461538461538464,
+    "Agriculture Committee": 0.19230769230769232,
+    "Energy and Natural Resources Committee": 0.19230769230769232,
+    "Agriculture, Nutrition, and Forestry Committee": 0.07692307692307693,
+    "Transportation and Infrastructure Committee": 0.038461538461538464,
+    "Science, Space, and Technology Committee": 0.038461538461538464,
+    "Armed Services Committee": 0.038461538461538464,
+    "Environment and Public Works Committee": 0.038461538461538464
+   }
+  },
+  "Environmental Protection": {
+   "total": 21,
+   "committees": {
+    "Natural Resources Committee": 0.3333333333333333,
+    "Energy and Commerce Committee": 0.19047619047619047,
+    "Environment and Public Works Committee": 0.14285714285714285,
+    "Science, Space, and Technology Committee": 0.09523809523809523,
+    "Agriculture Committee": 0.047619047619047616,
+    "Oversight and Government Reform Committee": 0.047619047619047616,
+    "Transportation and Infrastructure Committee": 0.047619047619047616,
+    "Foreign Relations Committee": 0.047619047619047616,
+    "Agriculture, Nutrition, and Forestry Committee": 0.047619047619047616
+   }
+  },
+  "Civil Rights and Liberties, Minority Issues": {
+   "total": 13,
+   "committees": {
+    "Judiciary Committee": 0.6153846153846154,
+    "Education and Workforce Committee": 0.07692307692307693,
+    "Oversight and Government Reform Committee": 0.07692307692307693,
+    "Finance Committee": 0.07692307692307693,
+    "Banking, Housing, and Urban Affairs Committee": 0.07692307692307693,
+    "Health, Education, Labor, and Pensions Committee": 0.07692307692307693
+   }
+  },
+  "Agriculture and Food": {
+   "total": 25,
+   "committees": {
+    "Agriculture, Nutrition, and Forestry Committee": 0.68,
+    "Agriculture Committee": 0.2,
+    "Science, Space, and Technology Committee": 0.04,
+    "Oversight and Government Reform Committee": 0.04,
+    "Health, Education, Labor, and Pensions Committee": 0.04
+   }
+  },
+  "Congress": {
+   "total": 26,
+   "committees": {
+    "Committee on House Administration": 0.2692307692307692,
+    "Oversight and Government Reform Committee": 0.19230769230769232,
+    "Homeland Security and Governmental Affairs Committee": 0.19230769230769232,
+    "Rules and Administration Committee": 0.15384615384615385,
+    "Judiciary Committee": 0.07692307692307693,
+    "Budget Committee": 0.038461538461538464,
+    "Rules Committee": 0.038461538461538464,
+    "Finance Committee": 0.038461538461538464
+   }
+  },
+  "Education": {
+   "total": 35,
+   "committees": {
+    "Education and Workforce Committee": 0.37142857142857144,
+    "Health, Education, Labor, and Pensions Committee": 0.37142857142857144,
+    "Energy and Commerce Committee": 0.05714285714285714,
+    "Finance Committee": 0.05714285714285714,
+    "Homeland Security and Governmental Affairs Committee": 0.05714285714285714,
+    "Appropriations Committee": 0.02857142857142857,
+    "Ways and Means Committee": 0.02857142857142857,
+    "Judiciary Committee": 0.02857142857142857
+   }
+  },
+  "Social Welfare": {
+   "total": 18,
+   "committees": {
+    "Ways and Means Committee": 0.2222222222222222,
+    "Agriculture Committee": 0.1111111111111111,
+    "Financial Services Committee": 0.1111111111111111,
+    "Rules Committee": 0.1111111111111111,
+    "Finance Committee": 0.1111111111111111,
+    "Natural Resources Committee": 0.05555555555555555,
+    "Transportation and Infrastructure Committee": 0.05555555555555555,
+    "Energy and Commerce Committee": 0.05555555555555555,
+    "Judiciary Committee": 0.05555555555555555,
+    "Education and Workforce Committee": 0.05555555555555555
+   }
+  },
+  "Law": {
+   "total": 13,
+   "committees": {
+    "Judiciary Committee": 1.0
+   }
+  },
+  "Transportation and Public Works": {
+   "total": 18,
+   "committees": {
+    "Transportation and Infrastructure Committee": 0.3888888888888889,
+    "Commerce, Science, and Transportation Committee": 0.2777777777777778,
+    "Environment and Public Works Committee": 0.1111111111111111,
+    "Homeland Security Committee": 0.05555555555555555,
+    "Energy and Commerce Committee": 0.05555555555555555,
+    "Science, Space, and Technology Committee": 0.05555555555555555,
+    "Ways and Means Committee": 0.05555555555555555
+   }
+  },
+  "Native Americans": {
+   "total": 3,
+   "committees": {
+    "Education and Workforce Committee": 0.3333333333333333,
+    "Natural Resources Committee": 0.3333333333333333,
+    "Ways and Means Committee": 0.3333333333333333
+   }
+  },
+  "Housing and Community Development": {
+   "total": 5,
+   "committees": {
+    "Financial Services Committee": 0.6,
+    "Appropriations Committee": 0.2,
+    "Health, Education, Labor, and Pensions Committee": 0.2
+   }
+  },
+  "Arts, Culture, Religion": {
+   "total": 5,
+   "committees": {
+    "Education and Workforce Committee": 0.2,
+    "Committee on House Administration": 0.2,
+    "Oversight and Government Reform Committee": 0.2,
+    "Health, Education, Labor, and Pensions Committee": 0.2,
+    "Rules and Administration Committee": 0.2
+   }
+  },
+  "Families": {
+   "total": 7,
+   "committees": {
+    "Finance Committee": 0.5714285714285714,
+    "Health, Education, Labor, and Pensions Committee": 0.2857142857142857,
+    "Ways and Means Committee": 0.14285714285714285
+   }
+  },
+  "Foreign Trade and International Finance": {
+   "total": 11,
+   "committees": {
+    "Finance Committee": 0.5454545454545454,
+    "Banking, Housing, and Urban Affairs Committee": 0.36363636363636365,
+    "Foreign Relations Committee": 0.09090909090909091
+   }
+  }
+ },
+ "subjects": {
+  "Assault and harassment offenses": {
+   "total": 11,
+   "committees": {
+    "Judiciary Committee": 0.5454545454545454,
+    "Ways and Means Committee": 0.09090909090909091,
+    "Energy and Commerce Committee": 0.09090909090909091,
+    "Committee on House Administration": 0.09090909090909091,
+    "Finance Committee": 0.09090909090909091,
+    "Agriculture, Nutrition, and Forestry Committee": 0.09090909090909091
+   }
+  },
+  "Crimes against property": {
+   "total": 6,
+   "committees": {
+    "Judiciary Committee": 0.6666666666666666,
+    "Committee on House Administration": 0.16666666666666666,
+    "Commerce, Science, and Transportation Committee": 0.16666666666666666
+   }
+  },
+  "Criminal investigation, prosecution, interrogation": {
+   "total": 34,
+   "committees": {
+    "Judiciary Committee": 0.5588235294117647,
+    "Foreign Affairs Committee": 0.08823529411764706,
+    "Committee on House Administration": 0.058823529411764705,
+    "Foreign Relations Committee": 0.058823529411764705,
+    "Energy and Commerce Committee": 0.029411764705882353,
+    "Science, Space, and Technology Committee": 0.029411764705882353,
+    "Intelligence (Permanent Select) Committee": 0.029411764705882353,
+    "Homeland Security Committee": 0.029411764705882353
+   }
+  },
+  "Criminal procedure and sentencing": {
+   "total": 35,
+   "committees": {
+    "Judiciary Committee": 0.7714285714285715,
+    "Energy and Commerce Committee": 0.08571428571428572,
+    "Intelligence (Permanent Select) Committee": 0.02857142857142857,
+    "Ways and Means Committee": 0.02857142857142857,
+    "Oversight and Government Reform Committee": 0.02857142857142857,
+    "Foreign Affairs Committee": 0.02857142857142857,
+    "Foreign Relations Committee": 0.02857142857142857
+   }
+  },
+  "Government information and archives": {
+   "total": 119,
+   "committees": {
+    "Judiciary Committee": 0.19327731092436976,
+    "Energy and Commerce Committee": 0.09243697478991597,
+    "Oversight and Government Reform Committee": 0.06722689075630252,
+    "Ways and Means Committee": 0.058823529411764705,
+    "Homeland Security and Governmental Affairs Committee": 0.058823529411764705,
+    "Education and Workforce Committee": 0.058823529411764705,
+    "Health, Education, Labor, and Pensions Committee": 0.058823529411764705,
+    "Committee on House Administration": 0.05042016806722689
+   }
+  },
+  "Lawyers and legal services": {
+   "total": 5,
+   "committees": {
+    "Judiciary Committee": 0.6,
+    "Natural Resources Committee": 0.2,
+    "Homeland Security and Governmental Affairs Committee": 0.2
+   }
+  },
+  "Sex offenses": {
+   "total": 9,
+   "committees": {
+    "Judiciary Committee": 0.5555555555555556,
+    "Energy and Commerce Committee": 0.2222222222222222,
+    "Ways and Means Committee": 0.1111111111111111,
+    "Finance Committee": 0.1111111111111111
+   }
+  },
+  "Border security and unlawful immigration": {
+   "total": 32,
+   "committees": {
+    "Judiciary Committee": 0.4375,
+    "Foreign Affairs Committee": 0.09375,
+    "Homeland Security Committee": 0.0625,
+    "Appropriations Committee": 0.0625,
+    "Ways and Means Committee": 0.0625,
+    "Education and Workforce Committee": 0.0625,
+    "Armed Services Committee": 0.03125,
+    "Financial Services Committee": 0.03125
+   }
+  },
+  "Detention of persons": {
+   "total": 11,
+   "committees": {
+    "Judiciary Committee": 0.6363636363636364,
+    "Homeland Security Committee": 0.09090909090909091,
+    "Armed Services Committee": 0.09090909090909091,
+    "Banking, Housing, and Urban Affairs Committee": 0.09090909090909091,
+    "Foreign Relations Committee": 0.09090909090909091
+   }
+  },
+  "Government liability": {
+   "total": 12,
+   "committees": {
+    "Judiciary Committee": 0.6666666666666666,
+    "Rules and Administration Committee": 0.16666666666666666,
+    "Homeland Security Committee": 0.08333333333333333,
+    "Natural Resources Committee": 0.08333333333333333
+   }
+  },
+  "Immigration status and procedures": {
+   "total": 27,
+   "committees": {
+    "Judiciary Committee": 0.48148148148148145,
+    "Health, Education, Labor, and Pensions Committee": 0.1111111111111111,
+    "Committee on House Administration": 0.07407407407407407,
+    "Homeland Security and Governmental Affairs Committee": 0.07407407407407407,
+    "Homeland Security Committee": 0.037037037037037035,
+    "Oversight and Government Reform Committee": 0.037037037037037035,
+    "Science, Space, and Technology Committee": 0.037037037037037035,
+    "Rules Committee": 0.037037037037037035
+   }
+  },
+  "Intergovernmental relations": {
+   "total": 40,
+   "committees": {
+    "Judiciary Committee": 0.2,
+    "Homeland Security and Governmental Affairs Committee": 0.125,
+    "Homeland Security Committee": 0.075,
+    "Oversight and Government Reform Committee": 0.075,
+    "Energy and Commerce Committee": 0.05,
+    "Ways and Means Committee": 0.05,
+    "Agriculture Committee": 0.05,
+    "Energy and Natural Resources Committee": 0.05
+   }
+  },
+  "Visas and passports": {
+   "total": 8,
+   "committees": {
+    "Judiciary Committee": 0.5,
+    "Foreign Affairs Committee": 0.25,
+    "Homeland Security Committee": 0.125,
+    "Committee on House Administration": 0.125
+   }
+  },
+  "Health technology, devices, supplies": {
+   "total": 30,
+   "committees": {
+    "Energy and Commerce Committee": 0.36666666666666664,
+    "Ways and Means Committee": 0.16666666666666666,
+    "Finance Committee": 0.1,
+    "Health, Education, Labor, and Pensions Committee": 0.1,
+    "Judiciary Committee": 0.06666666666666667,
+    "Homeland Security Committee": 0.03333333333333333,
+    "Transportation and Infrastructure Committee": 0.03333333333333333,
+    "Oversight and Government Reform Committee": 0.03333333333333333
+   }
+  },
+  "Medical tests and diagnostic methods": {
+   "total": 15,
+   "committees": {
+    "Ways and Means Committee": 0.2,
+    "Energy and Commerce Committee": 0.2,
+    "Judiciary Committee": 0.13333333333333333,
+    "Health, Education, Labor, and Pensions Committee": 0.13333333333333333,
+    "Transportation and Infrastructure Committee": 0.06666666666666667,
+    "Education and Workforce Committee": 0.06666666666666667,
+    "Oversight and Government Reform Committee": 0.06666666666666667,
+    "Veterans' Affairs Committee": 0.06666666666666667
+   }
+  },
+  "Medicare": {
+   "total": 38,
+   "committees": {
+    "Ways and Means Committee": 0.39473684210526316,
+    "Energy and Commerce Committee": 0.34210526315789475,
+    "Finance Committee": 0.13157894736842105,
+    "Education and Workforce Committee": 0.02631578947368421,
+    "Oversight and Government Reform Committee": 0.02631578947368421,
+    "Veterans' Affairs Committee": 0.02631578947368421,
+    "Judiciary Committee": 0.02631578947368421,
+    "Health, Education, Labor, and Pensions Committee": 0.02631578947368421
+   }
+  },
+  "Financial services and investments": {
+   "total": 9,
+   "committees": {
+    "Ways and Means Committee": 0.3333333333333333,
+    "Oversight and Government Reform Committee": 0.2222222222222222,
+    "Committee on House Administration": 0.2222222222222222,
+    "Judiciary Committee": 0.1111111111111111,
+    "Homeland Security and Governmental Affairs Committee": 0.1111111111111111
+   }
+  },
+  "Government trust funds": {
+   "total": 21,
+   "committees": {
+    "Ways and Means Committee": 0.23809523809523808,
+    "Judiciary Committee": 0.09523809523809523,
+    "Financial Services Committee": 0.09523809523809523,
+    "Energy and Commerce Committee": 0.047619047619047616,
+    "Natural Resources Committee": 0.047619047619047616,
+    "Agriculture Committee": 0.047619047619047616,
+    "Veterans' Affairs Committee": 0.047619047619047616,
+    "Homeland Security Committee": 0.047619047619047616
+   }
+  },
+  "Health care costs and insurance": {
+   "total": 50,
+   "committees": {
+    "Ways and Means Committee": 0.24,
+    "Energy and Commerce Committee": 0.22,
+    "Veterans' Affairs Committee": 0.06,
+    "Judiciary Committee": 0.06,
+    "Committee on House Administration": 0.06,
+    "Finance Committee": 0.06,
+    "Natural Resources Committee": 0.04,
+    "Rules Committee": 0.04
+   }
+  },
+  "Health programs administration and funding": {
+   "total": 59,
+   "committees": {
+    "Energy and Commerce Committee": 0.3389830508474576,
+    "Judiciary Committee": 0.13559322033898305,
+    "Health, Education, Labor, and Pensions Committee": 0.1016949152542373,
+    "Ways and Means Committee": 0.06779661016949153,
+    "Education and Workforce Committee": 0.06779661016949153,
+    "Finance Committee": 0.06779661016949153,
+    "Oversight and Government Reform Committee": 0.05084745762711865,
+    "Armed Services Committee": 0.03389830508474576
+   }
+  },
+  "Hospital care": {
+   "total": 10,
+   "committees": {
+    "Ways and Means Committee": 0.4,
+    "Energy and Commerce Committee": 0.4,
+    "Judiciary Committee": 0.1,
+    "Finance Committee": 0.1
+   }
+  },
+  "Health care coverage and access": {
+   "total": 53,
+   "committees": {
+    "Energy and Commerce Committee": 0.20754716981132076,
+    "Ways and Means Committee": 0.1320754716981132,
+    "Judiciary Committee": 0.1320754716981132,
+    "Finance Committee": 0.11320754716981132,
+    "Veterans' Affairs Committee": 0.09433962264150944,
+    "Natural Resources Committee": 0.05660377358490566,
+    "Armed Services Committee": 0.03773584905660377,
+    "Rules Committee": 0.03773584905660377
+   }
+  },
+  "Medicaid": {
+   "total": 20,
+   "committees": {
+    "Energy and Commerce Committee": 0.4,
+    "Ways and Means Committee": 0.3,
+    "Finance Committee": 0.1,
+    "Education and Workforce Committee": 0.05,
+    "Oversight and Government Reform Committee": 0.05,
+    "Veterans' Affairs Committee": 0.05,
+    "Health, Education, Labor, and Pensions Committee": 0.05
+   }
+  },
+  "Administrative law and regulatory procedures": {
+   "total": 76,
+   "committees": {
+    "Energy and Commerce Committee": 0.15789473684210525,
+    "Judiciary Committee": 0.14473684210526316,
+    "Health, Education, Labor, and Pensions Committee": 0.10526315789473684,
+    "Homeland Security and Governmental Affairs Committee": 0.07894736842105263,
+    "Ways and Means Committee": 0.07894736842105263,
+    "Oversight and Government Reform Committee": 0.06578947368421052,
+    "Natural Resources Committee": 0.039473684210526314,
+    "Education and Workforce Committee": 0.039473684210526314
+   }
+  },
+  "Judicial review and appeals": {
+   "total": 9,
+   "committees": {
+    "Judiciary Committee": 0.5555555555555556,
+    "Natural Resources Committee": 0.1111111111111111,
+    "Homeland Security and Governmental Affairs Committee": 0.1111111111111111,
+    "Rules Committee": 0.1111111111111111,
+    "Financial Services Committee": 0.1111111111111111
+   }
+  },
+  "Firearms and explosives": {
+   "total": 36,
+   "committees": {
+    "Judiciary Committee": 0.7777777777777778,
+    "Oversight and Government Reform Committee": 0.05555555555555555,
+    "Ways and Means Committee": 0.05555555555555555,
+    "Energy and Commerce Committee": 0.027777777777777776,
+    "Foreign Affairs Committee": 0.027777777777777776,
+    "Homeland Security Committee": 0.027777777777777776,
+    "Armed Services Committee": 0.027777777777777776
+   }
+  },
+  "Public contracts and procurement": {
+   "total": 27,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.14814814814814814,
+    "Ways and Means Committee": 0.14814814814814814,
+    "Energy and Commerce Committee": 0.14814814814814814,
+    "Education and Workforce Committee": 0.1111111111111111,
+    "Judiciary Committee": 0.1111111111111111,
+    "Homeland Security and Governmental Affairs Committee": 0.07407407407407407,
+    "Natural Resources Committee": 0.037037037037037035,
+    "Banking, Housing, and Urban Affairs Committee": 0.037037037037037035
+   }
+  },
+  "Cardiovascular and respiratory health": {
+   "total": 56,
+   "committees": {
+    "Energy and Commerce Committee": 0.21428571428571427,
+    "Health, Education, Labor, and Pensions Committee": 0.14285714285714285,
+    "Oversight and Government Reform Committee": 0.125,
+    "Judiciary Committee": 0.08928571428571429,
+    "Education and Workforce Committee": 0.08928571428571429,
+    "Ways and Means Committee": 0.07142857142857142,
+    "Armed Services Committee": 0.05357142857142857,
+    "Transportation and Infrastructure Committee": 0.03571428571428571
+   }
+  },
+  "Computers and information technology": {
+   "total": 37,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.10810810810810811,
+    "Ways and Means Committee": 0.10810810810810811,
+    "Energy and Commerce Committee": 0.10810810810810811,
+    "Committee on House Administration": 0.08108108108108109,
+    "Science, Space, and Technology Committee": 0.08108108108108109,
+    "Finance Committee": 0.08108108108108109,
+    "Health, Education, Labor, and Pensions Committee": 0.08108108108108109,
+    "Homeland Security and Governmental Affairs Committee": 0.05405405405405406
+   }
+  },
+  "Congressional oversight": {
+   "total": 178,
+   "committees": {
+    "Judiciary Committee": 0.12921348314606743,
+    "Health, Education, Labor, and Pensions Committee": 0.08426966292134831,
+    "Oversight and Government Reform Committee": 0.07865168539325842,
+    "Energy and Commerce Committee": 0.07865168539325842,
+    "Rules Committee": 0.056179775280898875,
+    "Homeland Security and Governmental Affairs Committee": 0.0449438202247191,
+    "Foreign Affairs Committee": 0.0449438202247191,
+    "Budget Committee": 0.03932584269662921
+   }
+  },
+  "Emergency medical services and trauma care": {
+   "total": 52,
+   "committees": {
+    "Energy and Commerce Committee": 0.21153846153846154,
+    "Health, Education, Labor, and Pensions Committee": 0.1346153846153846,
+    "Oversight and Government Reform Committee": 0.11538461538461539,
+    "Ways and Means Committee": 0.11538461538461539,
+    "Judiciary Committee": 0.07692307692307693,
+    "Education and Workforce Committee": 0.07692307692307693,
+    "Finance Committee": 0.057692307692307696,
+    "Transportation and Infrastructure Committee": 0.038461538461538464
+   }
+  },
+  "Government buildings, facilities, and property": {
+   "total": 33,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.21212121212121213,
+    "Judiciary Committee": 0.15151515151515152,
+    "Homeland Security and Governmental Affairs Committee": 0.06060606060606061,
+    "Energy and Commerce Committee": 0.06060606060606061,
+    "Committee on House Administration": 0.06060606060606061,
+    "Transportation and Infrastructure Committee": 0.06060606060606061,
+    "Science, Space, and Technology Committee": 0.06060606060606061,
+    "Health, Education, Labor, and Pensions Committee": 0.06060606060606061
+   }
+  },
+  "Government employee pay, benefits, personnel management": {
+   "total": 86,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.20930232558139536,
+    "Judiciary Committee": 0.12790697674418605,
+    "Homeland Security and Governmental Affairs Committee": 0.11627906976744186,
+    "Committee on House Administration": 0.11627906976744186,
+    "Ways and Means Committee": 0.09302325581395349,
+    "Health, Education, Labor, and Pensions Committee": 0.046511627906976744,
+    "Armed Services Committee": 0.03488372093023256,
+    "Energy and Commerce Committee": 0.03488372093023256
+   }
+  },
+  "Government studies and investigations": {
+   "total": 74,
+   "committees": {
+    "Judiciary Committee": 0.14864864864864866,
+    "Energy and Commerce Committee": 0.10810810810810811,
+    "Oversight and Government Reform Committee": 0.0945945945945946,
+    "Education and Workforce Committee": 0.08108108108108109,
+    "Ways and Means Committee": 0.06756756756756757,
+    "Health, Education, Labor, and Pensions Committee": 0.06756756756756757,
+    "Budget Committee": 0.05405405405405406,
+    "Rules Committee": 0.05405405405405406
+   }
+  },
+  "Infectious and parasitic diseases": {
+   "total": 55,
+   "committees": {
+    "Energy and Commerce Committee": 0.2,
+    "Health, Education, Labor, and Pensions Committee": 0.14545454545454545,
+    "Oversight and Government Reform Committee": 0.12727272727272726,
+    "Ways and Means Committee": 0.10909090909090909,
+    "Judiciary Committee": 0.09090909090909091,
+    "Education and Workforce Committee": 0.07272727272727272,
+    "Armed Services Committee": 0.05454545454545454,
+    "Transportation and Infrastructure Committee": 0.03636363636363636
+   }
+  },
+  "Performance measurement": {
+   "total": 20,
+   "committees": {
+    "Health, Education, Labor, and Pensions Committee": 0.2,
+    "Homeland Security and Governmental Affairs Committee": 0.15,
+    "Judiciary Committee": 0.15,
+    "Oversight and Government Reform Committee": 0.1,
+    "Education and Workforce Committee": 0.1,
+    "Finance Committee": 0.1,
+    "Budget Committee": 0.05,
+    "Homeland Security Committee": 0.05
+   }
+  },
+  "Animal protection and human-animal relationships": {
+   "total": 5,
+   "committees": {
+    "Natural Resources Committee": 0.4,
+    "Agriculture Committee": 0.2,
+    "Judiciary Committee": 0.2,
+    "Agriculture, Nutrition, and Forestry Committee": 0.2
+   }
+  },
+  "Civil actions and liability": {
+   "total": 69,
+   "committees": {
+    "Judiciary Committee": 0.4057971014492754,
+    "Committee on House Administration": 0.07246376811594203,
+    "Energy and Commerce Committee": 0.057971014492753624,
+    "Ways and Means Committee": 0.057971014492753624,
+    "Financial Services Committee": 0.043478260869565216,
+    "Oversight and Government Reform Committee": 0.043478260869565216,
+    "Health, Education, Labor, and Pensions Committee": 0.043478260869565216,
+    "Agriculture, Nutrition, and Forestry Committee": 0.043478260869565216
+   }
+  },
+  "Medical research": {
+   "total": 7,
+   "committees": {
+    "Health, Education, Labor, and Pensions Committee": 0.5714285714285714,
+    "Agriculture Committee": 0.14285714285714285,
+    "Energy and Commerce Committee": 0.14285714285714285,
+    "Finance Committee": 0.14285714285714285
+   }
+  },
+  "State and local finance": {
+   "total": 12,
+   "committees": {
+    "Natural Resources Committee": 0.16666666666666666,
+    "Energy and Commerce Committee": 0.08333333333333333,
+    "Ways and Means Committee": 0.08333333333333333,
+    "Education and Workforce Committee": 0.08333333333333333,
+    "Agriculture Committee": 0.08333333333333333,
+    "Oversight and Government Reform Committee": 0.08333333333333333,
+    "Energy and Natural Resources Committee": 0.08333333333333333,
+    "Finance Committee": 0.08333333333333333
+   }
+  },
+  "State and local government operations": {
+   "total": 79,
+   "committees": {
+    "Judiciary Committee": 0.25316455696202533,
+    "Energy and Commerce Committee": 0.13924050632911392,
+    "Oversight and Government Reform Committee": 0.08860759493670886,
+    "Committee on House Administration": 0.0759493670886076,
+    "Education and Workforce Committee": 0.06329113924050633,
+    "Homeland Security and Governmental Affairs Committee": 0.06329113924050633,
+    "Ways and Means Committee": 0.05063291139240506,
+    "Health, Education, Labor, and Pensions Committee": 0.0379746835443038
+   }
+  },
+  "Violent crime": {
+   "total": 19,
+   "committees": {
+    "Judiciary Committee": 0.7894736842105263,
+    "Committee on House Administration": 0.05263157894736842,
+    "Rules Committee": 0.05263157894736842,
+    "Financial Services Committee": 0.05263157894736842,
+    "Energy and Commerce Committee": 0.05263157894736842
+   }
+  },
+  "Military facilities and property": {
+   "total": 8,
+   "committees": {
+    "Armed Services Committee": 0.5,
+    "Natural Resources Committee": 0.125,
+    "Banking, Housing, and Urban Affairs Committee": 0.125,
+    "Energy and Natural Resources Committee": 0.125,
+    "Judiciary Committee": 0.125
+   }
+  },
+  "Prescription drugs": {
+   "total": 16,
+   "committees": {
+    "Energy and Commerce Committee": 0.625,
+    "Health, Education, Labor, and Pensions Committee": 0.1875,
+    "Armed Services Committee": 0.0625,
+    "Ways and Means Committee": 0.0625,
+    "Education and Workforce Committee": 0.0625
+   }
+  },
+  "Crime victims": {
+   "total": 10,
+   "committees": {
+    "Judiciary Committee": 0.6,
+    "Foreign Affairs Committee": 0.2,
+    "Energy and Commerce Committee": 0.1,
+    "Foreign Relations Committee": 0.1
+   }
+  },
+  "Fires": {
+   "total": 10,
+   "committees": {
+    "Judiciary Committee": 0.3,
+    "Agriculture, Nutrition, and Forestry Committee": 0.2,
+    "Natural Resources Committee": 0.1,
+    "Agriculture Committee": 0.1,
+    "Transportation and Infrastructure Committee": 0.1,
+    "Science, Space, and Technology Committee": 0.1,
+    "Armed Services Committee": 0.1
+   }
+  },
+  "First responders and emergency personnel": {
+   "total": 9,
+   "committees": {
+    "Judiciary Committee": 0.4444444444444444,
+    "Natural Resources Committee": 0.1111111111111111,
+    "Agriculture Committee": 0.1111111111111111,
+    "Transportation and Infrastructure Committee": 0.1111111111111111,
+    "Science, Space, and Technology Committee": 0.1111111111111111,
+    "Armed Services Committee": 0.1111111111111111
+   }
+  },
+  "Health personnel": {
+   "total": 36,
+   "committees": {
+    "Energy and Commerce Committee": 0.3055555555555556,
+    "Judiciary Committee": 0.2777777777777778,
+    "Ways and Means Committee": 0.08333333333333333,
+    "Health, Education, Labor, and Pensions Committee": 0.08333333333333333,
+    "Finance Committee": 0.08333333333333333,
+    "Veterans' Affairs Committee": 0.05555555555555555,
+    "Oversight and Government Reform Committee": 0.027777777777777776,
+    "Armed Services Committee": 0.027777777777777776
+   }
+  },
+  "Law enforcement officers": {
+   "total": 16,
+   "committees": {
+    "Judiciary Committee": 0.75,
+    "Intelligence (Permanent Select) Committee": 0.0625,
+    "Foreign Affairs Committee": 0.0625,
+    "Committee on House Administration": 0.0625,
+    "Oversight and Government Reform Committee": 0.0625
+   }
+  },
+  "Higher education": {
+   "total": 46,
+   "committees": {
+    "Education and Workforce Committee": 0.2391304347826087,
+    "Health, Education, Labor, and Pensions Committee": 0.21739130434782608,
+    "Judiciary Committee": 0.10869565217391304,
+    "Finance Committee": 0.06521739130434782,
+    "Science, Space, and Technology Committee": 0.043478260869565216,
+    "Ways and Means Committee": 0.043478260869565216,
+    "Energy and Commerce Committee": 0.043478260869565216,
+    "Energy and Natural Resources Committee": 0.043478260869565216
+   }
+  },
+  "Student aid and college costs": {
+   "total": 34,
+   "committees": {
+    "Education and Workforce Committee": 0.17647058823529413,
+    "Finance Committee": 0.17647058823529413,
+    "Judiciary Committee": 0.11764705882352941,
+    "Ways and Means Committee": 0.08823529411764706,
+    "Health, Education, Labor, and Pensions Committee": 0.08823529411764706,
+    "Appropriations Committee": 0.058823529411764705,
+    "Veterans' Affairs Committee": 0.058823529411764705,
+    "Oversight and Government Reform Committee": 0.029411764705882353
+   }
+  },
+  "Caribbean area": {
+   "total": 12,
+   "committees": {
+    "Ways and Means Committee": 0.25,
+    "Judiciary Committee": 0.16666666666666666,
+    "Armed Services Committee": 0.08333333333333333,
+    "Energy and Commerce Committee": 0.08333333333333333,
+    "Agriculture Committee": 0.08333333333333333,
+    "Transportation and Infrastructure Committee": 0.08333333333333333,
+    "Natural Resources Committee": 0.08333333333333333,
+    "Homeland Security and Governmental Affairs Committee": 0.08333333333333333
+   }
+  },
+  "Latin America": {
+   "total": 14,
+   "committees": {
+    "Foreign Affairs Committee": 0.21428571428571427,
+    "Armed Services Committee": 0.14285714285714285,
+    "Energy and Commerce Committee": 0.14285714285714285,
+    "Judiciary Committee": 0.14285714285714285,
+    "Energy and Natural Resources Committee": 0.07142857142857142,
+    "Finance Committee": 0.07142857142857142,
+    "Foreign Relations Committee": 0.07142857142857142,
+    "Homeland Security and Governmental Affairs Committee": 0.07142857142857142
+   }
+  },
+  "Terrorism": {
+   "total": 6,
+   "committees": {
+    "Foreign Affairs Committee": 0.3333333333333333,
+    "Armed Services Committee": 0.16666666666666666,
+    "Intelligence (Permanent Select) Committee": 0.16666666666666666,
+    "Committee on House Administration": 0.16666666666666666,
+    "Foreign Relations Committee": 0.16666666666666666
+   }
+  },
+  "Building construction": {
+   "total": 15,
+   "committees": {
+    "Judiciary Committee": 0.2,
+    "Education and Workforce Committee": 0.13333333333333333,
+    "Ways and Means Committee": 0.13333333333333333,
+    "Energy and Commerce Committee": 0.06666666666666667,
+    "Homeland Security Committee": 0.06666666666666667,
+    "Appropriations Committee": 0.06666666666666667,
+    "Financial Services Committee": 0.06666666666666667,
+    "Foreign Affairs Committee": 0.06666666666666667
+   }
+  },
+  "District of Columbia": {
+   "total": 17,
+   "committees": {
+    "Homeland Security and Governmental Affairs Committee": 0.29411764705882354,
+    "Oversight and Government Reform Committee": 0.17647058823529413,
+    "Judiciary Committee": 0.11764705882352941,
+    "Armed Services Committee": 0.11764705882352941,
+    "Rules Committee": 0.11764705882352941,
+    "Education and Workforce Committee": 0.058823529411764705,
+    "Energy and Commerce Committee": 0.058823529411764705,
+    "Committee on House Administration": 0.058823529411764705
+   }
+  },
+  "Wages and earnings": {
+   "total": 17,
+   "committees": {
+    "Ways and Means Committee": 0.29411764705882354,
+    "Education and Workforce Committee": 0.23529411764705882,
+    "Health, Education, Labor, and Pensions Committee": 0.17647058823529413,
+    "Armed Services Committee": 0.058823529411764705,
+    "Energy and Commerce Committee": 0.058823529411764705,
+    "Oversight and Government Reform Committee": 0.058823529411764705,
+    "Finance Committee": 0.058823529411764705,
+    "Homeland Security and Governmental Affairs Committee": 0.058823529411764705
+   }
+  },
+  "Diplomacy, foreign officials, Americans abroad": {
+   "total": 18,
+   "committees": {
+    "Foreign Affairs Committee": 0.4444444444444444,
+    "Judiciary Committee": 0.2222222222222222,
+    "Foreign Relations Committee": 0.1111111111111111,
+    "Ways and Means Committee": 0.05555555555555555,
+    "Energy and Commerce Committee": 0.05555555555555555,
+    "Education and Workforce Committee": 0.05555555555555555,
+    "Oversight and Government Reform Committee": 0.05555555555555555
+   }
+  },
+  "Competition and antitrust": {
+   "total": 6,
+   "committees": {
+    "Judiciary Committee": 0.3333333333333333,
+    "Commerce, Science, and Transportation Committee": 0.3333333333333333,
+    "Health, Education, Labor, and Pensions Committee": 0.16666666666666666,
+    "Agriculture, Nutrition, and Forestry Committee": 0.16666666666666666
+   }
+  },
+  "Crimes against children": {
+   "total": 5,
+   "committees": {
+    "Judiciary Committee": 0.4,
+    "Energy and Commerce Committee": 0.4,
+    "Ways and Means Committee": 0.2
+   }
+  },
+  "Trade restrictions": {
+   "total": 13,
+   "committees": {
+    "Energy and Natural Resources Committee": 0.3076923076923077,
+    "Judiciary Committee": 0.23076923076923078,
+    "Energy and Commerce Committee": 0.23076923076923078,
+    "Finance Committee": 0.07692307692307693,
+    "Banking, Housing, and Urban Affairs Committee": 0.07692307692307693,
+    "Foreign Relations Committee": 0.07692307692307693
+   }
+  },
+  "Elections, voting, political campaign regulation": {
+   "total": 23,
+   "committees": {
+    "Committee on House Administration": 0.391304347826087,
+    "Homeland Security and Governmental Affairs Committee": 0.17391304347826086,
+    "Judiciary Committee": 0.13043478260869565,
+    "Oversight and Government Reform Committee": 0.08695652173913043,
+    "Energy and Commerce Committee": 0.043478260869565216,
+    "Armed Services Committee": 0.043478260869565216,
+    "Rules Committee": 0.043478260869565216,
+    "Science, Space, and Technology Committee": 0.043478260869565216
+   }
+  },
+  "Voting rights": {
+   "total": 6,
+   "committees": {
+    "Committee on House Administration": 0.3333333333333333,
+    "Homeland Security and Governmental Affairs Committee": 0.3333333333333333,
+    "Oversight and Government Reform Committee": 0.16666666666666666,
+    "Judiciary Committee": 0.16666666666666666
+   }
+  },
+  "Congressional-executive branch relations": {
+   "total": 14,
+   "committees": {
+    "Natural Resources Committee": 0.14285714285714285,
+    "Energy and Commerce Committee": 0.14285714285714285,
+    "Judiciary Committee": 0.14285714285714285,
+    "Agriculture Committee": 0.07142857142857142,
+    "Small Business Committee": 0.07142857142857142,
+    "Oversight and Government Reform Committee": 0.07142857142857142,
+    "Rules Committee": 0.07142857142857142,
+    "Budget Committee": 0.07142857142857142
+   }
+  },
+  "Mining": {
+   "total": 9,
+   "committees": {
+    "Energy and Natural Resources Committee": 0.5555555555555556,
+    "Natural Resources Committee": 0.3333333333333333,
+    "Energy and Commerce Committee": 0.1111111111111111
+   }
+  },
+  "Oil and gas": {
+   "total": 30,
+   "committees": {
+    "Energy and Natural Resources Committee": 0.36666666666666664,
+    "Energy and Commerce Committee": 0.26666666666666666,
+    "Natural Resources Committee": 0.13333333333333333,
+    "Commerce, Science, and Transportation Committee": 0.06666666666666667,
+    "Judiciary Committee": 0.03333333333333333,
+    "Foreign Affairs Committee": 0.03333333333333333,
+    "Foreign Relations Committee": 0.03333333333333333,
+    "Banking, Housing, and Urban Affairs Committee": 0.03333333333333333
+   }
+  },
+  "Presidents and presidential powers, Vice Presidents": {
+   "total": 45,
+   "committees": {
+    "Energy and Commerce Committee": 0.15555555555555556,
+    "Judiciary Committee": 0.1111111111111111,
+    "Oversight and Government Reform Committee": 0.08888888888888889,
+    "Homeland Security and Governmental Affairs Committee": 0.08888888888888889,
+    "Natural Resources Committee": 0.06666666666666667,
+    "Rules Committee": 0.06666666666666667,
+    "Foreign Affairs Committee": 0.06666666666666667,
+    "Ways and Means Committee": 0.06666666666666667
+   }
+  },
+  "Federal preemption": {
+   "total": 9,
+   "committees": {
+    "Ways and Means Committee": 0.2222222222222222,
+    "Judiciary Committee": 0.2222222222222222,
+    "Oversight and Government Reform Committee": 0.1111111111111111,
+    "Education and Workforce Committee": 0.1111111111111111,
+    "Energy and Commerce Committee": 0.1111111111111111,
+    "Finance Committee": 0.1111111111111111,
+    "Health, Education, Labor, and Pensions Committee": 0.1111111111111111
+   }
+  },
+  "Licensing and registrations": {
+   "total": 43,
+   "committees": {
+    "Judiciary Committee": 0.3023255813953488,
+    "Energy and Natural Resources Committee": 0.11627906976744186,
+    "Ways and Means Committee": 0.06976744186046512,
+    "Natural Resources Committee": 0.06976744186046512,
+    "Energy and Commerce Committee": 0.06976744186046512,
+    "Education and Workforce Committee": 0.06976744186046512,
+    "Health, Education, Labor, and Pensions Committee": 0.06976744186046512,
+    "Science, Space, and Technology Committee": 0.046511627906976744
+   }
+  },
+  "Sales and excise taxes": {
+   "total": 9,
+   "committees": {
+    "Ways and Means Committee": 0.3333333333333333,
+    "Finance Committee": 0.2222222222222222,
+    "Judiciary Committee": 0.1111111111111111,
+    "Energy and Commerce Committee": 0.1111111111111111,
+    "Oversight and Government Reform Committee": 0.1111111111111111,
+    "Committee on House Administration": 0.1111111111111111
+   }
+  },
+  "Census and government statistics": {
+   "total": 7,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.2857142857142857,
+    "Homeland Security and Governmental Affairs Committee": 0.14285714285714285,
+    "Budget Committee": 0.14285714285714285,
+    "Financial Services Committee": 0.14285714285714285,
+    "Natural Resources Committee": 0.14285714285714285,
+    "Foreign Affairs Committee": 0.14285714285714285
+   }
+  },
+  "Employee hiring": {
+   "total": 12,
+   "committees": {
+    "Judiciary Committee": 0.16666666666666666,
+    "Education and Workforce Committee": 0.16666666666666666,
+    "Homeland Security and Governmental Affairs Committee": 0.08333333333333333,
+    "Budget Committee": 0.08333333333333333,
+    "Oversight and Government Reform Committee": 0.08333333333333333,
+    "Energy and Commerce Committee": 0.08333333333333333,
+    "Ways and Means Committee": 0.08333333333333333,
+    "Commerce, Science, and Transportation Committee": 0.08333333333333333
+   }
+  },
+  "Internet, web applications, social media": {
+   "total": 20,
+   "committees": {
+    "Energy and Commerce Committee": 0.15,
+    "Education and Workforce Committee": 0.15,
+    "Homeland Security and Governmental Affairs Committee": 0.1,
+    "Oversight and Government Reform Committee": 0.1,
+    "Ways and Means Committee": 0.1,
+    "Judiciary Committee": 0.1,
+    "Budget Committee": 0.05,
+    "Veterans' Affairs Committee": 0.05
+   }
+  },
+  "Appropriations": {
+   "total": 25,
+   "committees": {
+    "Judiciary Committee": 0.08,
+    "Energy and Commerce Committee": 0.08,
+    "Science, Space, and Technology Committee": 0.08,
+    "Rules Committee": 0.08,
+    "Budget Committee": 0.08,
+    "Homeland Security and Governmental Affairs Committee": 0.08,
+    "Foreign Affairs Committee": 0.04,
+    "Appropriations Committee": 0.04
+   }
+  },
+  "Infrastructure development": {
+   "total": 7,
+   "committees": {
+    "Environment and Public Works Committee": 0.2857142857142857,
+    "Foreign Affairs Committee": 0.14285714285714285,
+    "Appropriations Committee": 0.14285714285714285,
+    "Homeland Security Committee": 0.14285714285714285,
+    "Energy and Natural Resources Committee": 0.14285714285714285,
+    "Agriculture, Nutrition, and Forestry Committee": 0.14285714285714285
+   }
+  },
+  "Forests, forestry, trees": {
+   "total": 16,
+   "committees": {
+    "Agriculture Committee": 0.1875,
+    "Natural Resources Committee": 0.125,
+    "Energy and Natural Resources Committee": 0.125,
+    "Science, Space, and Technology Committee": 0.125,
+    "Judiciary Committee": 0.0625,
+    "Energy and Commerce Committee": 0.0625,
+    "Oversight and Government Reform Committee": 0.0625,
+    "Transportation and Infrastructure Committee": 0.0625
+   }
+  },
+  "Judicial procedure and administration": {
+   "total": 12,
+   "committees": {
+    "Judiciary Committee": 0.6666666666666666,
+    "Rules Committee": 0.08333333333333333,
+    "Financial Services Committee": 0.08333333333333333,
+    "Foreign Affairs Committee": 0.08333333333333333,
+    "Foreign Relations Committee": 0.08333333333333333
+   }
+  },
+  "Land use and conservation": {
+   "total": 13,
+   "committees": {
+    "Energy and Natural Resources Committee": 0.46153846153846156,
+    "Natural Resources Committee": 0.23076923076923078,
+    "Judiciary Committee": 0.07692307692307693,
+    "Energy and Commerce Committee": 0.07692307692307693,
+    "Agriculture Committee": 0.07692307692307693,
+    "Agriculture, Nutrition, and Forestry Committee": 0.07692307692307693
+   }
+  },
+  "Legal fees and court costs": {
+   "total": 9,
+   "committees": {
+    "Judiciary Committee": 0.7777777777777778,
+    "Committee on House Administration": 0.1111111111111111,
+    "Health, Education, Labor, and Pensions Committee": 0.1111111111111111
+   }
+  },
+  "Department of the Interior": {
+   "total": 8,
+   "committees": {
+    "Natural Resources Committee": 0.375,
+    "Agriculture Committee": 0.125,
+    "Transportation and Infrastructure Committee": 0.125,
+    "Science, Space, and Technology Committee": 0.125,
+    "Armed Services Committee": 0.125,
+    "Energy and Natural Resources Committee": 0.125
+   }
+  },
+  "Environmental assessment, monitoring, research": {
+   "total": 14,
+   "committees": {
+    "Natural Resources Committee": 0.35714285714285715,
+    "Agriculture Committee": 0.14285714285714285,
+    "Energy and Commerce Committee": 0.14285714285714285,
+    "Energy and Natural Resources Committee": 0.14285714285714285,
+    "Science, Space, and Technology Committee": 0.07142857142857142,
+    "Judiciary Committee": 0.07142857142857142,
+    "Agriculture, Nutrition, and Forestry Committee": 0.07142857142857142
+   }
+  },
+  "Executive agency funding and structure": {
+   "total": 47,
+   "committees": {
+    "Energy and Commerce Committee": 0.1276595744680851,
+    "Ways and Means Committee": 0.10638297872340426,
+    "Judiciary Committee": 0.10638297872340426,
+    "Armed Services Committee": 0.0851063829787234,
+    "Education and Workforce Committee": 0.06382978723404255,
+    "Science, Space, and Technology Committee": 0.06382978723404255,
+    "Health, Education, Labor, and Pensions Committee": 0.06382978723404255,
+    "Homeland Security and Governmental Affairs Committee": 0.06382978723404255
+   }
+  },
+  "Water use and supply": {
+   "total": 5,
+   "committees": {
+    "Natural Resources Committee": 0.4,
+    "Transportation and Infrastructure Committee": 0.2,
+    "Energy and Natural Resources Committee": 0.2,
+    "Foreign Relations Committee": 0.2
+   }
+  },
+  "Wildlife conservation and habitat protection": {
+   "total": 10,
+   "committees": {
+    "Natural Resources Committee": 0.5,
+    "Agriculture Committee": 0.3,
+    "Oversight and Government Reform Committee": 0.1,
+    "Agriculture, Nutrition, and Forestry Committee": 0.1
+   }
+  },
+  "First Amendment rights": {
+   "total": 6,
+   "committees": {
+    "Judiciary Committee": 0.3333333333333333,
+    "Finance Committee": 0.3333333333333333,
+    "Homeland Security and Governmental Affairs Committee": 0.16666666666666666,
+    "Oversight and Government Reform Committee": 0.16666666666666666
+   }
+  },
+  "Foreign language and bilingual programs": {
+   "total": 5,
+   "committees": {
+    "Judiciary Committee": 0.2,
+    "Education and Workforce Committee": 0.2,
+    "Ways and Means Committee": 0.2,
+    "Energy and Commerce Committee": 0.2,
+    "Agriculture, Nutrition, and Forestry Committee": 0.2
+   }
+  },
+  "Religion": {
+   "total": 8,
+   "committees": {
+    "Judiciary Committee": 0.375,
+    "Education and Workforce Committee": 0.125,
+    "Financial Services Committee": 0.125,
+    "Armed Services Committee": 0.125,
+    "Energy and Natural Resources Committee": 0.125,
+    "Finance Committee": 0.125
+   }
+  },
+  "Postal service": {
+   "total": 16,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.4375,
+    "Committee on House Administration": 0.1875,
+    "Natural Resources Committee": 0.0625,
+    "Agriculture Committee": 0.0625,
+    "Science, Space, and Technology Committee": 0.0625,
+    "Ways and Means Committee": 0.0625,
+    "Judiciary Committee": 0.0625,
+    "Homeland Security and Governmental Affairs Committee": 0.0625
+   }
+  },
+  "Europe": {
+   "total": 14,
+   "committees": {
+    "Foreign Affairs Committee": 0.2857142857142857,
+    "Energy and Commerce Committee": 0.21428571428571427,
+    "Energy and Natural Resources Committee": 0.14285714285714285,
+    "Armed Services Committee": 0.07142857142857142,
+    "Judiciary Committee": 0.07142857142857142,
+    "Foreign Relations Committee": 0.07142857142857142,
+    "Homeland Security and Governmental Affairs Committee": 0.07142857142857142,
+    "Banking, Housing, and Urban Affairs Committee": 0.07142857142857142
+   }
+  },
+  "Foreign aid and international relief": {
+   "total": 20,
+   "committees": {
+    "Foreign Affairs Committee": 0.4,
+    "Foreign Relations Committee": 0.15,
+    "Judiciary Committee": 0.1,
+    "Armed Services Committee": 0.05,
+    "Natural Resources Committee": 0.05,
+    "Ways and Means Committee": 0.05,
+    "Homeland Security Committee": 0.05,
+    "Appropriations Committee": 0.05
+   }
+  },
+  "Mexico": {
+   "total": 18,
+   "committees": {
+    "Foreign Affairs Committee": 0.2222222222222222,
+    "Judiciary Committee": 0.16666666666666666,
+    "Homeland Security Committee": 0.1111111111111111,
+    "Armed Services Committee": 0.05555555555555555,
+    "Ways and Means Committee": 0.05555555555555555,
+    "Appropriations Committee": 0.05555555555555555,
+    "Education and Workforce Committee": 0.05555555555555555,
+    "Financial Services Committee": 0.05555555555555555
+   }
+  },
+  "Ecology": {
+   "total": 9,
+   "committees": {
+    "Natural Resources Committee": 0.2222222222222222,
+    "Agriculture Committee": 0.2222222222222222,
+    "Oversight and Government Reform Committee": 0.1111111111111111,
+    "Transportation and Infrastructure Committee": 0.1111111111111111,
+    "Science, Space, and Technology Committee": 0.1111111111111111,
+    "Armed Services Committee": 0.1111111111111111,
+    "Energy and Natural Resources Committee": 0.1111111111111111
+   }
+  },
+  "Constitution and constitutional amendments": {
+   "total": 15,
+   "committees": {
+    "Judiciary Committee": 0.4666666666666667,
+    "Homeland Security and Governmental Affairs Committee": 0.13333333333333333,
+    "Ways and Means Committee": 0.06666666666666667,
+    "Energy and Commerce Committee": 0.06666666666666667,
+    "Armed Services Committee": 0.06666666666666667,
+    "Rules Committee": 0.06666666666666667,
+    "Oversight and Government Reform Committee": 0.06666666666666667,
+    "Rules and Administration Committee": 0.06666666666666667
+   }
+  },
+  "Department of the Treasury": {
+   "total": 6,
+   "committees": {
+    "Ways and Means Committee": 0.6666666666666666,
+    "Judiciary Committee": 0.16666666666666666,
+    "Finance Committee": 0.16666666666666666
+   }
+  },
+  "Foreign and international corporations": {
+   "total": 8,
+   "committees": {
+    "Ways and Means Committee": 0.25,
+    "Finance Committee": 0.25,
+    "Homeland Security and Governmental Affairs Committee": 0.25,
+    "Energy and Commerce Committee": 0.125,
+    "Science, Space, and Technology Committee": 0.125
+   }
+  },
+  "Fraud offenses and financial crimes": {
+   "total": 18,
+   "committees": {
+    "Judiciary Committee": 0.2777777777777778,
+    "Ways and Means Committee": 0.1111111111111111,
+    "Committee on House Administration": 0.1111111111111111,
+    "Agriculture Committee": 0.05555555555555555,
+    "Science, Space, and Technology Committee": 0.05555555555555555,
+    "Oversight and Government Reform Committee": 0.05555555555555555,
+    "Education and Workforce Committee": 0.05555555555555555,
+    "Financial Services Committee": 0.05555555555555555
+   }
+  },
+  "Income tax credits": {
+   "total": 17,
+   "committees": {
+    "Ways and Means Committee": 0.4117647058823529,
+    "Finance Committee": 0.4117647058823529,
+    "Judiciary Committee": 0.058823529411764705,
+    "Energy and Commerce Committee": 0.058823529411764705,
+    "Transportation and Infrastructure Committee": 0.058823529411764705
+   }
+  },
+  "Income tax deductions": {
+   "total": 17,
+   "committees": {
+    "Ways and Means Committee": 0.7058823529411765,
+    "Finance Committee": 0.17647058823529413,
+    "Oversight and Government Reform Committee": 0.058823529411764705,
+    "Health, Education, Labor, and Pensions Committee": 0.058823529411764705
+   }
+  },
+  "Internal Revenue Service (IRS)": {
+   "total": 6,
+   "committees": {
+    "Ways and Means Committee": 0.6666666666666666,
+    "Armed Services Committee": 0.16666666666666666,
+    "Finance Committee": 0.16666666666666666
+   }
+  },
+  "Advisory bodies": {
+   "total": 26,
+   "committees": {
+    "Judiciary Committee": 0.15384615384615385,
+    "Transportation and Infrastructure Committee": 0.11538461538461539,
+    "Health, Education, Labor, and Pensions Committee": 0.11538461538461539,
+    "Science, Space, and Technology Committee": 0.07692307692307693,
+    "Armed Services Committee": 0.07692307692307693,
+    "Agriculture Committee": 0.07692307692307693,
+    "Natural Resources Committee": 0.07692307692307693,
+    "Committee on House Administration": 0.038461538461538464
+   }
+  },
+  "Evidence and witnesses": {
+   "total": 11,
+   "committees": {
+    "Judiciary Committee": 0.7272727272727273,
+    "Intelligence (Permanent Select) Committee": 0.09090909090909091,
+    "Rules Committee": 0.09090909090909091,
+    "Financial Services Committee": 0.09090909090909091
+   }
+  },
+  "Federal district courts": {
+   "total": 5,
+   "committees": {
+    "Judiciary Committee": 1.0
+   }
+  },
+  "Human rights": {
+   "total": 15,
+   "committees": {
+    "Judiciary Committee": 0.3333333333333333,
+    "Foreign Affairs Committee": 0.26666666666666666,
+    "Foreign Relations Committee": 0.13333333333333333,
+    "Finance Committee": 0.13333333333333333,
+    "Energy and Commerce Committee": 0.06666666666666667,
+    "Education and Workforce Committee": 0.06666666666666667
+   }
+  },
+  "Racial and ethnic relations": {
+   "total": 14,
+   "committees": {
+    "Judiciary Committee": 0.42857142857142855,
+    "Financial Services Committee": 0.14285714285714285,
+    "Banking, Housing, and Urban Affairs Committee": 0.14285714285714285,
+    "Education and Workforce Committee": 0.07142857142857142,
+    "Foreign Affairs Committee": 0.07142857142857142,
+    "Oversight and Government Reform Committee": 0.07142857142857142,
+    "Health, Education, Labor, and Pensions Committee": 0.07142857142857142
+   }
+  },
+  "U.S. history": {
+   "total": 9,
+   "committees": {
+    "Banking, Housing, and Urban Affairs Committee": 0.3333333333333333,
+    "Judiciary Committee": 0.2222222222222222,
+    "Committee on House Administration": 0.1111111111111111,
+    "Oversight and Government Reform Committee": 0.1111111111111111,
+    "Health, Education, Labor, and Pensions Committee": 0.1111111111111111,
+    "Energy and Natural Resources Committee": 0.1111111111111111
+   }
+  },
+  "Employment discrimination and employee rights": {
+   "total": 22,
+   "committees": {
+    "Health, Education, Labor, and Pensions Committee": 0.22727272727272727,
+    "Judiciary Committee": 0.13636363636363635,
+    "Armed Services Committee": 0.13636363636363635,
+    "Oversight and Government Reform Committee": 0.09090909090909091,
+    "Energy and Commerce Committee": 0.09090909090909091,
+    "Education and Workforce Committee": 0.09090909090909091,
+    "Foreign Affairs Committee": 0.09090909090909091,
+    "Homeland Security and Governmental Affairs Committee": 0.045454545454545456
+   }
+  },
+  "Public participation and lobbying": {
+   "total": 5,
+   "committees": {
+    "Judiciary Committee": 0.6,
+    "Ways and Means Committee": 0.2,
+    "Energy and Commerce Committee": 0.2
+   }
+  },
+  "Elementary and secondary education": {
+   "total": 45,
+   "committees": {
+    "Education and Workforce Committee": 0.26666666666666666,
+    "Health, Education, Labor, and Pensions Committee": 0.2222222222222222,
+    "Finance Committee": 0.13333333333333333,
+    "Energy and Commerce Committee": 0.06666666666666667,
+    "Ways and Means Committee": 0.044444444444444446,
+    "Judiciary Committee": 0.044444444444444446,
+    "Committee on House Administration": 0.022222222222222223,
+    "Agriculture Committee": 0.022222222222222223
+   }
+  },
+  "Teaching, teachers, curricula": {
+   "total": 14,
+   "committees": {
+    "Education and Workforce Committee": 0.42857142857142855,
+    "Health, Education, Labor, and Pensions Committee": 0.35714285714285715,
+    "Finance Committee": 0.14285714285714285,
+    "Homeland Security and Governmental Affairs Committee": 0.07142857142857142
+   }
+  },
+  "Business records": {
+   "total": 7,
+   "committees": {
+    "Judiciary Committee": 0.42857142857142855,
+    "Ways and Means Committee": 0.14285714285714285,
+    "Armed Services Committee": 0.14285714285714285,
+    "Agriculture, Nutrition, and Forestry Committee": 0.14285714285714285,
+    "Banking, Housing, and Urban Affairs Committee": 0.14285714285714285
+   }
+  },
+  "Employment and training programs": {
+   "total": 39,
+   "committees": {
+    "Health, Education, Labor, and Pensions Committee": 0.1794871794871795,
+    "Education and Workforce Committee": 0.15384615384615385,
+    "Judiciary Committee": 0.1282051282051282,
+    "Ways and Means Committee": 0.07692307692307693,
+    "Energy and Natural Resources Committee": 0.07692307692307693,
+    "Financial Services Committee": 0.05128205128205128,
+    "Finance Committee": 0.05128205128205128,
+    "Oversight and Government Reform Committee": 0.02564102564102564
+   }
+  },
+  "Tax administration and collection, taxpayers": {
+   "total": 13,
+   "committees": {
+    "Ways and Means Committee": 0.5384615384615384,
+    "Finance Committee": 0.3076923076923077,
+    "Budget Committee": 0.07692307692307693,
+    "Transportation and Infrastructure Committee": 0.07692307692307693
+   }
+  },
+  "Social work, volunteer service, charitable organizations": {
+   "total": 11,
+   "committees": {
+    "Finance Committee": 0.36363636363636365,
+    "Judiciary Committee": 0.2727272727272727,
+    "Veterans' Affairs Committee": 0.09090909090909091,
+    "Natural Resources Committee": 0.09090909090909091,
+    "Science, Space, and Technology Committee": 0.09090909090909091,
+    "Health, Education, Labor, and Pensions Committee": 0.09090909090909091
+   }
+  },
+  "Congressional districts and representation": {
+   "total": 9,
+   "committees": {
+    "Judiciary Committee": 0.3333333333333333,
+    "Energy and Commerce Committee": 0.1111111111111111,
+    "Armed Services Committee": 0.1111111111111111,
+    "Rules Committee": 0.1111111111111111,
+    "Oversight and Government Reform Committee": 0.1111111111111111,
+    "Committee on House Administration": 0.1111111111111111,
+    "Homeland Security and Governmental Affairs Committee": 0.1111111111111111
+   }
+  },
+  "Congressional elections": {
+   "total": 11,
+   "committees": {
+    "Judiciary Committee": 0.2727272727272727,
+    "Committee on House Administration": 0.2727272727272727,
+    "Energy and Commerce Committee": 0.09090909090909091,
+    "Armed Services Committee": 0.09090909090909091,
+    "Rules Committee": 0.09090909090909091,
+    "Oversight and Government Reform Committee": 0.09090909090909091,
+    "Homeland Security and Governmental Affairs Committee": 0.09090909090909091
+   }
+  },
+  "House of Representatives": {
+   "total": 11,
+   "committees": {
+    "Judiciary Committee": 0.18181818181818182,
+    "Rules Committee": 0.18181818181818182,
+    "Oversight and Government Reform Committee": 0.18181818181818182,
+    "Energy and Commerce Committee": 0.09090909090909091,
+    "Armed Services Committee": 0.09090909090909091,
+    "Committee on House Administration": 0.09090909090909091,
+    "Budget Committee": 0.09090909090909091,
+    "Homeland Security and Governmental Affairs Committee": 0.09090909090909091
+   }
+  },
+  "Legislative rules and procedure": {
+   "total": 37,
+   "committees": {
+    "Rules Committee": 0.21621621621621623,
+    "Oversight and Government Reform Committee": 0.16216216216216217,
+    "Judiciary Committee": 0.13513513513513514,
+    "Homeland Security and Governmental Affairs Committee": 0.13513513513513514,
+    "Budget Committee": 0.08108108108108109,
+    "Committee on House Administration": 0.05405405405405406,
+    "Rules and Administration Committee": 0.05405405405405406,
+    "Energy and Commerce Committee": 0.02702702702702703
+   }
+  },
+  "Members of Congress": {
+   "total": 39,
+   "committees": {
+    "Committee on House Administration": 0.3076923076923077,
+    "Oversight and Government Reform Committee": 0.20512820512820512,
+    "Judiciary Committee": 0.1794871794871795,
+    "Homeland Security and Governmental Affairs Committee": 0.1282051282051282,
+    "Energy and Commerce Committee": 0.02564102564102564,
+    "Armed Services Committee": 0.02564102564102564,
+    "Rules Committee": 0.02564102564102564,
+    "Budget Committee": 0.02564102564102564
+   }
+  },
+  "Asia": {
+   "total": 30,
+   "committees": {
+    "Foreign Affairs Committee": 0.2,
+    "Energy and Commerce Committee": 0.13333333333333333,
+    "Energy and Natural Resources Committee": 0.13333333333333333,
+    "Banking, Housing, and Urban Affairs Committee": 0.13333333333333333,
+    "Judiciary Committee": 0.06666666666666667,
+    "Health, Education, Labor, and Pensions Committee": 0.06666666666666667,
+    "Finance Committee": 0.06666666666666667,
+    "Homeland Security and Governmental Affairs Committee": 0.06666666666666667
+   }
+  },
+  "China": {
+   "total": 26,
+   "committees": {
+    "Energy and Commerce Committee": 0.19230769230769232,
+    "Energy and Natural Resources Committee": 0.15384615384615385,
+    "Foreign Affairs Committee": 0.15384615384615385,
+    "Banking, Housing, and Urban Affairs Committee": 0.11538461538461539,
+    "Judiciary Committee": 0.07692307692307693,
+    "Health, Education, Labor, and Pensions Committee": 0.07692307692307693,
+    "Finance Committee": 0.07692307692307693,
+    "Homeland Security and Governmental Affairs Committee": 0.07692307692307693
+   }
+  },
+  "Energy storage, supplies, demand": {
+   "total": 21,
+   "committees": {
+    "Energy and Natural Resources Committee": 0.3333333333333333,
+    "Energy and Commerce Committee": 0.14285714285714285,
+    "Judiciary Committee": 0.09523809523809523,
+    "Agriculture Committee": 0.047619047619047616,
+    "Science, Space, and Technology Committee": 0.047619047619047616,
+    "Oversight and Government Reform Committee": 0.047619047619047616,
+    "Natural Resources Committee": 0.047619047619047616,
+    "Foreign Affairs Committee": 0.047619047619047616
+   }
+  },
+  "Iran": {
+   "total": 8,
+   "committees": {
+    "Energy and Commerce Committee": 0.5,
+    "Energy and Natural Resources Committee": 0.25,
+    "Homeland Security and Governmental Affairs Committee": 0.125,
+    "Banking, Housing, and Urban Affairs Committee": 0.125
+   }
+  },
+  "Middle East": {
+   "total": 8,
+   "committees": {
+    "Energy and Commerce Committee": 0.375,
+    "Energy and Natural Resources Committee": 0.25,
+    "Homeland Security and Governmental Affairs Committee": 0.125,
+    "Banking, Housing, and Urban Affairs Committee": 0.125,
+    "Foreign Relations Committee": 0.125
+   }
+  },
+  "North Korea": {
+   "total": 7,
+   "committees": {
+    "Energy and Commerce Committee": 0.5714285714285714,
+    "Energy and Natural Resources Committee": 0.2857142857142857,
+    "Banking, Housing, and Urban Affairs Committee": 0.14285714285714285
+   }
+  },
+  "Russia": {
+   "total": 8,
+   "committees": {
+    "Energy and Commerce Committee": 0.375,
+    "Energy and Natural Resources Committee": 0.25,
+    "Foreign Affairs Committee": 0.25,
+    "Banking, Housing, and Urban Affairs Committee": 0.125
+   }
+  },
+  "Sanctions": {
+   "total": 8,
+   "committees": {
+    "Energy and Commerce Committee": 0.25,
+    "Judiciary Committee": 0.25,
+    "Foreign Affairs Committee": 0.25,
+    "Energy and Natural Resources Committee": 0.125,
+    "Finance Committee": 0.125
+   }
+  },
+  "Strategic materials and reserves": {
+   "total": 11,
+   "committees": {
+    "Energy and Natural Resources Committee": 0.6363636363636364,
+    "Energy and Commerce Committee": 0.36363636363636365
+   }
+  },
+  "Computer security and identity theft": {
+   "total": 15,
+   "committees": {
+    "Homeland Security Committee": 0.2,
+    "Judiciary Committee": 0.13333333333333333,
+    "Oversight and Government Reform Committee": 0.06666666666666667,
+    "Agriculture Committee": 0.06666666666666667,
+    "Foreign Affairs Committee": 0.06666666666666667,
+    "Energy and Commerce Committee": 0.06666666666666667,
+    "Energy and Natural Resources Committee": 0.06666666666666667,
+    "Science, Space, and Technology Committee": 0.06666666666666667
+   }
+  },
+  "Department of Labor": {
+   "total": 11,
+   "committees": {
+    "Education and Workforce Committee": 0.2727272727272727,
+    "Health, Education, Labor, and Pensions Committee": 0.2727272727272727,
+    "Oversight and Government Reform Committee": 0.18181818181818182,
+    "Ways and Means Committee": 0.09090909090909091,
+    "Energy and Commerce Committee": 0.09090909090909091,
+    "Homeland Security and Governmental Affairs Committee": 0.09090909090909091
+   }
+  },
+  "Federal officials": {
+   "total": 29,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.1724137931034483,
+    "Committee on House Administration": 0.13793103448275862,
+    "Judiciary Committee": 0.13793103448275862,
+    "Ways and Means Committee": 0.10344827586206896,
+    "Homeland Security and Governmental Affairs Committee": 0.10344827586206896,
+    "Transportation and Infrastructure Committee": 0.06896551724137931,
+    "Banking, Housing, and Urban Affairs Committee": 0.06896551724137931,
+    "Energy and Commerce Committee": 0.034482758620689655
+   }
+  },
+  "Drug safety, medical device, and laboratory regulation": {
+   "total": 13,
+   "committees": {
+    "Energy and Commerce Committee": 0.46153846153846156,
+    "Health, Education, Labor, and Pensions Committee": 0.38461538461538464,
+    "Finance Committee": 0.15384615384615385
+   }
+  },
+  "Health information and medical records": {
+   "total": 42,
+   "committees": {
+    "Energy and Commerce Committee": 0.30952380952380953,
+    "Health, Education, Labor, and Pensions Committee": 0.16666666666666666,
+    "Judiciary Committee": 0.14285714285714285,
+    "Veterans' Affairs Committee": 0.09523809523809523,
+    "Finance Committee": 0.09523809523809523,
+    "Ways and Means Committee": 0.07142857142857142,
+    "Armed Services Committee": 0.047619047619047616,
+    "Committee on House Administration": 0.023809523809523808
+   }
+  },
+  "Consumer affairs": {
+   "total": 15,
+   "committees": {
+    "Energy and Commerce Committee": 0.3333333333333333,
+    "Commerce, Science, and Transportation Committee": 0.2,
+    "Judiciary Committee": 0.13333333333333333,
+    "Ways and Means Committee": 0.06666666666666667,
+    "Financial Services Committee": 0.06666666666666667,
+    "Finance Committee": 0.06666666666666667,
+    "Health, Education, Labor, and Pensions Committee": 0.06666666666666667,
+    "Agriculture, Nutrition, and Forestry Committee": 0.06666666666666667
+   }
+  },
+  "Retail and wholesale trades": {
+   "total": 14,
+   "committees": {
+    "Judiciary Committee": 0.5714285714285714,
+    "Energy and Commerce Committee": 0.14285714285714285,
+    "Foreign Affairs Committee": 0.07142857142857142,
+    "Armed Services Committee": 0.07142857142857142,
+    "Homeland Security and Governmental Affairs Committee": 0.07142857142857142,
+    "Finance Committee": 0.07142857142857142
+   }
+  },
+  "Department of Justice": {
+   "total": 10,
+   "committees": {
+    "Judiciary Committee": 0.8,
+    "Energy and Commerce Committee": 0.2
+   }
+  },
+  "Drug trafficking and controlled substances": {
+   "total": 16,
+   "committees": {
+    "Judiciary Committee": 0.8125,
+    "Energy and Commerce Committee": 0.125,
+    "Foreign Relations Committee": 0.0625
+   }
+  },
+  "Research administration and funding": {
+   "total": 17,
+   "committees": {
+    "Science, Space, and Technology Committee": 0.29411764705882354,
+    "Energy and Commerce Committee": 0.17647058823529413,
+    "Health, Education, Labor, and Pensions Committee": 0.17647058823529413,
+    "Judiciary Committee": 0.058823529411764705,
+    "Agriculture Committee": 0.058823529411764705,
+    "Oversight and Government Reform Committee": 0.058823529411764705,
+    "Armed Services Committee": 0.058823529411764705,
+    "Energy and Natural Resources Committee": 0.058823529411764705
+   }
+  },
+  "Food assistance and relief": {
+   "total": 17,
+   "committees": {
+    "Agriculture Committee": 0.23529411764705882,
+    "Ways and Means Committee": 0.11764705882352941,
+    "Financial Services Committee": 0.11764705882352941,
+    "Education and Workforce Committee": 0.11764705882352941,
+    "Foreign Affairs Committee": 0.058823529411764705,
+    "Natural Resources Committee": 0.058823529411764705,
+    "Transportation and Infrastructure Committee": 0.058823529411764705,
+    "Energy and Commerce Committee": 0.058823529411764705
+   }
+  },
+  "Poverty and welfare assistance": {
+   "total": 8,
+   "committees": {
+    "Agriculture Committee": 0.375,
+    "Ways and Means Committee": 0.375,
+    "Financial Services Committee": 0.125,
+    "Finance Committee": 0.125
+   }
+  },
+  "U.S. and foreign investments": {
+   "total": 7,
+   "committees": {
+    "Banking, Housing, and Urban Affairs Committee": 0.42857142857142855,
+    "Foreign Affairs Committee": 0.2857142857142857,
+    "Finance Committee": 0.2857142857142857
+   }
+  },
+  "Disability and paralysis": {
+   "total": 12,
+   "committees": {
+    "Veterans' Affairs Committee": 0.3333333333333333,
+    "Armed Services Committee": 0.3333333333333333,
+    "Health, Education, Labor, and Pensions Committee": 0.16666666666666666,
+    "Foreign Affairs Committee": 0.08333333333333333,
+    "Commerce, Science, and Transportation Committee": 0.08333333333333333
+   }
+  },
+  "Veterans' medical care": {
+   "total": 12,
+   "committees": {
+    "Veterans' Affairs Committee": 0.6666666666666666,
+    "Armed Services Committee": 0.16666666666666666,
+    "Ways and Means Committee": 0.08333333333333333,
+    "Energy and Commerce Committee": 0.08333333333333333
+   }
+  },
+  "Veterans' pensions and compensation": {
+   "total": 13,
+   "committees": {
+    "Veterans' Affairs Committee": 0.5384615384615384,
+    "Armed Services Committee": 0.3076923076923077,
+    "Judiciary Committee": 0.15384615384615385
+   }
+  },
+  "Accounting and auditing": {
+   "total": 23,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.21739130434782608,
+    "Judiciary Committee": 0.08695652173913043,
+    "Education and Workforce Committee": 0.08695652173913043,
+    "Energy and Commerce Committee": 0.08695652173913043,
+    "Armed Services Committee": 0.08695652173913043,
+    "Finance Committee": 0.08695652173913043,
+    "Ways and Means Committee": 0.043478260869565216,
+    "Rules Committee": 0.043478260869565216
+   }
+  },
+  "Criminal justice information and records": {
+   "total": 20,
+   "committees": {
+    "Judiciary Committee": 0.65,
+    "Energy and Commerce Committee": 0.1,
+    "Homeland Security Committee": 0.1,
+    "Committee on House Administration": 0.05,
+    "Rules Committee": 0.05,
+    "Financial Services Committee": 0.05
+   }
+  },
+  "Foreign property": {
+   "total": 13,
+   "committees": {
+    "Judiciary Committee": 0.38461538461538464,
+    "Foreign Affairs Committee": 0.23076923076923078,
+    "Energy and Commerce Committee": 0.07692307692307693,
+    "Education and Workforce Committee": 0.07692307692307693,
+    "Rules Committee": 0.07692307692307693,
+    "Financial Services Committee": 0.07692307692307693,
+    "Banking, Housing, and Urban Affairs Committee": 0.07692307692307693
+   }
+  },
+  "Government ethics and transparency, public corruption": {
+   "total": 18,
+   "committees": {
+    "Judiciary Committee": 0.3888888888888889,
+    "Foreign Affairs Committee": 0.16666666666666666,
+    "Ways and Means Committee": 0.1111111111111111,
+    "Oversight and Government Reform Committee": 0.1111111111111111,
+    "Committee on House Administration": 0.1111111111111111,
+    "Transportation and Infrastructure Committee": 0.05555555555555555,
+    "Foreign Relations Committee": 0.05555555555555555
+   }
+  },
+  "Family relationships": {
+   "total": 14,
+   "committees": {
+    "Committee on House Administration": 0.21428571428571427,
+    "Judiciary Committee": 0.21428571428571427,
+    "Ways and Means Committee": 0.14285714285714285,
+    "Oversight and Government Reform Committee": 0.14285714285714285,
+    "Finance Committee": 0.14285714285714285,
+    "Health, Education, Labor, and Pensions Committee": 0.14285714285714285
+   }
+  },
+  "Congressional officers and employees": {
+   "total": 15,
+   "committees": {
+    "Committee on House Administration": 0.26666666666666666,
+    "Judiciary Committee": 0.2,
+    "Ways and Means Committee": 0.13333333333333333,
+    "Oversight and Government Reform Committee": 0.13333333333333333,
+    "Homeland Security and Governmental Affairs Committee": 0.13333333333333333,
+    "Energy and Commerce Committee": 0.06666666666666667,
+    "Veterans' Affairs Committee": 0.06666666666666667
+   }
+  },
+  "International law and treaties": {
+   "total": 8,
+   "committees": {
+    "Foreign Affairs Committee": 0.375,
+    "Foreign Relations Committee": 0.375,
+    "Judiciary Committee": 0.125,
+    "Finance Committee": 0.125
+   }
+  },
+  "International organizations and cooperation": {
+   "total": 15,
+   "committees": {
+    "Foreign Affairs Committee": 0.4666666666666667,
+    "Foreign Relations Committee": 0.2,
+    "Judiciary Committee": 0.13333333333333333,
+    "Energy and Commerce Committee": 0.06666666666666667,
+    "Education and Workforce Committee": 0.06666666666666667,
+    "Health, Education, Labor, and Pensions Committee": 0.06666666666666667
+   }
+  },
+  "Law enforcement administration and funding": {
+   "total": 34,
+   "committees": {
+    "Judiciary Committee": 0.7058823529411765,
+    "Energy and Commerce Committee": 0.058823529411764705,
+    "Homeland Security Committee": 0.058823529411764705,
+    "Homeland Security and Governmental Affairs Committee": 0.058823529411764705,
+    "Oversight and Government Reform Committee": 0.029411764705882353,
+    "Health, Education, Labor, and Pensions Committee": 0.029411764705882353,
+    "Education and Workforce Committee": 0.029411764705882353,
+    "Commerce, Science, and Transportation Committee": 0.029411764705882353
+   }
+  },
+  "Health facilities and institutions": {
+   "total": 29,
+   "committees": {
+    "Energy and Commerce Committee": 0.3103448275862069,
+    "Ways and Means Committee": 0.13793103448275862,
+    "Health, Education, Labor, and Pensions Committee": 0.13793103448275862,
+    "Judiciary Committee": 0.10344827586206896,
+    "Veterans' Affairs Committee": 0.10344827586206896,
+    "Finance Committee": 0.06896551724137931,
+    "Natural Resources Committee": 0.034482758620689655,
+    "Education and Workforce Committee": 0.034482758620689655
+   }
+  },
+  "Abortion": {
+   "total": 42,
+   "committees": {
+    "Energy and Commerce Committee": 0.42857142857142855,
+    "Judiciary Committee": 0.23809523809523808,
+    "Health, Education, Labor, and Pensions Committee": 0.16666666666666666,
+    "Finance Committee": 0.09523809523809523,
+    "Ways and Means Committee": 0.047619047619047616,
+    "Education and Workforce Committee": 0.023809523809523808
+   }
+  },
+  "Comprehensive health care": {
+   "total": 13,
+   "committees": {
+    "Ways and Means Committee": 0.15384615384615385,
+    "Judiciary Committee": 0.15384615384615385,
+    "Energy and Commerce Committee": 0.15384615384615385,
+    "Natural Resources Committee": 0.07692307692307693,
+    "Appropriations Committee": 0.07692307692307693,
+    "Rules Committee": 0.07692307692307693,
+    "Committee on House Administration": 0.07692307692307693,
+    "Education and Workforce Committee": 0.07692307692307693
+   }
+  },
+  "Employee benefits and pensions": {
+   "total": 12,
+   "committees": {
+    "Homeland Security and Governmental Affairs Committee": 0.25,
+    "Health, Education, Labor, and Pensions Committee": 0.25,
+    "Ways and Means Committee": 0.16666666666666666,
+    "Finance Committee": 0.16666666666666666,
+    "Judiciary Committee": 0.08333333333333333,
+    "Energy and Commerce Committee": 0.08333333333333333
+   }
+  },
+  "Small business": {
+   "total": 21,
+   "committees": {
+    "Ways and Means Committee": 0.14285714285714285,
+    "Oversight and Government Reform Committee": 0.14285714285714285,
+    "Energy and Commerce Committee": 0.09523809523809523,
+    "Banking, Housing, and Urban Affairs Committee": 0.09523809523809523,
+    "Small Business Committee": 0.09523809523809523,
+    "Finance Committee": 0.09523809523809523,
+    "Judiciary Committee": 0.047619047619047616,
+    "Agriculture Committee": 0.047619047619047616
+   }
+  },
+  "Marine and coastal resources, fisheries": {
+   "total": 9,
+   "committees": {
+    "Energy and Natural Resources Committee": 0.4444444444444444,
+    "Energy and Commerce Committee": 0.1111111111111111,
+    "Natural Resources Committee": 0.1111111111111111,
+    "Environment and Public Works Committee": 0.1111111111111111,
+    "Finance Committee": 0.1111111111111111,
+    "Armed Services Committee": 0.1111111111111111
+   }
+  },
+  "Department of Health and Human Services": {
+   "total": 19,
+   "committees": {
+    "Energy and Commerce Committee": 0.42105263157894735,
+    "Health, Education, Labor, and Pensions Committee": 0.2631578947368421,
+    "Ways and Means Committee": 0.15789473684210525,
+    "Finance Committee": 0.10526315789473684,
+    "Judiciary Committee": 0.05263157894736842
+   }
+  },
+  "Nursing": {
+   "total": 8,
+   "committees": {
+    "Energy and Commerce Committee": 0.5,
+    "Ways and Means Committee": 0.25,
+    "Education and Workforce Committee": 0.25
+   }
+  },
+  "Personnel records": {
+   "total": 12,
+   "committees": {
+    "Judiciary Committee": 0.25,
+    "Ways and Means Committee": 0.16666666666666666,
+    "Health, Education, Labor, and Pensions Committee": 0.16666666666666666,
+    "Energy and Commerce Committee": 0.08333333333333333,
+    "Veterans' Affairs Committee": 0.08333333333333333,
+    "Armed Services Committee": 0.08333333333333333,
+    "Committee on House Administration": 0.08333333333333333,
+    "Education and Workforce Committee": 0.08333333333333333
+   }
+  },
+  "Bank accounts, deposits, capital": {
+   "total": 16,
+   "committees": {
+    "Ways and Means Committee": 0.25,
+    "Finance Committee": 0.1875,
+    "Education and Workforce Committee": 0.125,
+    "Oversight and Government Reform Committee": 0.0625,
+    "Rules Committee": 0.0625,
+    "Financial Services Committee": 0.0625,
+    "Judiciary Committee": 0.0625,
+    "Banking, Housing, and Urban Affairs Committee": 0.0625
+   }
+  },
+  "Child health": {
+   "total": 27,
+   "committees": {
+    "Judiciary Committee": 0.18518518518518517,
+    "Energy and Commerce Committee": 0.18518518518518517,
+    "Finance Committee": 0.14814814814814814,
+    "Education and Workforce Committee": 0.1111111111111111,
+    "Health, Education, Labor, and Pensions Committee": 0.1111111111111111,
+    "Ways and Means Committee": 0.07407407407407407,
+    "Agriculture Committee": 0.037037037037037035,
+    "Natural Resources Committee": 0.037037037037037035
+   }
+  },
+  "Child safety and welfare": {
+   "total": 10,
+   "committees": {
+    "Judiciary Committee": 0.4,
+    "Energy and Commerce Committee": 0.2,
+    "Foreign Affairs Committee": 0.1,
+    "Ways and Means Committee": 0.1,
+    "Health, Education, Labor, and Pensions Committee": 0.1,
+    "Finance Committee": 0.1
+   }
+  },
+  "Community life and organization": {
+   "total": 12,
+   "committees": {
+    "Finance Committee": 0.3333333333333333,
+    "Judiciary Committee": 0.25,
+    "Natural Resources Committee": 0.08333333333333333,
+    "Agriculture Committee": 0.08333333333333333,
+    "Transportation and Infrastructure Committee": 0.08333333333333333,
+    "Science, Space, and Technology Committee": 0.08333333333333333,
+    "Armed Services Committee": 0.08333333333333333
+   }
+  },
+  "Correctional facilities and imprisonment": {
+   "total": 10,
+   "committees": {
+    "Judiciary Committee": 0.8,
+    "Energy and Natural Resources Committee": 0.1,
+    "Agriculture, Nutrition, and Forestry Committee": 0.1
+   }
+  },
+  "Due process and equal protection": {
+   "total": 6,
+   "committees": {
+    "Judiciary Committee": 0.8333333333333334,
+    "Banking, Housing, and Urban Affairs Committee": 0.16666666666666666
+   }
+  },
+  "Mental health": {
+   "total": 14,
+   "committees": {
+    "Judiciary Committee": 0.42857142857142855,
+    "Veterans' Affairs Committee": 0.14285714285714285,
+    "Health, Education, Labor, and Pensions Committee": 0.14285714285714285,
+    "Finance Committee": 0.14285714285714285,
+    "Energy and Commerce Committee": 0.07142857142857142,
+    "Foreign Affairs Committee": 0.07142857142857142
+   }
+  },
+  "Women's health": {
+   "total": 14,
+   "committees": {
+    "Energy and Commerce Committee": 0.35714285714285715,
+    "Judiciary Committee": 0.21428571428571427,
+    "Finance Committee": 0.21428571428571427,
+    "Health, Education, Labor, and Pensions Committee": 0.14285714285714285,
+    "Foreign Affairs Committee": 0.07142857142857142
+   }
+  },
+  "Human trafficking": {
+   "total": 6,
+   "committees": {
+    "Judiciary Committee": 0.3333333333333333,
+    "Foreign Affairs Committee": 0.16666666666666666,
+    "Health, Education, Labor, and Pensions Committee": 0.16666666666666666,
+    "Education and Workforce Committee": 0.16666666666666666,
+    "Energy and Commerce Committee": 0.16666666666666666
+   }
+  },
+  "Department of Homeland Security": {
+   "total": 16,
+   "committees": {
+    "Judiciary Committee": 0.3125,
+    "Homeland Security Committee": 0.1875,
+    "Ways and Means Committee": 0.125,
+    "Education and Workforce Committee": 0.125,
+    "Appropriations Committee": 0.0625,
+    "Financial Services Committee": 0.0625,
+    "Foreign Affairs Committee": 0.0625,
+    "Homeland Security and Governmental Affairs Committee": 0.0625
+   }
+  },
+  "Right of privacy": {
+   "total": 14,
+   "committees": {
+    "Judiciary Committee": 0.35714285714285715,
+    "Energy and Commerce Committee": 0.21428571428571427,
+    "Health, Education, Labor, and Pensions Committee": 0.14285714285714285,
+    "Science, Space, and Technology Committee": 0.07142857142857142,
+    "Committee on House Administration": 0.07142857142857142,
+    "Intelligence (Permanent Select) Committee": 0.07142857142857142,
+    "Homeland Security Committee": 0.07142857142857142
+   }
+  },
+  "Sex and reproductive health": {
+   "total": 15,
+   "committees": {
+    "Energy and Commerce Committee": 0.4,
+    "Health, Education, Labor, and Pensions Committee": 0.2,
+    "Judiciary Committee": 0.13333333333333333,
+    "Foreign Affairs Committee": 0.13333333333333333,
+    "Finance Committee": 0.13333333333333333
+   }
+  },
+  "Endangered and threatened species": {
+   "total": 8,
+   "committees": {
+    "Natural Resources Committee": 0.875,
+    "Energy and Natural Resources Committee": 0.125
+   }
+  },
+  "Budget deficits and national debt": {
+   "total": 25,
+   "committees": {
+    "Budget Committee": 0.28,
+    "Rules Committee": 0.16,
+    "Oversight and Government Reform Committee": 0.12,
+    "Committee on House Administration": 0.12,
+    "Ways and Means Committee": 0.08,
+    "Homeland Security and Governmental Affairs Committee": 0.08,
+    "Natural Resources Committee": 0.04,
+    "Agriculture Committee": 0.04
+   }
+  },
+  "Inflation and prices": {
+   "total": 17,
+   "committees": {
+    "Ways and Means Committee": 0.17647058823529413,
+    "Oversight and Government Reform Committee": 0.11764705882352941,
+    "Committee on House Administration": 0.11764705882352941,
+    "Budget Committee": 0.11764705882352941,
+    "Rules Committee": 0.11764705882352941,
+    "Homeland Security and Governmental Affairs Committee": 0.11764705882352941,
+    "Commerce, Science, and Transportation Committee": 0.11764705882352941,
+    "Judiciary Committee": 0.058823529411764705
+   }
+  },
+  "Department of Defense": {
+   "total": 6,
+   "committees": {
+    "Armed Services Committee": 0.8333333333333334,
+    "Ways and Means Committee": 0.16666666666666666
+   }
+  },
+  "Rural conditions and development": {
+   "total": 14,
+   "committees": {
+    "Energy and Commerce Committee": 0.21428571428571427,
+    "Ways and Means Committee": 0.14285714285714285,
+    "Finance Committee": 0.14285714285714285,
+    "Veterans' Affairs Committee": 0.07142857142857142,
+    "Agriculture Committee": 0.07142857142857142,
+    "Science, Space, and Technology Committee": 0.07142857142857142,
+    "Oversight and Government Reform Committee": 0.07142857142857142,
+    "Banking, Housing, and Urban Affairs Committee": 0.07142857142857142
+   }
+  },
+  "Home and outpatient care": {
+   "total": 8,
+   "committees": {
+    "Ways and Means Committee": 0.25,
+    "Energy and Commerce Committee": 0.25,
+    "Veterans' Affairs Committee": 0.25,
+    "Finance Committee": 0.25
+   }
+  },
+  "Public-private cooperation": {
+   "total": 15,
+   "committees": {
+    "Energy and Commerce Committee": 0.13333333333333333,
+    "Financial Services Committee": 0.13333333333333333,
+    "Transportation and Infrastructure Committee": 0.13333333333333333,
+    "Ways and Means Committee": 0.06666666666666667,
+    "Science, Space, and Technology Committee": 0.06666666666666667,
+    "Oversight and Government Reform Committee": 0.06666666666666667,
+    "Small Business Committee": 0.06666666666666667,
+    "Homeland Security and Governmental Affairs Committee": 0.06666666666666667
+   }
+  },
+  "Education programs funding": {
+   "total": 45,
+   "committees": {
+    "Education and Workforce Committee": 0.3111111111111111,
+    "Health, Education, Labor, and Pensions Committee": 0.2,
+    "Energy and Commerce Committee": 0.08888888888888889,
+    "Finance Committee": 0.06666666666666667,
+    "Judiciary Committee": 0.044444444444444446,
+    "Ways and Means Committee": 0.044444444444444446,
+    "Foreign Affairs Committee": 0.022222222222222223,
+    "Committee on House Administration": 0.022222222222222223
+   }
+  },
+  "Disability and health-based discrimination": {
+   "total": 9,
+   "committees": {
+    "Judiciary Committee": 0.5555555555555556,
+    "Health, Education, Labor, and Pensions Committee": 0.2222222222222222,
+    "Education and Workforce Committee": 0.1111111111111111,
+    "Financial Services Committee": 0.1111111111111111
+   }
+  },
+  "Sex, gender, sexual orientation discrimination": {
+   "total": 7,
+   "committees": {
+    "Education and Workforce Committee": 0.2857142857142857,
+    "Financial Services Committee": 0.2857142857142857,
+    "Judiciary Committee": 0.2857142857142857,
+    "Health, Education, Labor, and Pensions Committee": 0.14285714285714285
+   }
+  },
+  "Drug, alcohol, tobacco use": {
+   "total": 11,
+   "committees": {
+    "Judiciary Committee": 0.36363636363636365,
+    "Health, Education, Labor, and Pensions Committee": 0.18181818181818182,
+    "Ways and Means Committee": 0.09090909090909091,
+    "Agriculture Committee": 0.09090909090909091,
+    "Financial Services Committee": 0.09090909090909091,
+    "Veterans' Affairs Committee": 0.09090909090909091,
+    "Environment and Public Works Committee": 0.09090909090909091
+   }
+  },
+  "Veterans' education, employment, rehabilitation": {
+   "total": 8,
+   "committees": {
+    "Education and Workforce Committee": 0.25,
+    "Veterans' Affairs Committee": 0.25,
+    "Judiciary Committee": 0.125,
+    "Small Business and Entrepreneurship Committee": 0.125,
+    "Small Business Committee": 0.125,
+    "Commerce, Science, and Transportation Committee": 0.125
+   }
+  },
+  "Vocational and technical education": {
+   "total": 9,
+   "committees": {
+    "Health, Education, Labor, and Pensions Committee": 0.5555555555555556,
+    "Education and Workforce Committee": 0.2222222222222222,
+    "Ways and Means Committee": 0.1111111111111111,
+    "Finance Committee": 0.1111111111111111
+   }
+  },
+  "Atmospheric science and weather": {
+   "total": 7,
+   "committees": {
+    "Agriculture Committee": 0.2857142857142857,
+    "Energy and Commerce Committee": 0.14285714285714285,
+    "Natural Resources Committee": 0.14285714285714285,
+    "Transportation and Infrastructure Committee": 0.14285714285714285,
+    "Science, Space, and Technology Committee": 0.14285714285714285,
+    "Armed Services Committee": 0.14285714285714285
+   }
+  },
+  "Telephone and wireless communication": {
+   "total": 5,
+   "committees": {
+    "Judiciary Committee": 0.4,
+    "Energy and Commerce Committee": 0.2,
+    "Veterans' Affairs Committee": 0.2,
+    "Intelligence (Permanent Select) Committee": 0.2
+   }
+  },
+  "Worker safety and health": {
+   "total": 10,
+   "committees": {
+    "Energy and Commerce Committee": 0.3,
+    "Oversight and Government Reform Committee": 0.3,
+    "Education and Workforce Committee": 0.2,
+    "Ways and Means Committee": 0.1,
+    "Judiciary Committee": 0.1
+   }
+  },
+  "Health promotion and preventive care": {
+   "total": 16,
+   "committees": {
+    "Energy and Commerce Committee": 0.4375,
+    "Health, Education, Labor, and Pensions Committee": 0.1875,
+    "Homeland Security Committee": 0.0625,
+    "Transportation and Infrastructure Committee": 0.0625,
+    "Oversight and Government Reform Committee": 0.0625,
+    "Veterans' Affairs Committee": 0.0625,
+    "Budget Committee": 0.0625,
+    "Finance Committee": 0.0625
+   }
+  },
+  "Immunology and vaccination": {
+   "total": 21,
+   "committees": {
+    "Energy and Commerce Committee": 0.23809523809523808,
+    "Oversight and Government Reform Committee": 0.19047619047619047,
+    "Armed Services Committee": 0.14285714285714285,
+    "Health, Education, Labor, and Pensions Committee": 0.14285714285714285,
+    "Education and Workforce Committee": 0.09523809523809523,
+    "Judiciary Committee": 0.09523809523809523,
+    "Committee on House Administration": 0.047619047619047616,
+    "Ways and Means Committee": 0.047619047619047616
+   }
+  },
+  "User charges and fees": {
+   "total": 16,
+   "committees": {
+    "Education and Workforce Committee": 0.125,
+    "Ways and Means Committee": 0.125,
+    "Judiciary Committee": 0.125,
+    "Natural Resources Committee": 0.0625,
+    "Homeland Security Committee": 0.0625,
+    "Appropriations Committee": 0.0625,
+    "Financial Services Committee": 0.0625,
+    "Foreign Affairs Committee": 0.0625
+   }
+  },
+  "Administrative remedies": {
+   "total": 11,
+   "committees": {
+    "Judiciary Committee": 0.2727272727272727,
+    "Ways and Means Committee": 0.18181818181818182,
+    "Natural Resources Committee": 0.09090909090909091,
+    "Energy and Commerce Committee": 0.09090909090909091,
+    "Education and Workforce Committee": 0.09090909090909091,
+    "Armed Services Committee": 0.09090909090909091,
+    "Health, Education, Labor, and Pensions Committee": 0.09090909090909091,
+    "Agriculture, Nutrition, and Forestry Committee": 0.09090909090909091
+   }
+  },
+  "Aviation and airports": {
+   "total": 21,
+   "committees": {
+    "Transportation and Infrastructure Committee": 0.2857142857142857,
+    "Commerce, Science, and Transportation Committee": 0.14285714285714285,
+    "Science, Space, and Technology Committee": 0.09523809523809523,
+    "Judiciary Committee": 0.09523809523809523,
+    "Finance Committee": 0.09523809523809523,
+    "Homeland Security Committee": 0.047619047619047616,
+    "Energy and Commerce Committee": 0.047619047619047616,
+    "Natural Resources Committee": 0.047619047619047616
+   }
+  },
+  "Transportation safety and security": {
+   "total": 9,
+   "committees": {
+    "Transportation and Infrastructure Committee": 0.3333333333333333,
+    "Homeland Security Committee": 0.1111111111111111,
+    "Energy and Commerce Committee": 0.1111111111111111,
+    "Science, Space, and Technology Committee": 0.1111111111111111,
+    "Judiciary Committee": 0.1111111111111111,
+    "Health, Education, Labor, and Pensions Committee": 0.1111111111111111,
+    "Environment and Public Works Committee": 0.1111111111111111
+   }
+  },
+  "Family services": {
+   "total": 7,
+   "committees": {
+    "Finance Committee": 0.42857142857142855,
+    "Veterans' Affairs Committee": 0.14285714285714285,
+    "Judiciary Committee": 0.14285714285714285,
+    "Ways and Means Committee": 0.14285714285714285,
+    "Health, Education, Labor, and Pensions Committee": 0.14285714285714285
+   }
+  },
+  "Military personnel and dependents": {
+   "total": 27,
+   "committees": {
+    "Armed Services Committee": 0.2222222222222222,
+    "Judiciary Committee": 0.14814814814814814,
+    "Veterans' Affairs Committee": 0.1111111111111111,
+    "Committee on House Administration": 0.07407407407407407,
+    "Oversight and Government Reform Committee": 0.07407407407407407,
+    "Education and Workforce Committee": 0.07407407407407407,
+    "Science, Space, and Technology Committee": 0.037037037037037035,
+    "Financial Services Committee": 0.037037037037037035
+   }
+  },
+  "Corporate finance and management": {
+   "total": 8,
+   "committees": {
+    "Ways and Means Committee": 0.375,
+    "Commerce, Science, and Transportation Committee": 0.25,
+    "Homeland Security and Governmental Affairs Committee": 0.125,
+    "Agriculture, Nutrition, and Forestry Committee": 0.125,
+    "Finance Committee": 0.125
+   }
+  },
+  "Government lending and loan guarantees": {
+   "total": 19,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.15789473684210525,
+    "Judiciary Committee": 0.10526315789473684,
+    "Education and Workforce Committee": 0.10526315789473684,
+    "Energy and Commerce Committee": 0.10526315789473684,
+    "Ways and Means Committee": 0.05263157894736842,
+    "Natural Resources Committee": 0.05263157894736842,
+    "Appropriations Committee": 0.05263157894736842,
+    "Rules Committee": 0.05263157894736842
+   }
+  },
+  "Business expenses": {
+   "total": 5,
+   "committees": {
+    "Ways and Means Committee": 0.4,
+    "Energy and Commerce Committee": 0.2,
+    "Oversight and Government Reform Committee": 0.2,
+    "Finance Committee": 0.2
+   }
+  },
+  "Family planning and birth control": {
+   "total": 21,
+   "committees": {
+    "Energy and Commerce Committee": 0.2857142857142857,
+    "Finance Committee": 0.19047619047619047,
+    "Judiciary Committee": 0.09523809523809523,
+    "Health, Education, Labor, and Pensions Committee": 0.09523809523809523,
+    "Ways and Means Committee": 0.047619047619047616,
+    "Agriculture Committee": 0.047619047619047616,
+    "Natural Resources Committee": 0.047619047619047616,
+    "Transportation and Infrastructure Committee": 0.047619047619047616
+   }
+  },
+  "Air quality": {
+   "total": 7,
+   "committees": {
+    "Energy and Commerce Committee": 0.2857142857142857,
+    "Natural Resources Committee": 0.14285714285714285,
+    "Armed Services Committee": 0.14285714285714285,
+    "Energy and Natural Resources Committee": 0.14285714285714285,
+    "Agriculture, Nutrition, and Forestry Committee": 0.14285714285714285,
+    "Environment and Public Works Committee": 0.14285714285714285
+   }
+  },
+  "Environmental regulatory procedures": {
+   "total": 5,
+   "committees": {
+    "Energy and Commerce Committee": 0.6,
+    "Science, Space, and Technology Committee": 0.2,
+    "Agriculture, Nutrition, and Forestry Committee": 0.2
+   }
+  },
+  "Motor vehicles": {
+   "total": 12,
+   "committees": {
+    "Judiciary Committee": 0.25,
+    "Ways and Means Committee": 0.25,
+    "Committee on House Administration": 0.16666666666666666,
+    "Commerce, Science, and Transportation Committee": 0.16666666666666666,
+    "Science, Space, and Technology Committee": 0.08333333333333333,
+    "Transportation and Infrastructure Committee": 0.08333333333333333
+   }
+  },
+  "Manufacturing": {
+   "total": 9,
+   "committees": {
+    "Health, Education, Labor, and Pensions Committee": 0.2222222222222222,
+    "Energy and Commerce Committee": 0.1111111111111111,
+    "Oversight and Government Reform Committee": 0.1111111111111111,
+    "Energy and Natural Resources Committee": 0.1111111111111111,
+    "Finance Committee": 0.1111111111111111,
+    "Agriculture, Nutrition, and Forestry Committee": 0.1111111111111111,
+    "Judiciary Committee": 0.1111111111111111,
+    "Commerce, Science, and Transportation Committee": 0.1111111111111111
+   }
+  },
+  "Alternative and renewable resources": {
+   "total": 7,
+   "committees": {
+    "Agriculture Committee": 0.2857142857142857,
+    "Natural Resources Committee": 0.14285714285714285,
+    "Science, Space, and Technology Committee": 0.14285714285714285,
+    "Oversight and Government Reform Committee": 0.14285714285714285,
+    "Commerce, Science, and Transportation Committee": 0.14285714285714285,
+    "Energy and Natural Resources Committee": 0.14285714285714285
+   }
+  },
+  "Electric power generation and transmission": {
+   "total": 5,
+   "committees": {
+    "Energy and Natural Resources Committee": 0.4,
+    "Natural Resources Committee": 0.2,
+    "Agriculture Committee": 0.2,
+    "Finance Committee": 0.2
+   }
+  },
+  "Advanced technology and technological innovations": {
+   "total": 15,
+   "committees": {
+    "Transportation and Infrastructure Committee": 0.13333333333333333,
+    "Science, Space, and Technology Committee": 0.13333333333333333,
+    "Armed Services Committee": 0.13333333333333333,
+    "Energy and Commerce Committee": 0.06666666666666667,
+    "Financial Services Committee": 0.06666666666666667,
+    "Ways and Means Committee": 0.06666666666666667,
+    "Committee on House Administration": 0.06666666666666667,
+    "Judiciary Committee": 0.06666666666666667
+   }
+  },
+  "Cancer": {
+   "total": 7,
+   "committees": {
+    "Energy and Commerce Committee": 0.42857142857142855,
+    "Ways and Means Committee": 0.14285714285714285,
+    "Veterans' Affairs Committee": 0.14285714285714285,
+    "Natural Resources Committee": 0.14285714285714285,
+    "Judiciary Committee": 0.14285714285714285
+   }
+  },
+  "Digestive and metabolic diseases": {
+   "total": 7,
+   "committees": {
+    "Energy and Commerce Committee": 0.2857142857142857,
+    "Ways and Means Committee": 0.14285714285714285,
+    "Veterans' Affairs Committee": 0.14285714285714285,
+    "Natural Resources Committee": 0.14285714285714285,
+    "Judiciary Committee": 0.14285714285714285,
+    "Finance Committee": 0.14285714285714285
+   }
+  },
+  "Genetics": {
+   "total": 7,
+   "committees": {
+    "Health, Education, Labor, and Pensions Committee": 0.2857142857142857,
+    "Ways and Means Committee": 0.14285714285714285,
+    "Energy and Commerce Committee": 0.14285714285714285,
+    "Veterans' Affairs Committee": 0.14285714285714285,
+    "Judiciary Committee": 0.14285714285714285,
+    "Finance Committee": 0.14285714285714285
+   }
+  },
+  "Health care quality": {
+   "total": 5,
+   "committees": {
+    "Finance Committee": 0.4,
+    "Ways and Means Committee": 0.2,
+    "Energy and Commerce Committee": 0.2,
+    "Veterans' Affairs Committee": 0.2
+   }
+  },
+  "Adoption and foster care": {
+   "total": 15,
+   "committees": {
+    "Finance Committee": 0.2,
+    "Energy and Commerce Committee": 0.13333333333333333,
+    "Ways and Means Committee": 0.06666666666666667,
+    "Agriculture Committee": 0.06666666666666667,
+    "Natural Resources Committee": 0.06666666666666667,
+    "Transportation and Infrastructure Committee": 0.06666666666666667,
+    "Judiciary Committee": 0.06666666666666667,
+    "Rules Committee": 0.06666666666666667
+   }
+  },
+  "Budget process": {
+   "total": 28,
+   "committees": {
+    "Budget Committee": 0.2857142857142857,
+    "Rules Committee": 0.17857142857142858,
+    "Committee on House Administration": 0.10714285714285714,
+    "Homeland Security and Governmental Affairs Committee": 0.10714285714285714,
+    "Oversight and Government Reform Committee": 0.07142857142857142,
+    "Small Business Committee": 0.03571428571428571,
+    "Judiciary Committee": 0.03571428571428571,
+    "Natural Resources Committee": 0.03571428571428571
+   }
+  },
+  "Income tax exclusion": {
+   "total": 12,
+   "committees": {
+    "Ways and Means Committee": 0.5,
+    "Finance Committee": 0.3333333333333333,
+    "Appropriations Committee": 0.08333333333333333,
+    "Education and Workforce Committee": 0.08333333333333333
+   }
+  },
+  "Department of Veterans Affairs": {
+   "total": 6,
+   "committees": {
+    "Veterans' Affairs Committee": 0.6666666666666666,
+    "Armed Services Committee": 0.16666666666666666,
+    "Committee on House Administration": 0.16666666666666666
+   }
+  },
+  "Contracts and agency": {
+   "total": 7,
+   "committees": {
+    "Energy and Commerce Committee": 0.14285714285714285,
+    "Education and Workforce Committee": 0.14285714285714285,
+    "Judiciary Committee": 0.14285714285714285,
+    "Foreign Affairs Committee": 0.14285714285714285,
+    "Commerce, Science, and Transportation Committee": 0.14285714285714285,
+    "Health, Education, Labor, and Pensions Committee": 0.14285714285714285,
+    "Agriculture, Nutrition, and Forestry Committee": 0.14285714285714285
+   }
+  },
+  "Intelligence activities, surveillance, classified information": {
+   "total": 8,
+   "committees": {
+    "Judiciary Committee": 0.5,
+    "Energy and Commerce Committee": 0.125,
+    "Education and Workforce Committee": 0.125,
+    "Foreign Affairs Committee": 0.125,
+    "Intelligence (Permanent Select) Committee": 0.125
+   }
+  },
+  "Research and development": {
+   "total": 13,
+   "committees": {
+    "Science, Space, and Technology Committee": 0.3076923076923077,
+    "Transportation and Infrastructure Committee": 0.07692307692307693,
+    "Agriculture Committee": 0.07692307692307693,
+    "Oversight and Government Reform Committee": 0.07692307692307693,
+    "Energy and Commerce Committee": 0.07692307692307693,
+    "Armed Services Committee": 0.07692307692307693,
+    "Energy and Natural Resources Committee": 0.07692307692307693,
+    "Financial Services Committee": 0.07692307692307693
+   }
+  },
+  "Banking and financial institutions regulation": {
+   "total": 5,
+   "committees": {
+    "Financial Services Committee": 0.4,
+    "Banking, Housing, and Urban Affairs Committee": 0.4,
+    "Small Business Committee": 0.2
+   }
+  },
+  "Photography and imaging": {
+   "total": 7,
+   "committees": {
+    "Committee on House Administration": 0.2857142857142857,
+    "Judiciary Committee": 0.2857142857142857,
+    "Science, Space, and Technology Committee": 0.14285714285714285,
+    "Ways and Means Committee": 0.14285714285714285,
+    "Education and Workforce Committee": 0.14285714285714285
+   }
+  },
+  "Academic performance and assessments": {
+   "total": 8,
+   "committees": {
+    "Health, Education, Labor, and Pensions Committee": 0.375,
+    "Education and Workforce Committee": 0.25,
+    "Finance Committee": 0.25,
+    "Homeland Security and Governmental Affairs Committee": 0.125
+   }
+  },
+  "Education of the disadvantaged": {
+   "total": 17,
+   "committees": {
+    "Health, Education, Labor, and Pensions Committee": 0.29411764705882354,
+    "Education and Workforce Committee": 0.17647058823529413,
+    "Ways and Means Committee": 0.058823529411764705,
+    "Agriculture Committee": 0.058823529411764705,
+    "Natural Resources Committee": 0.058823529411764705,
+    "Transportation and Infrastructure Committee": 0.058823529411764705,
+    "Energy and Commerce Committee": 0.058823529411764705,
+    "Judiciary Committee": 0.058823529411764705
+   }
+  },
+  "Educational facilities and institutions": {
+   "total": 6,
+   "committees": {
+    "Judiciary Committee": 0.3333333333333333,
+    "Education and Workforce Committee": 0.16666666666666666,
+    "Natural Resources Committee": 0.16666666666666666,
+    "Energy and Natural Resources Committee": 0.16666666666666666,
+    "Health, Education, Labor, and Pensions Committee": 0.16666666666666666
+   }
+  },
+  "Housing and community development funding": {
+   "total": 6,
+   "committees": {
+    "Financial Services Committee": 0.5,
+    "Appropriations Committee": 0.16666666666666666,
+    "Health, Education, Labor, and Pensions Committee": 0.16666666666666666,
+    "Environment and Public Works Committee": 0.16666666666666666
+   }
+  },
+  "Environmental health": {
+   "total": 6,
+   "committees": {
+    "Energy and Commerce Committee": 0.3333333333333333,
+    "Science, Space, and Technology Committee": 0.16666666666666666,
+    "Natural Resources Committee": 0.16666666666666666,
+    "Judiciary Committee": 0.16666666666666666,
+    "Health, Education, Labor, and Pensions Committee": 0.16666666666666666
+   }
+  },
+  "Hazardous wastes and toxic substances": {
+   "total": 6,
+   "committees": {
+    "Energy and Commerce Committee": 0.3333333333333333,
+    "Science, Space, and Technology Committee": 0.16666666666666666,
+    "Natural Resources Committee": 0.16666666666666666,
+    "Judiciary Committee": 0.16666666666666666,
+    "Agriculture, Nutrition, and Forestry Committee": 0.16666666666666666
+   }
+  },
+  "Jurisdiction and venue": {
+   "total": 5,
+   "committees": {
+    "Judiciary Committee": 0.8,
+    "Intelligence (Permanent Select) Committee": 0.2
+   }
+  },
+  "California": {
+   "total": 6,
+   "committees": {
+    "Judiciary Committee": 0.3333333333333333,
+    "Natural Resources Committee": 0.3333333333333333,
+    "Veterans' Affairs Committee": 0.16666666666666666,
+    "Energy and Natural Resources Committee": 0.16666666666666666
+   }
+  },
+  "Judges": {
+   "total": 6,
+   "committees": {
+    "Judiciary Committee": 1.0
+   }
+  },
+  "Department of Agriculture": {
+   "total": 9,
+   "committees": {
+    "Agriculture Committee": 0.2222222222222222,
+    "Science, Space, and Technology Committee": 0.2222222222222222,
+    "Oversight and Government Reform Committee": 0.1111111111111111,
+    "Natural Resources Committee": 0.1111111111111111,
+    "Transportation and Infrastructure Committee": 0.1111111111111111,
+    "Armed Services Committee": 0.1111111111111111,
+    "Energy and Natural Resources Committee": 0.1111111111111111
+   }
+  },
+  "Energy efficiency and conservation": {
+   "total": 5,
+   "committees": {
+    "Agriculture Committee": 0.2,
+    "Science, Space, and Technology Committee": 0.2,
+    "Oversight and Government Reform Committee": 0.2,
+    "Energy and Natural Resources Committee": 0.2,
+    "Commerce, Science, and Transportation Committee": 0.2
+   }
+  },
+  "Energy research": {
+   "total": 8,
+   "committees": {
+    "Science, Space, and Technology Committee": 0.375,
+    "Energy and Natural Resources Committee": 0.375,
+    "Agriculture Committee": 0.125,
+    "Oversight and Government Reform Committee": 0.125
+   }
+  },
+  "Office of Management and Budget (OMB)": {
+   "total": 9,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.2222222222222222,
+    "Budget Committee": 0.2222222222222222,
+    "Committee on House Administration": 0.1111111111111111,
+    "Small Business Committee": 0.1111111111111111,
+    "Judiciary Committee": 0.1111111111111111,
+    "Rules Committee": 0.1111111111111111,
+    "Homeland Security and Governmental Affairs Committee": 0.1111111111111111
+   }
+  },
+  "International monetary system and foreign exchange": {
+   "total": 7,
+   "committees": {
+    "Ways and Means Committee": 0.14285714285714285,
+    "Homeland Security Committee": 0.14285714285714285,
+    "Appropriations Committee": 0.14285714285714285,
+    "Education and Workforce Committee": 0.14285714285714285,
+    "Financial Services Committee": 0.14285714285714285,
+    "Foreign Affairs Committee": 0.14285714285714285,
+    "Judiciary Committee": 0.14285714285714285
+   }
+  },
+  "Economic performance and conditions": {
+   "total": 11,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.18181818181818182,
+    "Small Business Committee": 0.18181818181818182,
+    "Judiciary Committee": 0.18181818181818182,
+    "Natural Resources Committee": 0.09090909090909091,
+    "Foreign Affairs Committee": 0.09090909090909091,
+    "Rules Committee": 0.09090909090909091,
+    "Budget Committee": 0.09090909090909091,
+    "Small Business and Entrepreneurship Committee": 0.09090909090909091
+   }
+  },
+  "Puerto Rico": {
+   "total": 12,
+   "committees": {
+    "Ways and Means Committee": 0.4166666666666667,
+    "Natural Resources Committee": 0.08333333333333333,
+    "Oversight and Government Reform Committee": 0.08333333333333333,
+    "Foreign Affairs Committee": 0.08333333333333333,
+    "Agriculture Committee": 0.08333333333333333,
+    "Armed Services Committee": 0.08333333333333333,
+    "Transportation and Infrastructure Committee": 0.08333333333333333,
+    "Judiciary Committee": 0.08333333333333333
+   }
+  },
+  "U.S. territories and protectorates": {
+   "total": 13,
+   "committees": {
+    "Ways and Means Committee": 0.38461538461538464,
+    "Judiciary Committee": 0.15384615384615385,
+    "Natural Resources Committee": 0.07692307692307693,
+    "Oversight and Government Reform Committee": 0.07692307692307693,
+    "Foreign Affairs Committee": 0.07692307692307693,
+    "Agriculture Committee": 0.07692307692307693,
+    "Armed Services Committee": 0.07692307692307693,
+    "Transportation and Infrastructure Committee": 0.07692307692307693
+   }
+  },
+  "Disaster relief and insurance": {
+   "total": 15,
+   "committees": {
+    "Agriculture Committee": 0.13333333333333333,
+    "Transportation and Infrastructure Committee": 0.13333333333333333,
+    "Ways and Means Committee": 0.13333333333333333,
+    "Financial Services Committee": 0.06666666666666667,
+    "Small Business Committee": 0.06666666666666667,
+    "Homeland Security and Governmental Affairs Committee": 0.06666666666666667,
+    "Natural Resources Committee": 0.06666666666666667,
+    "Science, Space, and Technology Committee": 0.06666666666666667
+   }
+  },
+  "Emergency planning and evacuation": {
+   "total": 8,
+   "committees": {
+    "Agriculture Committee": 0.25,
+    "Intelligence (Permanent Select) Committee": 0.125,
+    "Natural Resources Committee": 0.125,
+    "Transportation and Infrastructure Committee": 0.125,
+    "Science, Space, and Technology Committee": 0.125,
+    "Armed Services Committee": 0.125,
+    "Agriculture, Nutrition, and Forestry Committee": 0.125
+   }
+  },
+  "Natural disasters": {
+   "total": 8,
+   "committees": {
+    "Agriculture, Nutrition, and Forestry Committee": 0.25,
+    "Agriculture Committee": 0.125,
+    "Financial Services Committee": 0.125,
+    "Small Business Committee": 0.125,
+    "Homeland Security and Governmental Affairs Committee": 0.125,
+    "Transportation and Infrastructure Committee": 0.125,
+    "Intelligence (Permanent Select) Committee": 0.125
+   }
+  },
+  "Congressional tributes": {
+   "total": 9,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.3333333333333333,
+    "Banking, Housing, and Urban Affairs Committee": 0.3333333333333333,
+    "Veterans' Affairs Committee": 0.1111111111111111,
+    "Financial Services Committee": 0.1111111111111111,
+    "Committee on House Administration": 0.1111111111111111
+   }
+  },
+  "Water quality": {
+   "total": 6,
+   "committees": {
+    "Natural Resources Committee": 0.3333333333333333,
+    "Transportation and Infrastructure Committee": 0.16666666666666666,
+    "Science, Space, and Technology Committee": 0.16666666666666666,
+    "Foreign Relations Committee": 0.16666666666666666,
+    "Judiciary Committee": 0.16666666666666666
+   }
+  },
+  "Congressional Budget Office (CBO)": {
+   "total": 5,
+   "committees": {
+    "Small Business Committee": 0.2,
+    "Oversight and Government Reform Committee": 0.2,
+    "Judiciary Committee": 0.2,
+    "Rules Committee": 0.2,
+    "Budget Committee": 0.2
+   }
+  },
+  "Transportation costs": {
+   "total": 6,
+   "committees": {
+    "Commerce, Science, and Transportation Committee": 0.3333333333333333,
+    "Armed Services Committee": 0.16666666666666666,
+    "Transportation and Infrastructure Committee": 0.16666666666666666,
+    "Ways and Means Committee": 0.16666666666666666,
+    "Homeland Security and Governmental Affairs Committee": 0.16666666666666666
+   }
+  },
+  "Museums, exhibitions, cultural centers": {
+   "total": 6,
+   "committees": {
+    "Banking, Housing, and Urban Affairs Committee": 0.5,
+    "Financial Services Committee": 0.16666666666666666,
+    "Committee on House Administration": 0.16666666666666666,
+    "Energy and Natural Resources Committee": 0.16666666666666666
+   }
+  },
+  "Crime prevention": {
+   "total": 12,
+   "committees": {
+    "Judiciary Committee": 0.5,
+    "Health, Education, Labor, and Pensions Committee": 0.08333333333333333,
+    "Education and Workforce Committee": 0.08333333333333333,
+    "Energy and Commerce Committee": 0.08333333333333333,
+    "Foreign Affairs Committee": 0.08333333333333333,
+    "Foreign Relations Committee": 0.08333333333333333,
+    "Commerce, Science, and Transportation Committee": 0.08333333333333333
+   }
+  },
+  "Drug therapy": {
+   "total": 10,
+   "committees": {
+    "Judiciary Committee": 0.3,
+    "Energy and Commerce Committee": 0.3,
+    "Oversight and Government Reform Committee": 0.1,
+    "Armed Services Committee": 0.1,
+    "Education and Workforce Committee": 0.1,
+    "Health, Education, Labor, and Pensions Committee": 0.1
+   }
+  },
+  "Business investment and capital": {
+   "total": 8,
+   "committees": {
+    "Ways and Means Committee": 0.375,
+    "Banking, Housing, and Urban Affairs Committee": 0.25,
+    "Financial Services Committee": 0.125,
+    "Small Business Committee": 0.125,
+    "Finance Committee": 0.125
+   }
+  },
+  "Congressional operations and organization": {
+   "total": 11,
+   "committees": {
+    "Ways and Means Committee": 0.18181818181818182,
+    "Rules Committee": 0.18181818181818182,
+    "Agriculture Committee": 0.09090909090909091,
+    "Natural Resources Committee": 0.09090909090909091,
+    "Transportation and Infrastructure Committee": 0.09090909090909091,
+    "Energy and Commerce Committee": 0.09090909090909091,
+    "Judiciary Committee": 0.09090909090909091,
+    "Financial Services Committee": 0.09090909090909091
+   }
+  },
+  "Social security and elderly assistance": {
+   "total": 5,
+   "committees": {
+    "Ways and Means Committee": 0.4,
+    "Rules Committee": 0.2,
+    "Energy and Commerce Committee": 0.2,
+    "Finance Committee": 0.2
+   }
+  },
+  "Smuggling and trafficking": {
+   "total": 8,
+   "committees": {
+    "Judiciary Committee": 0.375,
+    "Energy and Commerce Committee": 0.125,
+    "Homeland Security Committee": 0.125,
+    "Health, Education, Labor, and Pensions Committee": 0.125,
+    "Education and Workforce Committee": 0.125,
+    "Foreign Relations Committee": 0.125
+   }
+  },
+  "Organized crime": {
+   "total": 10,
+   "committees": {
+    "Judiciary Committee": 0.5,
+    "Rules Committee": 0.1,
+    "Financial Services Committee": 0.1,
+    "Foreign Affairs Committee": 0.1,
+    "Foreign Relations Committee": 0.1,
+    "Homeland Security and Governmental Affairs Committee": 0.1
+   }
+  },
+  "Securities": {
+   "total": 9,
+   "committees": {
+    "Ways and Means Committee": 0.2222222222222222,
+    "Oversight and Government Reform Committee": 0.2222222222222222,
+    "Committee on House Administration": 0.2222222222222222,
+    "Judiciary Committee": 0.1111111111111111,
+    "Commerce, Science, and Transportation Committee": 0.1111111111111111,
+    "Banking, Housing, and Urban Affairs Committee": 0.1111111111111111
+   }
+  },
+  "Commodities markets": {
+   "total": 5,
+   "committees": {
+    "Committee on House Administration": 0.4,
+    "Ways and Means Committee": 0.2,
+    "Judiciary Committee": 0.2,
+    "Oversight and Government Reform Committee": 0.2
+   }
+  },
+  "Adult day care": {
+   "total": 9,
+   "committees": {
+    "Ways and Means Committee": 0.1111111111111111,
+    "Agriculture Committee": 0.1111111111111111,
+    "Natural Resources Committee": 0.1111111111111111,
+    "Transportation and Infrastructure Committee": 0.1111111111111111,
+    "Energy and Commerce Committee": 0.1111111111111111,
+    "Judiciary Committee": 0.1111111111111111,
+    "Rules Committee": 0.1111111111111111,
+    "Financial Services Committee": 0.1111111111111111
+   }
+  },
+  "Aging": {
+   "total": 13,
+   "committees": {
+    "Finance Committee": 0.23076923076923078,
+    "Ways and Means Committee": 0.07692307692307693,
+    "Agriculture Committee": 0.07692307692307693,
+    "Natural Resources Committee": 0.07692307692307693,
+    "Transportation and Infrastructure Committee": 0.07692307692307693,
+    "Energy and Commerce Committee": 0.07692307692307693,
+    "Judiciary Committee": 0.07692307692307693,
+    "Rules Committee": 0.07692307692307693
+   }
+  },
+  "Child care and development": {
+   "total": 18,
+   "committees": {
+    "Health, Education, Labor, and Pensions Committee": 0.2222222222222222,
+    "Finance Committee": 0.16666666666666666,
+    "Ways and Means Committee": 0.1111111111111111,
+    "Agriculture Committee": 0.05555555555555555,
+    "Natural Resources Committee": 0.05555555555555555,
+    "Transportation and Infrastructure Committee": 0.05555555555555555,
+    "Energy and Commerce Committee": 0.05555555555555555,
+    "Judiciary Committee": 0.05555555555555555
+   }
+  },
+  "Economic development": {
+   "total": 13,
+   "committees": {
+    "Ways and Means Committee": 0.15384615384615385,
+    "Agriculture Committee": 0.07692307692307693,
+    "Natural Resources Committee": 0.07692307692307693,
+    "Transportation and Infrastructure Committee": 0.07692307692307693,
+    "Energy and Commerce Committee": 0.07692307692307693,
+    "Judiciary Committee": 0.07692307692307693,
+    "Rules Committee": 0.07692307692307693,
+    "Financial Services Committee": 0.07692307692307693
+   }
+  },
+  "Energy assistance for the poor and aged": {
+   "total": 9,
+   "committees": {
+    "Ways and Means Committee": 0.1111111111111111,
+    "Agriculture Committee": 0.1111111111111111,
+    "Natural Resources Committee": 0.1111111111111111,
+    "Transportation and Infrastructure Committee": 0.1111111111111111,
+    "Energy and Commerce Committee": 0.1111111111111111,
+    "Judiciary Committee": 0.1111111111111111,
+    "Rules Committee": 0.1111111111111111,
+    "Financial Services Committee": 0.1111111111111111
+   }
+  },
+  "New York State": {
+   "total": 5,
+   "committees": {
+    "Energy and Natural Resources Committee": 0.2,
+    "Natural Resources Committee": 0.2,
+    "Transportation and Infrastructure Committee": 0.2,
+    "Ways and Means Committee": 0.2,
+    "Environment and Public Works Committee": 0.2
+   }
+  },
+  "Food supply, safety, and labeling": {
+   "total": 5,
+   "committees": {
+    "Natural Resources Committee": 0.2,
+    "Judiciary Committee": 0.2,
+    "Commerce, Science, and Transportation Committee": 0.2,
+    "Health, Education, Labor, and Pensions Committee": 0.2,
+    "Agriculture, Nutrition, and Forestry Committee": 0.2
+   }
+  },
+  "Roads and highways": {
+   "total": 5,
+   "committees": {
+    "Environment and Public Works Committee": 0.4,
+    "Transportation and Infrastructure Committee": 0.2,
+    "Ways and Means Committee": 0.2,
+    "Judiciary Committee": 0.2
+   }
+  },
+  "Marketing and advertising": {
+   "total": 5,
+   "committees": {
+    "Health, Education, Labor, and Pensions Committee": 0.4,
+    "Energy and Commerce Committee": 0.2,
+    "Commerce, Science, and Transportation Committee": 0.2,
+    "Agriculture, Nutrition, and Forestry Committee": 0.2
+   }
+  },
+  "Competitiveness, trade promotion, trade deficits": {
+   "total": 7,
+   "committees": {
+    "Finance Committee": 0.42857142857142855,
+    "Small Business and Entrepreneurship Committee": 0.14285714285714285,
+    "Small Business Committee": 0.14285714285714285,
+    "Judiciary Committee": 0.14285714285714285,
+    "Banking, Housing, and Urban Affairs Committee": 0.14285714285714285
+   }
+  },
+  "Climate change and greenhouse gases": {
+   "total": 5,
+   "committees": {
+    "Natural Resources Committee": 0.2,
+    "Energy and Commerce Committee": 0.2,
+    "Armed Services Committee": 0.2,
+    "Energy and Natural Resources Committee": 0.2,
+    "Agriculture, Nutrition, and Forestry Committee": 0.2
+   }
+  },
+  "Employee leave": {
+   "total": 6,
+   "committees": {
+    "Finance Committee": 0.5,
+    "Health, Education, Labor, and Pensions Committee": 0.3333333333333333,
+    "Homeland Security and Governmental Affairs Committee": 0.16666666666666666
+   }
+  }
+ },
+ "titleWords": {
+  "border": {
+   "total": 18,
+   "committees": {
+    "Judiciary Committee": 0.2777777777777778,
+    "Homeland Security Committee": 0.1111111111111111,
+    "Foreign Affairs Committee": 0.1111111111111111,
+    "Appropriations Committee": 0.1111111111111111,
+    "Ways and Means Committee": 0.05555555555555555
+   }
+  },
+  "safety": {
+   "total": 6,
+   "committees": {
+    "Judiciary Committee": 0.3333333333333333,
+    "Energy and Commerce Committee": 0.3333333333333333,
+    "Homeland Security Committee": 0.16666666666666666,
+    "Agriculture Committee": 0.16666666666666666
+   }
+  },
+  "security": {
+   "total": 23,
+   "committees": {
+    "Homeland Security Committee": 0.17391304347826086,
+    "Ways and Means Committee": 0.17391304347826086,
+    "Judiciary Committee": 0.13043478260869565,
+    "Appropriations Committee": 0.13043478260869565,
+    "Energy and Commerce Committee": 0.08695652173913043
+   }
+  },
+  "medicare": {
+   "total": 8,
+   "committees": {
+    "Ways and Means Committee": 0.5,
+    "Energy and Commerce Committee": 0.375,
+    "Financial Services Committee": 0.125
+   }
+  },
+  "hearing": {
+   "total": 6,
+   "committees": {
+    "Ways and Means Committee": 0.5,
+    "Energy and Commerce Committee": 0.3333333333333333,
+    "Judiciary Committee": 0.16666666666666666
+   }
+  },
+  "close": {
+   "total": 5,
+   "committees": {
+    "Ways and Means Committee": 0.4,
+    "Energy and Commerce Committee": 0.2,
+    "Foreign Affairs Committee": 0.2,
+    "Appropriations Committee": 0.2
+   }
+  },
+  "protection": {
+   "total": 36,
+   "committees": {
+    "Judiciary Committee": 0.2777777777777778,
+    "Energy and Commerce Committee": 0.1111111111111111,
+    "Ways and Means Committee": 0.08333333333333333,
+    "Energy and Natural Resources Committee": 0.08333333333333333,
+    "Agriculture Committee": 0.05555555555555555
+   }
+  },
+  "school": {
+   "total": 5,
+   "committees": {
+    "Education and Workforce Committee": 0.6,
+    "Ways and Means Committee": 0.2,
+    "Energy and Commerce Committee": 0.2
+   }
+  },
+  "enforcement": {
+   "total": 6,
+   "committees": {
+    "Judiciary Committee": 0.5,
+    "Homeland Security Committee": 0.3333333333333333,
+    "Finance Committee": 0.16666666666666666
+   }
+  },
+  "require": {
+   "total": 6,
+   "committees": {
+    "Homeland Security and Governmental Affairs Committee": 0.3333333333333333,
+    "Armed Services Committee": 0.16666666666666666,
+    "Homeland Security Committee": 0.16666666666666666,
+    "Transportation and Infrastructure Committee": 0.16666666666666666,
+    "Financial Services Committee": 0.16666666666666666
+   }
+  },
+  "secretary": {
+   "total": 5,
+   "committees": {
+    "Armed Services Committee": 0.4,
+    "Homeland Security Committee": 0.2,
+    "Transportation and Infrastructure Committee": 0.2,
+    "Veterans' Affairs Committee": 0.2
+   }
+  },
+  "defense": {
+   "total": 8,
+   "committees": {
+    "Appropriations Committee": 0.375,
+    "Armed Services Committee": 0.25,
+    "Judiciary Committee": 0.125,
+    "Ways and Means Committee": 0.125,
+    "Intelligence (Permanent Select) Committee": 0.125
+   }
+  },
+  "military": {
+   "total": 9,
+   "committees": {
+    "Armed Services Committee": 0.2222222222222222,
+    "Judiciary Committee": 0.1111111111111111,
+    "Appropriations Committee": 0.1111111111111111,
+    "Ways and Means Committee": 0.1111111111111111,
+    "Education and Workforce Committee": 0.1111111111111111
+   }
+  },
+  "purposes": {
+   "total": 21,
+   "committees": {
+    "Energy and Commerce Committee": 0.19047619047619047,
+    "Oversight and Government Reform Committee": 0.14285714285714285,
+    "Foreign Affairs Committee": 0.09523809523809523,
+    "Homeland Security and Governmental Affairs Committee": 0.09523809523809523,
+    "Armed Services Committee": 0.047619047619047616
+   }
+  },
+  "protecting": {
+   "total": 33,
+   "committees": {
+    "Judiciary Committee": 0.21212121212121213,
+    "Energy and Commerce Committee": 0.12121212121212122,
+    "Health, Education, Labor, and Pensions Committee": 0.12121212121212122,
+    "Oversight and Government Reform Committee": 0.06060606060606061,
+    "Natural Resources Committee": 0.06060606060606061
+   }
+  },
+  "local": {
+   "total": 7,
+   "committees": {
+    "Transportation and Infrastructure Committee": 0.14285714285714285,
+    "Homeland Security Committee": 0.14285714285714285,
+    "Judiciary Committee": 0.14285714285714285,
+    "Natural Resources Committee": 0.14285714285714285,
+    "Education and Workforce Committee": 0.14285714285714285
+   }
+  },
+  "communities": {
+   "total": 6,
+   "committees": {
+    "Judiciary Committee": 0.5,
+    "Transportation and Infrastructure Committee": 0.16666666666666666,
+    "Finance Committee": 0.16666666666666666,
+    "Homeland Security and Governmental Affairs Committee": 0.16666666666666666
+   }
+  },
+  "amend": {
+   "total": 10,
+   "committees": {
+    "Ways and Means Committee": 0.3,
+    "Energy and Commerce Committee": 0.3,
+    "Judiciary Committee": 0.2,
+    "Financial Services Committee": 0.1,
+    "Finance Committee": 0.1
+   }
+  },
+  "social": {
+   "total": 8,
+   "committees": {
+    "Ways and Means Committee": 0.375,
+    "Energy and Commerce Committee": 0.25,
+    "Financial Services Committee": 0.125,
+    "Rules Committee": 0.125,
+    "Banking, Housing, and Urban Affairs Committee": 0.125
+   }
+  },
+  "telehealth": {
+   "total": 7,
+   "committees": {
+    "Ways and Means Committee": 0.42857142857142855,
+    "Energy and Commerce Committee": 0.42857142857142855,
+    "Veterans' Affairs Committee": 0.14285714285714285
+   }
+  },
+  "student": {
+   "total": 6,
+   "committees": {
+    "Judiciary Committee": 0.3333333333333333,
+    "Finance Committee": 0.3333333333333333,
+    "Education and Workforce Committee": 0.16666666666666666,
+    "Health, Education, Labor, and Pensions Committee": 0.16666666666666666
+   }
+  },
+  "fairness": {
+   "total": 10,
+   "committees": {
+    "Finance Committee": 0.3,
+    "Judiciary Committee": 0.2,
+    "Ways and Means Committee": 0.2,
+    "Financial Services Committee": 0.1,
+    "Agriculture Committee": 0.1
+   }
+  },
+  "prohibit": {
+   "total": 8,
+   "committees": {
+    "Energy and Commerce Committee": 0.375,
+    "Armed Services Committee": 0.125,
+    "Transportation and Infrastructure Committee": 0.125,
+    "Oversight and Government Reform Committee": 0.125,
+    "Foreign Affairs Committee": 0.125
+   }
+  },
+  "fair": {
+   "total": 8,
+   "committees": {
+    "Financial Services Committee": 0.25,
+    "Commerce, Science, and Transportation Committee": 0.25,
+    "Judiciary Committee": 0.125,
+    "Homeland Security and Governmental Affairs Committee": 0.125,
+    "Finance Committee": 0.125
+   }
+  },
+  "justice": {
+   "total": 6,
+   "committees": {
+    "Judiciary Committee": 0.8333333333333334,
+    "Agriculture, Nutrition, and Forestry Committee": 0.16666666666666666
+   }
+  },
+  "preventing": {
+   "total": 6,
+   "committees": {
+    "Judiciary Committee": 0.5,
+    "Oversight and Government Reform Committee": 0.16666666666666666,
+    "Finance Committee": 0.16666666666666666,
+    "Homeland Security and Governmental Affairs Committee": 0.16666666666666666
+   }
+  },
+  "foreign": {
+   "total": 9,
+   "committees": {
+    "Foreign Affairs Committee": 0.2222222222222222,
+    "Oversight and Government Reform Committee": 0.1111111111111111,
+    "Judiciary Committee": 0.1111111111111111,
+    "Transportation and Infrastructure Committee": 0.1111111111111111,
+    "Energy and Commerce Committee": 0.1111111111111111
+   }
+  },
+  "energy": {
+   "total": 12,
+   "committees": {
+    "Energy and Natural Resources Committee": 0.3333333333333333,
+    "Natural Resources Committee": 0.25,
+    "Energy and Commerce Committee": 0.16666666666666666,
+    "Agriculture Committee": 0.08333333333333333,
+    "Science, Space, and Technology Committee": 0.08333333333333333
+   }
+  },
+  "production": {
+   "total": 8,
+   "committees": {
+    "Energy and Commerce Committee": 0.25,
+    "Finance Committee": 0.25,
+    "Natural Resources Committee": 0.125,
+    "Energy and Natural Resources Committee": 0.125,
+    "Ways and Means Committee": 0.125
+   }
+  },
+  "water": {
+   "total": 5,
+   "committees": {
+    "Natural Resources Committee": 0.4,
+    "Transportation and Infrastructure Committee": 0.2,
+    "Energy and Natural Resources Committee": 0.2,
+    "Environment and Public Works Committee": 0.2
+   }
+  },
+  "action": {
+   "total": 5,
+   "committees": {
+    "Natural Resources Committee": 0.4,
+    "Agriculture Committee": 0.4,
+    "Banking, Housing, and Urban Affairs Committee": 0.2
+   }
+  },
+  "provide": {
+   "total": 5,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.2,
+    "Energy and Commerce Committee": 0.2,
+    "Judiciary Committee": 0.2,
+    "Finance Committee": 0.2,
+    "Health, Education, Labor, and Pensions Committee": 0.2
+   }
+  },
+  "authority": {
+   "total": 5,
+   "committees": {
+    "Transportation and Infrastructure Committee": 0.4,
+    "Oversight and Government Reform Committee": 0.2,
+    "Judiciary Committee": 0.2,
+    "Banking, Housing, and Urban Affairs Committee": 0.2
+   }
+  },
+  "post": {
+   "total": 7,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.42857142857142855,
+    "Financial Services Committee": 0.14285714285714285,
+    "Small Business Committee": 0.14285714285714285,
+    "Homeland Security and Governmental Affairs Committee": 0.14285714285714285,
+    "Transportation and Infrastructure Committee": 0.14285714285714285
+   }
+  },
+  "state": {
+   "total": 5,
+   "committees": {
+    "Judiciary Committee": 0.4,
+    "Oversight and Government Reform Committee": 0.2,
+    "Homeland Security Committee": 0.2,
+    "Energy and Natural Resources Committee": 0.2
+   }
+  },
+  "first": {
+   "total": 9,
+   "committees": {
+    "Judiciary Committee": 0.3333333333333333,
+    "Homeland Security Committee": 0.2222222222222222,
+    "Armed Services Committee": 0.1111111111111111,
+    "Foreign Affairs Committee": 0.1111111111111111,
+    "Science, Space, and Technology Committee": 0.1111111111111111
+   }
+  },
+  "out": {
+   "total": 6,
+   "committees": {
+    "Natural Resources Committee": 0.3333333333333333,
+    "Agriculture Committee": 0.3333333333333333,
+    "Oversight and Government Reform Committee": 0.16666666666666666,
+    "Homeland Security and Governmental Affairs Committee": 0.16666666666666666
+   }
+  },
+  "species": {
+   "total": 5,
+   "committees": {
+    "Natural Resources Committee": 0.6,
+    "Agriculture Committee": 0.2,
+    "Oversight and Government Reform Committee": 0.2
+   }
+  },
+  "commission": {
+   "total": 7,
+   "committees": {
+    "Judiciary Committee": 0.2857142857142857,
+    "Ways and Means Committee": 0.14285714285714285,
+    "Rules Committee": 0.14285714285714285,
+    "Banking, Housing, and Urban Affairs Committee": 0.14285714285714285,
+    "Transportation and Infrastructure Committee": 0.14285714285714285
+   }
+  },
+  "americans": {
+   "total": 5,
+   "committees": {
+    "Judiciary Committee": 0.6,
+    "Armed Services Committee": 0.4
+   }
+  },
+  "government": {
+   "total": 5,
+   "committees": {
+    "Homeland Security and Governmental Affairs Committee": 0.6,
+    "Oversight and Government Reform Committee": 0.2,
+    "Ways and Means Committee": 0.2
+   }
+  },
+  "funding": {
+   "total": 9,
+   "committees": {
+    "Foreign Affairs Committee": 0.2222222222222222,
+    "Finance Committee": 0.2222222222222222,
+    "Education and Workforce Committee": 0.1111111111111111,
+    "Ways and Means Committee": 0.1111111111111111,
+    "Judiciary Committee": 0.1111111111111111
+   }
+  },
+  "small": {
+   "total": 8,
+   "committees": {
+    "Ways and Means Committee": 0.375,
+    "Education and Workforce Committee": 0.125,
+    "Small Business and Entrepreneurship Committee": 0.125,
+    "Small Business Committee": 0.125,
+    "Finance Committee": 0.125
+   }
+  },
+  "business": {
+   "total": 9,
+   "committees": {
+    "Ways and Means Committee": 0.3333333333333333,
+    "Education and Workforce Committee": 0.1111111111111111,
+    "Small Business and Entrepreneurship Committee": 0.1111111111111111,
+    "Small Business Committee": 0.1111111111111111,
+    "Finance Committee": 0.1111111111111111
+   }
+  },
+  "tax": {
+   "total": 20,
+   "committees": {
+    "Ways and Means Committee": 0.4,
+    "Finance Committee": 0.35,
+    "Armed Services Committee": 0.1,
+    "Veterans' Affairs Committee": 0.05,
+    "Transportation and Infrastructure Committee": 0.05
+   }
+  },
+  "restoration": {
+   "total": 12,
+   "committees": {
+    "Judiciary Committee": 0.3333333333333333,
+    "Armed Services Committee": 0.16666666666666666,
+    "Intelligence (Permanent Select) Committee": 0.08333333333333333,
+    "Homeland Security and Governmental Affairs Committee": 0.08333333333333333,
+    "Veterans' Affairs Committee": 0.08333333333333333
+   }
+  },
+  "washington": {
+   "total": 6,
+   "committees": {
+    "Energy and Commerce Committee": 0.16666666666666666,
+    "Judiciary Committee": 0.16666666666666666,
+    "Armed Services Committee": 0.16666666666666666,
+    "Rules Committee": 0.16666666666666666,
+    "Oversight and Government Reform Committee": 0.16666666666666666
+   }
+  },
+  "admission": {
+   "total": 6,
+   "committees": {
+    "Energy and Commerce Committee": 0.16666666666666666,
+    "Judiciary Committee": 0.16666666666666666,
+    "Armed Services Committee": 0.16666666666666666,
+    "Rules Committee": 0.16666666666666666,
+    "Oversight and Government Reform Committee": 0.16666666666666666
+   }
+  },
+  "reserve": {
+   "total": 5,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.4,
+    "Energy and Natural Resources Committee": 0.4,
+    "Agriculture, Nutrition, and Forestry Committee": 0.2
+   }
+  },
+  "access": {
+   "total": 17,
+   "committees": {
+    "Judiciary Committee": 0.23529411764705882,
+    "Energy and Commerce Committee": 0.17647058823529413,
+    "Finance Committee": 0.17647058823529413,
+    "Banking, Housing, and Urban Affairs Committee": 0.11764705882352941,
+    "Natural Resources Committee": 0.058823529411764705
+   }
+  },
+  "use": {
+   "total": 6,
+   "committees": {
+    "Energy and Commerce Committee": 0.5,
+    "Judiciary Committee": 0.16666666666666666,
+    "Foreign Affairs Committee": 0.16666666666666666,
+    "Veterans' Affairs Committee": 0.16666666666666666
+   }
+  },
+  "fentanyl": {
+   "total": 6,
+   "committees": {
+    "Judiciary Committee": 0.6666666666666666,
+    "Energy and Commerce Committee": 0.3333333333333333
+   }
+  },
+  "land": {
+   "total": 10,
+   "committees": {
+    "Natural Resources Committee": 0.5,
+    "Foreign Affairs Committee": 0.2,
+    "Agriculture Committee": 0.2,
+    "Energy and Natural Resources Committee": 0.1
+   }
+  },
+  "veterans": {
+   "total": 19,
+   "committees": {
+    "Veterans' Affairs Committee": 0.47368421052631576,
+    "Armed Services Committee": 0.21052631578947367,
+    "Appropriations Committee": 0.15789473684210525,
+    "Judiciary Committee": 0.10526315789473684,
+    "Banking, Housing, and Urban Affairs Committee": 0.05263157894736842
+   }
+  },
+  "choice": {
+   "total": 7,
+   "committees": {
+    "Education and Workforce Committee": 0.2857142857142857,
+    "Veterans' Affairs Committee": 0.14285714285714285,
+    "Armed Services Committee": 0.14285714285714285,
+    "Energy and Commerce Committee": 0.14285714285714285,
+    "Finance Committee": 0.14285714285714285
+   }
+  },
+  "clean": {
+   "total": 7,
+   "committees": {
+    "Judiciary Committee": 0.2857142857142857,
+    "Committee on House Administration": 0.2857142857142857,
+    "Oversight and Government Reform Committee": 0.14285714285714285,
+    "Transportation and Infrastructure Committee": 0.14285714285714285,
+    "Environment and Public Works Committee": 0.14285714285714285
+   }
+  },
+  "service": {
+   "total": 11,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.36363636363636365,
+    "Homeland Security and Governmental Affairs Committee": 0.18181818181818182,
+    "Committee on House Administration": 0.09090909090909091,
+    "Energy and Commerce Committee": 0.09090909090909091,
+    "Veterans' Affairs Committee": 0.09090909090909091
+   }
+  },
+  "taxpayer": {
+   "total": 7,
+   "committees": {
+    "Foreign Affairs Committee": 0.42857142857142855,
+    "Ways and Means Committee": 0.14285714285714285,
+    "Judiciary Committee": 0.14285714285714285,
+    "Energy and Commerce Committee": 0.14285714285714285,
+    "Finance Committee": 0.14285714285714285
+   }
+  },
+  "abortion": {
+   "total": 20,
+   "committees": {
+    "Energy and Commerce Committee": 0.3,
+    "Judiciary Committee": 0.25,
+    "Ways and Means Committee": 0.15,
+    "Finance Committee": 0.15,
+    "Health, Education, Labor, and Pensions Committee": 0.15
+   }
+  },
+  "insurance": {
+   "total": 9,
+   "committees": {
+    "Ways and Means Committee": 0.3333333333333333,
+    "Energy and Commerce Committee": 0.2222222222222222,
+    "Finance Committee": 0.2222222222222222,
+    "Judiciary Committee": 0.1111111111111111,
+    "Financial Services Committee": 0.1111111111111111
+   }
+  },
+  "full": {
+   "total": 13,
+   "committees": {
+    "Ways and Means Committee": 0.15384615384615385,
+    "Judiciary Committee": 0.15384615384615385,
+    "Energy and Commerce Committee": 0.15384615384615385,
+    "Natural Resources Committee": 0.07692307692307693,
+    "Appropriations Committee": 0.07692307692307693
+   }
+  },
+  "disclosure": {
+   "total": 5,
+   "committees": {
+    "Ways and Means Committee": 0.2,
+    "Judiciary Committee": 0.2,
+    "Energy and Commerce Committee": 0.2,
+    "Homeland Security Committee": 0.2,
+    "Finance Committee": 0.2
+   }
+  },
+  "strategic": {
+   "total": 5,
+   "committees": {
+    "Energy and Natural Resources Committee": 0.6,
+    "Energy and Commerce Committee": 0.4
+   }
+  },
+  "facilities": {
+   "total": 5,
+   "committees": {
+    "Ways and Means Committee": 0.4,
+    "Energy and Commerce Committee": 0.4,
+    "Health, Education, Labor, and Pensions Committee": 0.2
+   }
+  },
+  "information": {
+   "total": 7,
+   "committees": {
+    "Energy and Commerce Committee": 0.42857142857142855,
+    "Ways and Means Committee": 0.14285714285714285,
+    "Veterans' Affairs Committee": 0.14285714285714285,
+    "Armed Services Committee": 0.14285714285714285,
+    "Financial Services Committee": 0.14285714285714285
+   }
+  },
+  "transparency": {
+   "total": 15,
+   "committees": {
+    "Energy and Commerce Committee": 0.26666666666666666,
+    "Judiciary Committee": 0.2,
+    "Oversight and Government Reform Committee": 0.13333333333333333,
+    "Ways and Means Committee": 0.06666666666666667,
+    "Agriculture Committee": 0.06666666666666667
+   }
+  },
+  "health": {
+   "total": 25,
+   "committees": {
+    "Energy and Commerce Committee": 0.4,
+    "Health, Education, Labor, and Pensions Committee": 0.16,
+    "Ways and Means Committee": 0.12,
+    "Judiciary Committee": 0.08,
+    "Finance Committee": 0.08
+   }
+  },
+  "gun": {
+   "total": 7,
+   "committees": {
+    "Judiciary Committee": 0.5714285714285714,
+    "Energy and Commerce Committee": 0.14285714285714285,
+    "Ways and Means Committee": 0.14285714285714285,
+    "Commerce, Science, and Transportation Committee": 0.14285714285714285
+   }
+  },
+  "prevention": {
+   "total": 11,
+   "committees": {
+    "Judiciary Committee": 0.36363636363636365,
+    "Energy and Commerce Committee": 0.2727272727272727,
+    "Budget Committee": 0.09090909090909091,
+    "Rules Committee": 0.09090909090909091,
+    "Ways and Means Committee": 0.09090909090909091
+   }
+  },
+  "safe": {
+   "total": 10,
+   "committees": {
+    "Judiciary Committee": 0.4,
+    "Ways and Means Committee": 0.2,
+    "Veterans' Affairs Committee": 0.2,
+    "Energy and Commerce Committee": 0.1,
+    "Armed Services Committee": 0.1
+   }
+  },
+  "relief": {
+   "total": 10,
+   "committees": {
+    "Judiciary Committee": 0.3,
+    "Energy and Commerce Committee": 0.1,
+    "Oversight and Government Reform Committee": 0.1,
+    "Homeland Security and Governmental Affairs Committee": 0.1,
+    "Rules Committee": 0.1
+   }
+  },
+  "women": {
+   "total": 5,
+   "committees": {
+    "Judiciary Committee": 0.4,
+    "Energy and Commerce Committee": 0.2,
+    "Foreign Affairs Committee": 0.2,
+    "Health, Education, Labor, and Pensions Committee": 0.2
+   }
+  },
+  "rights": {
+   "total": 9,
+   "committees": {
+    "Judiciary Committee": 0.2222222222222222,
+    "Financial Services Committee": 0.2222222222222222,
+    "Foreign Affairs Committee": 0.1111111111111111,
+    "Natural Resources Committee": 0.1111111111111111,
+    "Energy and Natural Resources Committee": 0.1111111111111111
+   }
+  },
+  "raise": {
+   "total": 5,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.4,
+    "Committee on House Administration": 0.4,
+    "Judiciary Committee": 0.2
+   }
+  },
+  "data": {
+   "total": 8,
+   "committees": {
+    "Foreign Affairs Committee": 0.25,
+    "Judiciary Committee": 0.125,
+    "Financial Services Committee": 0.125,
+    "Natural Resources Committee": 0.125,
+    "Oversight and Government Reform Committee": 0.125
+   }
+  },
+  "reporting": {
+   "total": 5,
+   "committees": {
+    "Judiciary Committee": 0.2,
+    "Homeland Security Committee": 0.2,
+    "Energy and Commerce Committee": 0.2,
+    "Financial Services Committee": 0.2,
+    "Finance Committee": 0.2
+   }
+  },
+  "against": {
+   "total": 6,
+   "committees": {
+    "Judiciary Committee": 0.6666666666666666,
+    "Armed Services Committee": 0.16666666666666666,
+    "Foreign Affairs Committee": 0.16666666666666666
+   }
+  },
+  "pay": {
+   "total": 10,
+   "committees": {
+    "Committee on House Administration": 0.3,
+    "Oversight and Government Reform Committee": 0.2,
+    "Armed Services Committee": 0.2,
+    "Homeland Security and Governmental Affairs Committee": 0.2,
+    "Veterans' Affairs Committee": 0.1
+   }
+  },
+  "rural": {
+   "total": 10,
+   "committees": {
+    "Energy and Commerce Committee": 0.2,
+    "Finance Committee": 0.2,
+    "Ways and Means Committee": 0.1,
+    "Banking, Housing, and Urban Affairs Committee": 0.1,
+    "Financial Services Committee": 0.1
+   }
+  },
+  "drug": {
+   "total": 7,
+   "committees": {
+    "Ways and Means Committee": 0.2857142857142857,
+    "Energy and Commerce Committee": 0.2857142857142857,
+    "Agriculture Committee": 0.14285714285714285,
+    "Financial Services Committee": 0.14285714285714285,
+    "Health, Education, Labor, and Pensions Committee": 0.14285714285714285
+   }
+  },
+  "accountability": {
+   "total": 26,
+   "committees": {
+    "Judiciary Committee": 0.2692307692307692,
+    "Energy and Commerce Committee": 0.15384615384615385,
+    "Homeland Security and Governmental Affairs Committee": 0.15384615384615385,
+    "Ways and Means Committee": 0.038461538461538464,
+    "Agriculture Committee": 0.038461538461538464
+   }
+  },
+  "education": {
+   "total": 14,
+   "committees": {
+    "Education and Workforce Committee": 0.2857142857142857,
+    "Finance Committee": 0.14285714285714285,
+    "Financial Services Committee": 0.07142857142857142,
+    "Energy and Commerce Committee": 0.07142857142857142,
+    "Veterans' Affairs Committee": 0.07142857142857142
+   }
+  },
+  "testing": {
+   "total": 6,
+   "committees": {
+    "Ways and Means Committee": 0.3333333333333333,
+    "Agriculture Committee": 0.16666666666666666,
+    "Financial Services Committee": 0.16666666666666666,
+    "Energy and Commerce Committee": 0.16666666666666666,
+    "Veterans' Affairs Committee": 0.16666666666666666
+   }
+  },
+  "opportunity": {
+   "total": 6,
+   "committees": {
+    "Education and Workforce Committee": 0.5,
+    "Energy and Commerce Committee": 0.16666666666666666,
+    "Ways and Means Committee": 0.16666666666666666,
+    "Finance Committee": 0.16666666666666666
+   }
+  },
+  "funds": {
+   "total": 7,
+   "committees": {
+    "Energy and Commerce Committee": 0.42857142857142855,
+    "Oversight and Government Reform Committee": 0.14285714285714285,
+    "Foreign Affairs Committee": 0.14285714285714285,
+    "Homeland Security and Governmental Affairs Committee": 0.14285714285714285,
+    "Judiciary Committee": 0.14285714285714285
+   }
+  },
+  "covid": {
+   "total": 12,
+   "committees": {
+    "Energy and Commerce Committee": 0.3333333333333333,
+    "Oversight and Government Reform Committee": 0.25,
+    "Judiciary Committee": 0.08333333333333333,
+    "Transportation and Infrastructure Committee": 0.08333333333333333,
+    "Foreign Affairs Committee": 0.08333333333333333
+   }
+  },
+  "vaccine": {
+   "total": 7,
+   "committees": {
+    "Energy and Commerce Committee": 0.2857142857142857,
+    "Oversight and Government Reform Committee": 0.2857142857142857,
+    "Committee on House Administration": 0.14285714285714285,
+    "Health, Education, Labor, and Pensions Committee": 0.14285714285714285,
+    "Judiciary Committee": 0.14285714285714285
+   }
+  },
+  "mask": {
+   "total": 5,
+   "committees": {
+    "Energy and Commerce Committee": 0.4,
+    "Homeland Security Committee": 0.2,
+    "Transportation and Infrastructure Committee": 0.2,
+    "Health, Education, Labor, and Pensions Committee": 0.2
+   }
+  },
+  "freedom": {
+   "total": 13,
+   "committees": {
+    "Energy and Commerce Committee": 0.23076923076923078,
+    "Ways and Means Committee": 0.15384615384615385,
+    "Natural Resources Committee": 0.07692307692307693,
+    "Education and Workforce Committee": 0.07692307692307693,
+    "Oversight and Government Reform Committee": 0.07692307692307693
+   }
+  },
+  "designation": {
+   "total": 6,
+   "committees": {
+    "Foreign Affairs Committee": 0.16666666666666666,
+    "Natural Resources Committee": 0.16666666666666666,
+    "Rules Committee": 0.16666666666666666,
+    "Financial Services Committee": 0.16666666666666666,
+    "Judiciary Committee": 0.16666666666666666
+   }
+  },
+  "non": {
+   "total": 13,
+   "committees": {
+    "Appropriations Committee": 0.6923076923076923,
+    "Foreign Affairs Committee": 0.15384615384615385,
+    "Natural Resources Committee": 0.07692307692307693,
+    "Finance Committee": 0.07692307692307693
+   }
+  },
+  "stop": {
+   "total": 13,
+   "committees": {
+    "Judiciary Committee": 0.3076923076923077,
+    "Energy and Commerce Committee": 0.15384615384615385,
+    "Health, Education, Labor, and Pensions Committee": 0.15384615384615385,
+    "Foreign Affairs Committee": 0.07692307692307693,
+    "Ways and Means Committee": 0.07692307692307693
+   }
+  },
+  "research": {
+   "total": 5,
+   "committees": {
+    "Energy and Commerce Committee": 0.4,
+    "Environment and Public Works Committee": 0.4,
+    "Science, Space, and Technology Committee": 0.2
+   }
+  },
+  "innovation": {
+   "total": 6,
+   "committees": {
+    "Science, Space, and Technology Committee": 0.16666666666666666,
+    "Energy and Commerce Committee": 0.16666666666666666,
+    "Armed Services Committee": 0.16666666666666666,
+    "Ways and Means Committee": 0.16666666666666666,
+    "Small Business and Entrepreneurship Committee": 0.16666666666666666
+   }
+  },
+  "through": {
+   "total": 6,
+   "committees": {
+    "Transportation and Infrastructure Committee": 0.16666666666666666,
+    "Ways and Means Committee": 0.16666666666666666,
+    "Oversight and Government Reform Committee": 0.16666666666666666,
+    "Health, Education, Labor, and Pensions Committee": 0.16666666666666666,
+    "Banking, Housing, and Urban Affairs Committee": 0.16666666666666666
+   }
+  },
+  "air": {
+   "total": 8,
+   "committees": {
+    "Transportation and Infrastructure Committee": 0.625,
+    "Energy and Commerce Committee": 0.125,
+    "Education and Workforce Committee": 0.125,
+    "Energy and Natural Resources Committee": 0.125
+   }
+  },
+  "treatment": {
+   "total": 5,
+   "committees": {
+    "Veterans' Affairs Committee": 0.2,
+    "Judiciary Committee": 0.2,
+    "Foreign Relations Committee": 0.2,
+    "Foreign Affairs Committee": 0.2,
+    "Finance Committee": 0.2
+   }
+  },
+  "code": {
+   "total": 6,
+   "committees": {
+    "Judiciary Committee": 0.3333333333333333,
+    "Ways and Means Committee": 0.16666666666666666,
+    "Oversight and Government Reform Committee": 0.16666666666666666,
+    "Finance Committee": 0.16666666666666666,
+    "Homeland Security and Governmental Affairs Committee": 0.16666666666666666
+   }
+  },
+  "responsible": {
+   "total": 8,
+   "committees": {
+    "Ways and Means Committee": 0.125,
+    "Natural Resources Committee": 0.125,
+    "Appropriations Committee": 0.125,
+    "Rules Committee": 0.125,
+    "Committee on House Administration": 0.125
+   }
+  },
+  "path": {
+   "total": 8,
+   "committees": {
+    "Ways and Means Committee": 0.125,
+    "Natural Resources Committee": 0.125,
+    "Appropriations Committee": 0.125,
+    "Rules Committee": 0.125,
+    "Committee on House Administration": 0.125
+   }
+  },
+  "obamacare": {
+   "total": 12,
+   "committees": {
+    "Ways and Means Committee": 0.16666666666666666,
+    "Committee on House Administration": 0.16666666666666666,
+    "Energy and Commerce Committee": 0.16666666666666666,
+    "Natural Resources Committee": 0.08333333333333333,
+    "Appropriations Committee": 0.08333333333333333
+   }
+  },
+  "repeal": {
+   "total": 15,
+   "committees": {
+    "Energy and Commerce Committee": 0.2,
+    "Ways and Means Committee": 0.13333333333333333,
+    "Committee on House Administration": 0.13333333333333333,
+    "Natural Resources Committee": 0.06666666666666667,
+    "Appropriations Committee": 0.06666666666666667
+   }
+  },
+  "mandates": {
+   "total": 13,
+   "committees": {
+    "Energy and Commerce Committee": 0.23076923076923078,
+    "Oversight and Government Reform Committee": 0.23076923076923078,
+    "Ways and Means Committee": 0.15384615384615385,
+    "Committee on House Administration": 0.15384615384615385,
+    "Education and Workforce Committee": 0.07692307692307693
+   }
+  },
+  "congressional": {
+   "total": 8,
+   "committees": {
+    "Banking, Housing, and Urban Affairs Committee": 0.375,
+    "Ways and Means Committee": 0.125,
+    "Energy and Commerce Committee": 0.125,
+    "Oversight and Government Reform Committee": 0.125,
+    "Committee on House Administration": 0.125
+   }
+  },
+  "equity": {
+   "total": 6,
+   "committees": {
+    "Ways and Means Committee": 0.5,
+    "Energy and Commerce Committee": 0.16666666666666666,
+    "Oversight and Government Reform Committee": 0.16666666666666666,
+    "Committee on House Administration": 0.16666666666666666
+   }
+  },
+  "elections": {
+   "total": 6,
+   "committees": {
+    "Committee on House Administration": 0.6666666666666666,
+    "Judiciary Committee": 0.16666666666666666,
+    "Science, Space, and Technology Committee": 0.16666666666666666
+   }
+  },
+  "improvement": {
+   "total": 10,
+   "committees": {
+    "Agriculture, Nutrition, and Forestry Committee": 0.3,
+    "Energy and Commerce Committee": 0.1,
+    "Judiciary Committee": 0.1,
+    "Foreign Affairs Committee": 0.1,
+    "Budget Committee": 0.1
+   }
+  },
+  "designate": {
+   "total": 8,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.375,
+    "Veterans' Affairs Committee": 0.125,
+    "Ways and Means Committee": 0.125,
+    "Environment and Public Works Committee": 0.125,
+    "Energy and Natural Resources Committee": 0.125
+   }
+  },
+  "domestic": {
+   "total": 6,
+   "committees": {
+    "Finance Committee": 0.3333333333333333,
+    "Energy and Commerce Committee": 0.16666666666666666,
+    "Oversight and Government Reform Committee": 0.16666666666666666,
+    "Health, Education, Labor, and Pensions Committee": 0.16666666666666666,
+    "Judiciary Committee": 0.16666666666666666
+   }
+  },
+  "home": {
+   "total": 7,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.2857142857142857,
+    "Judiciary Committee": 0.14285714285714285,
+    "Ways and Means Committee": 0.14285714285714285,
+    "Rules Committee": 0.14285714285714285,
+    "Armed Services Committee": 0.14285714285714285
+   }
+  },
+  "promote": {
+   "total": 6,
+   "committees": {
+    "Energy and Commerce Committee": 0.3333333333333333,
+    "Judiciary Committee": 0.3333333333333333,
+    "Agriculture Committee": 0.16666666666666666,
+    "Natural Resources Committee": 0.16666666666666666
+   }
+  },
+  "future": {
+   "total": 6,
+   "committees": {
+    "Energy and Commerce Committee": 0.3333333333333333,
+    "Judiciary Committee": 0.3333333333333333,
+    "Agriculture Committee": 0.16666666666666666,
+    "Natural Resources Committee": 0.16666666666666666
+   }
+  },
+  "executive": {
+   "total": 6,
+   "committees": {
+    "Energy and Commerce Committee": 0.3333333333333333,
+    "Judiciary Committee": 0.3333333333333333,
+    "Agriculture Committee": 0.16666666666666666,
+    "Natural Resources Committee": 0.16666666666666666
+   }
+  },
+  "orders": {
+   "total": 6,
+   "committees": {
+    "Energy and Commerce Committee": 0.3333333333333333,
+    "Judiciary Committee": 0.3333333333333333,
+    "Agriculture Committee": 0.16666666666666666,
+    "Natural Resources Committee": 0.16666666666666666
+   }
+  },
+  "advanced": {
+   "total": 5,
+   "committees": {
+    "Ways and Means Committee": 0.2,
+    "Energy and Commerce Committee": 0.2,
+    "Veterans' Affairs Committee": 0.2,
+    "Transportation and Infrastructure Committee": 0.2,
+    "Science, Space, and Technology Committee": 0.2
+   }
+  },
+  "budget": {
+   "total": 12,
+   "committees": {
+    "Homeland Security and Governmental Affairs Committee": 0.25,
+    "Committee on House Administration": 0.16666666666666666,
+    "Oversight and Government Reform Committee": 0.16666666666666666,
+    "Budget Committee": 0.16666666666666666,
+    "Small Business Committee": 0.08333333333333333
+   }
+  },
+  "affairs": {
+   "total": 7,
+   "committees": {
+    "Veterans' Affairs Committee": 0.42857142857142855,
+    "Appropriations Committee": 0.42857142857142855,
+    "Armed Services Committee": 0.14285714285714285
+   }
+  },
+  "world": {
+   "total": 5,
+   "committees": {
+    "Foreign Affairs Committee": 0.4,
+    "Energy and Commerce Committee": 0.2,
+    "Education and Workforce Committee": 0.2,
+    "Judiciary Committee": 0.2
+   }
+  },
+  "restoring": {
+   "total": 9,
+   "committees": {
+    "Armed Services Committee": 0.2222222222222222,
+    "Science, Space, and Technology Committee": 0.1111111111111111,
+    "Committee on House Administration": 0.1111111111111111,
+    "Energy and Commerce Committee": 0.1111111111111111,
+    "Oversight and Government Reform Committee": 0.1111111111111111
+   }
+  },
+  "credit": {
+   "total": 6,
+   "committees": {
+    "Finance Committee": 0.5,
+    "Financial Services Committee": 0.3333333333333333,
+    "Ways and Means Committee": 0.16666666666666666
+   }
+  },
+  "program": {
+   "total": 7,
+   "committees": {
+    "Agriculture, Nutrition, and Forestry Committee": 0.42857142857142855,
+    "Financial Services Committee": 0.2857142857142857,
+    "Homeland Security Committee": 0.14285714285714285,
+    "Judiciary Committee": 0.14285714285714285
+   }
+  },
+  "district": {
+   "total": 12,
+   "committees": {
+    "Judiciary Committee": 0.5,
+    "Oversight and Government Reform Committee": 0.16666666666666666,
+    "Homeland Security and Governmental Affairs Committee": 0.16666666666666666,
+    "Rules Committee": 0.08333333333333333,
+    "Armed Services Committee": 0.08333333333333333
+   }
+  },
+  "court": {
+   "total": 5,
+   "committees": {
+    "Judiciary Committee": 0.8,
+    "Foreign Relations Committee": 0.2
+   }
+  },
+  "columbia": {
+   "total": 7,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.2857142857142857,
+    "Homeland Security and Governmental Affairs Committee": 0.2857142857142857,
+    "Judiciary Committee": 0.14285714285714285,
+    "Rules Committee": 0.14285714285714285,
+    "Armed Services Committee": 0.14285714285714285
+   }
+  },
+  "integrity": {
+   "total": 5,
+   "committees": {
+    "Judiciary Committee": 0.4,
+    "Education and Workforce Committee": 0.2,
+    "Energy and Commerce Committee": 0.2,
+    "Finance Committee": 0.2
+   }
+  },
+  "one": {
+   "total": 7,
+   "committees": {
+    "Judiciary Committee": 0.2857142857142857,
+    "Energy and Commerce Committee": 0.2857142857142857,
+    "Education and Workforce Committee": 0.2857142857142857,
+    "Rules and Administration Committee": 0.14285714285714285
+   }
+  },
+  "care": {
+   "total": 21,
+   "committees": {
+    "Energy and Commerce Committee": 0.19047619047619047,
+    "Ways and Means Committee": 0.14285714285714285,
+    "Health, Education, Labor, and Pensions Committee": 0.14285714285714285,
+    "Finance Committee": 0.14285714285714285,
+    "Oversight and Government Reform Committee": 0.047619047619047616
+   }
+  },
+  "families": {
+   "total": 9,
+   "committees": {
+    "Ways and Means Committee": 0.3333333333333333,
+    "Finance Committee": 0.2222222222222222,
+    "Judiciary Committee": 0.1111111111111111,
+    "Appropriations Committee": 0.1111111111111111,
+    "Education and Workforce Committee": 0.1111111111111111
+   }
+  },
+  "reform": {
+   "total": 7,
+   "committees": {
+    "Judiciary Committee": 0.42857142857142855,
+    "Agriculture Committee": 0.14285714285714285,
+    "Science, Space, and Technology Committee": 0.14285714285714285,
+    "Oversight and Government Reform Committee": 0.14285714285714285,
+    "Agriculture, Nutrition, and Forestry Committee": 0.14285714285714285
+   }
+  },
+  "enhancement": {
+   "total": 6,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.16666666666666666,
+    "Committee on House Administration": 0.16666666666666666,
+    "Budget Committee": 0.16666666666666666,
+    "Energy and Natural Resources Committee": 0.16666666666666666,
+    "Natural Resources Committee": 0.16666666666666666
+   }
+  },
+  "fund": {
+   "total": 8,
+   "committees": {
+    "Foreign Affairs Committee": 0.25,
+    "Ways and Means Committee": 0.125,
+    "Homeland Security Committee": 0.125,
+    "Appropriations Committee": 0.125,
+    "Education and Workforce Committee": 0.125
+   }
+  },
+  "complete": {
+   "total": 8,
+   "committees": {
+    "Ways and Means Committee": 0.125,
+    "Homeland Security Committee": 0.125,
+    "Appropriations Committee": 0.125,
+    "Education and Workforce Committee": 0.125,
+    "Financial Services Committee": 0.125
+   }
+  },
+  "wall": {
+   "total": 9,
+   "committees": {
+    "Homeland Security Committee": 0.2222222222222222,
+    "Ways and Means Committee": 0.1111111111111111,
+    "Appropriations Committee": 0.1111111111111111,
+    "Education and Workforce Committee": 0.1111111111111111,
+    "Financial Services Committee": 0.1111111111111111
+   }
+  },
+  "emergency": {
+   "total": 10,
+   "committees": {
+    "Ways and Means Committee": 0.2,
+    "Energy and Natural Resources Committee": 0.2,
+    "Transportation and Infrastructure Committee": 0.1,
+    "Rules Committee": 0.1,
+    "Foreign Affairs Committee": 0.1
+   }
+  },
+  "powers": {
+   "total": 8,
+   "committees": {
+    "Rules Committee": 0.25,
+    "Foreign Affairs Committee": 0.25,
+    "Judiciary Committee": 0.25,
+    "Transportation and Infrastructure Committee": 0.125,
+    "Homeland Security and Governmental Affairs Committee": 0.125
+   }
+  },
+  "puerto": {
+   "total": 9,
+   "committees": {
+    "Ways and Means Committee": 0.4444444444444444,
+    "Natural Resources Committee": 0.1111111111111111,
+    "Oversight and Government Reform Committee": 0.1111111111111111,
+    "Foreign Affairs Committee": 0.1111111111111111,
+    "Agriculture Committee": 0.1111111111111111
+   }
+  },
+  "rico": {
+   "total": 9,
+   "committees": {
+    "Ways and Means Committee": 0.4444444444444444,
+    "Natural Resources Committee": 0.1111111111111111,
+    "Oversight and Government Reform Committee": 0.1111111111111111,
+    "Foreign Affairs Committee": 0.1111111111111111,
+    "Agriculture Committee": 0.1111111111111111
+   }
+  },
+  "equality": {
+   "total": 5,
+   "committees": {
+    "Natural Resources Committee": 0.2,
+    "Oversight and Government Reform Committee": 0.2,
+    "Foreign Affairs Committee": 0.2,
+    "Ways and Means Committee": 0.2,
+    "Armed Services Committee": 0.2
+   }
+  },
+  "disaster": {
+   "total": 9,
+   "committees": {
+    "Financial Services Committee": 0.2222222222222222,
+    "Agriculture Committee": 0.1111111111111111,
+    "Small Business Committee": 0.1111111111111111,
+    "Homeland Security and Governmental Affairs Committee": 0.1111111111111111,
+    "Transportation and Infrastructure Committee": 0.1111111111111111
+   }
+  },
+  "assistance": {
+   "total": 6,
+   "committees": {
+    "Financial Services Committee": 0.16666666666666666,
+    "Small Business Committee": 0.16666666666666666,
+    "Homeland Security and Governmental Affairs Committee": 0.16666666666666666,
+    "Transportation and Infrastructure Committee": 0.16666666666666666,
+    "Agriculture Committee": 0.16666666666666666
+   }
+  },
+  "online": {
+   "total": 5,
+   "committees": {
+    "Financial Services Committee": 0.2,
+    "Small Business Committee": 0.2,
+    "Homeland Security and Governmental Affairs Committee": 0.2,
+    "Transportation and Infrastructure Committee": 0.2,
+    "Commerce, Science, and Transportation Committee": 0.2
+   }
+  },
+  "article": {
+   "total": 5,
+   "committees": {
+    "Small Business Committee": 0.2,
+    "Oversight and Government Reform Committee": 0.2,
+    "Judiciary Committee": 0.2,
+    "Rules Committee": 0.2,
+    "Budget Committee": 0.2
+   }
+  },
+  "regulatory": {
+   "total": 6,
+   "committees": {
+    "Judiciary Committee": 0.3333333333333333,
+    "Small Business Committee": 0.16666666666666666,
+    "Oversight and Government Reform Committee": 0.16666666666666666,
+    "Rules Committee": 0.16666666666666666,
+    "Budget Committee": 0.16666666666666666
+   }
+  },
+  "cost": {
+   "total": 7,
+   "committees": {
+    "Budget Committee": 0.2857142857142857,
+    "Oversight and Government Reform Committee": 0.14285714285714285,
+    "Energy and Natural Resources Committee": 0.14285714285714285,
+    "Science, Space, and Technology Committee": 0.14285714285714285,
+    "Rules Committee": 0.14285714285714285
+   }
+  },
+  "western": {
+   "total": 6,
+   "committees": {
+    "Natural Resources Committee": 0.3333333333333333,
+    "Agriculture Committee": 0.16666666666666666,
+    "Transportation and Infrastructure Committee": 0.16666666666666666,
+    "Science, Space, and Technology Committee": 0.16666666666666666,
+    "Armed Services Committee": 0.16666666666666666
+   }
+  },
+  "amendment": {
+   "total": 7,
+   "committees": {
+    "Judiciary Committee": 0.42857142857142855,
+    "Intelligence (Permanent Select) Committee": 0.14285714285714285,
+    "Commerce, Science, and Transportation Committee": 0.14285714285714285,
+    "Science, Space, and Technology Committee": 0.14285714285714285,
+    "Natural Resources Committee": 0.14285714285714285
+   }
+  },
+  "rule": {
+   "total": 5,
+   "committees": {
+    "Oversight and Government Reform Committee": 0.4,
+    "Rules Committee": 0.2,
+    "Armed Services Committee": 0.2,
+    "Homeland Security and Governmental Affairs Committee": 0.2
+   }
+  },
+  "separation": {
+   "total": 5,
+   "committees": {
+    "Judiciary Committee": 0.4,
+    "Homeland Security and Governmental Affairs Committee": 0.2,
+    "Rules Committee": 0.2,
+    "Foreign Affairs Committee": 0.2
+   }
+  },
+  "support": {
+   "total": 7,
+   "committees": {
+    "Natural Resources Committee": 0.2857142857142857,
+    "Foreign Affairs Committee": 0.14285714285714285,
+    "Agriculture Committee": 0.14285714285714285,
+    "Transportation and Infrastructure Committee": 0.14285714285714285,
+    "Science, Space, and Technology Committee": 0.14285714285714285
+   }
+  },
+  "protect": {
+   "total": 13,
+   "committees": {
+    "Judiciary Committee": 0.38461538461538464,
+    "Health, Education, Labor, and Pensions Committee": 0.15384615384615385,
+    "Natural Resources Committee": 0.07692307692307693,
+    "Education and Workforce Committee": 0.07692307692307693,
+    "Ways and Means Committee": 0.07692307692307693
+   }
+  },
+  "normalcy": {
+   "total": 5,
+   "committees": {
+    "Energy and Commerce Committee": 0.2,
+    "Oversight and Government Reform Committee": 0.2,
+    "Armed Services Committee": 0.2,
+    "Judiciary Committee": 0.2,
+    "Education and Workforce Committee": 0.2
+   }
+  },
+  "workforce": {
+   "total": 9,
+   "committees": {
+    "Ways and Means Committee": 0.3333333333333333,
+    "Health, Education, Labor, and Pensions Committee": 0.2222222222222222,
+    "Education and Workforce Committee": 0.1111111111111111,
+    "Judiciary Committee": 0.1111111111111111,
+    "Energy and Commerce Committee": 0.1111111111111111
+   }
+  },
+  "organization": {
+   "total": 5,
+   "committees": {
+    "Judiciary Committee": 0.4,
+    "Foreign Affairs Committee": 0.2,
+    "Rules Committee": 0.2,
+    "Financial Services Committee": 0.2
+   }
+  },
+  "criminal": {
+   "total": 5,
+   "committees": {
+    "Judiciary Committee": 0.6,
+    "Rules Committee": 0.2,
+    "Financial Services Committee": 0.2
+   }
+  },
+  "safer": {
+   "total": 5,
+   "committees": {
+    "Judiciary Committee": 0.2,
+    "Energy and Commerce Committee": 0.2,
+    "Energy and Natural Resources Committee": 0.2,
+    "Commerce, Science, and Transportation Committee": 0.2,
+    "Health, Education, Labor, and Pensions Committee": 0.2
+   }
+  },
+  "people": {
+   "total": 9,
+   "committees": {
+    "Ways and Means Committee": 0.1111111111111111,
+    "Agriculture Committee": 0.1111111111111111,
+    "Natural Resources Committee": 0.1111111111111111,
+    "Transportation and Infrastructure Committee": 0.1111111111111111,
+    "Energy and Commerce Committee": 0.1111111111111111
+   }
+  },
+  "corruption": {
+   "total": 6,
+   "committees": {
+    "Judiciary Committee": 0.3333333333333333,
+    "Foreign Affairs Committee": 0.3333333333333333,
+    "Foreign Relations Committee": 0.16666666666666666,
+    "Banking, Housing, and Urban Affairs Committee": 0.16666666666666666
+   }
+  },
+  "savings": {
+   "total": 7,
+   "committees": {
+    "Ways and Means Committee": 0.42857142857142855,
+    "Appropriations Committee": 0.14285714285714285,
+    "Education and Workforce Committee": 0.14285714285714285,
+    "Finance Committee": 0.14285714285714285,
+    "Budget Committee": 0.14285714285714285
+   }
+  },
+  "accounts": {
+   "total": 6,
+   "committees": {
+    "Ways and Means Committee": 0.5,
+    "Appropriations Committee": 0.16666666666666666,
+    "Education and Workforce Committee": 0.16666666666666666,
+    "Finance Committee": 0.16666666666666666
+   }
+  },
+  "spending": {
+   "total": 5,
+   "committees": {
+    "Appropriations Committee": 0.6,
+    "Budget Committee": 0.2,
+    "Rules Committee": 0.2
+   }
+  },
+  "ensuring": {
+   "total": 6,
+   "committees": {
+    "Finance Committee": 0.3333333333333333,
+    "Homeland Security and Governmental Affairs Committee": 0.16666666666666666,
+    "Judiciary Committee": 0.16666666666666666,
+    "Committee on House Administration": 0.16666666666666666,
+    "Health, Education, Labor, and Pensions Committee": 0.16666666666666666
+   }
+  },
+  "life": {
+   "total": 7,
+   "committees": {
+    "Energy and Commerce Committee": 0.42857142857142855,
+    "Judiciary Committee": 0.14285714285714285,
+    "Education and Workforce Committee": 0.14285714285714285,
+    "Health, Education, Labor, and Pensions Committee": 0.14285714285714285,
+    "Finance Committee": 0.14285714285714285
+   }
+  },
+  "modernization": {
+   "total": 5,
+   "committees": {
+    "Environment and Public Works Committee": 0.4,
+    "Financial Services Committee": 0.2,
+    "Judiciary Committee": 0.2,
+    "Homeland Security and Governmental Affairs Committee": 0.2
+   }
+  },
+  "investing": {
+   "total": 5,
+   "committees": {
+    "Small Business Committee": 0.4,
+    "Banking, Housing, and Urban Affairs Committee": 0.2,
+    "Appropriations Committee": 0.2,
+    "Energy and Natural Resources Committee": 0.2
+   }
+  },
+  "children": {
+   "total": 5,
+   "committees": {
+    "Agriculture, Nutrition, and Forestry Committee": 0.4,
+    "Finance Committee": 0.4,
+    "Judiciary Committee": 0.2
+   }
+  },
+  "manufacturing": {
+   "total": 7,
+   "committees": {
+    "Health, Education, Labor, and Pensions Committee": 0.2857142857142857,
+    "Energy and Natural Resources Committee": 0.2857142857142857,
+    "Appropriations Committee": 0.14285714285714285,
+    "Small Business Committee": 0.14285714285714285,
+    "Small Business and Entrepreneurship Committee": 0.14285714285714285
+   }
+  },
+  "wildfire": {
+   "total": 8,
+   "committees": {
+    "Transportation and Infrastructure Committee": 0.25,
+    "Natural Resources Committee": 0.125,
+    "Agriculture Committee": 0.125,
+    "Science, Space, and Technology Committee": 0.125,
+    "Armed Services Committee": 0.125
+   }
+  },
+  "china": {
+   "total": 6,
+   "committees": {
+    "Energy and Natural Resources Committee": 0.3333333333333333,
+    "Finance Committee": 0.3333333333333333,
+    "Banking, Housing, and Urban Affairs Committee": 0.3333333333333333
+   }
+  },
+  "jobs": {
+   "total": 5,
+   "committees": {
+    "Health, Education, Labor, and Pensions Committee": 0.4,
+    "Finance Committee": 0.4,
+    "Banking, Housing, and Urban Affairs Committee": 0.2
+   }
+  }
+ },
+ "committees": {
+  "Judiciary Committee": {
+   "name": "Judiciary Committee",
+   "chamber": "House",
+   "systemCode": "hsju00"
+  },
+  "Homeland Security Committee": {
+   "name": "Homeland Security Committee",
+   "chamber": "House",
+   "systemCode": "hshm00"
+  },
+  "Ways and Means Committee": {
+   "name": "Ways and Means Committee",
+   "chamber": "House",
+   "systemCode": "hswm00"
+  },
+  "Energy and Commerce Committee": {
+   "name": "Energy and Commerce Committee",
+   "chamber": "House",
+   "systemCode": "hsif00"
+  },
+  "Oversight and Government Reform Committee": {
+   "name": "Oversight and Government Reform Committee",
+   "chamber": "House",
+   "systemCode": "hsgo00"
+  },
+  "Homeland Security and Governmental Affairs Committee": {
+   "name": "Homeland Security and Governmental Affairs Committee",
+   "chamber": "Senate",
+   "systemCode": "ssga00"
+  },
+  "Agriculture Committee": {
+   "name": "Agriculture Committee",
+   "chamber": "House",
+   "systemCode": "hsag00"
+  },
+  "Armed Services Committee": {
+   "name": "Armed Services Committee",
+   "chamber": "House",
+   "systemCode": "hsas00"
+  },
+  "Transportation and Infrastructure Committee": {
+   "name": "Transportation and Infrastructure Committee",
+   "chamber": "House",
+   "systemCode": "hspw00"
+  },
+  "Education and Workforce Committee": {
+   "name": "Education and Workforce Committee",
+   "chamber": "House",
+   "systemCode": "hsed00"
+  },
+  "Foreign Affairs Committee": {
+   "name": "Foreign Affairs Committee",
+   "chamber": "House",
+   "systemCode": "hsfa00"
+  },
+  "Natural Resources Committee": {
+   "name": "Natural Resources Committee",
+   "chamber": "House",
+   "systemCode": "hsii00"
+  },
+  "Budget Committee": {
+   "name": "Budget Committee",
+   "chamber": "House",
+   "systemCode": "hsbu00"
+  },
+  "Appropriations Committee": {
+   "name": "Appropriations Committee",
+   "chamber": "House",
+   "systemCode": "hsap00"
+  },
+  "Rules Committee": {
+   "name": "Rules Committee",
+   "chamber": "House",
+   "systemCode": "hsru00"
+  },
+  "Veterans' Affairs Committee": {
+   "name": "Veterans' Affairs Committee",
+   "chamber": "House",
+   "systemCode": "hsvr00"
+  },
+  "Committee on House Administration": {
+   "name": "Committee on House Administration",
+   "chamber": "House",
+   "systemCode": "hsha00"
+  },
+  "Energy and Natural Resources Committee": {
+   "name": "Energy and Natural Resources Committee",
+   "chamber": "Senate",
+   "systemCode": "sseg00"
+  },
+  "Financial Services Committee": {
+   "name": "Financial Services Committee",
+   "chamber": "House",
+   "systemCode": "hsba00"
+  },
+  "Science, Space, and Technology Committee": {
+   "name": "Science, Space, and Technology Committee",
+   "chamber": "House",
+   "systemCode": "hssy00"
+  },
+  "Small Business Committee": {
+   "name": "Small Business Committee",
+   "chamber": "House",
+   "systemCode": "hssm00"
+  },
+  "Intelligence (Permanent Select) Committee": {
+   "name": "Intelligence (Permanent Select) Committee",
+   "chamber": "House",
+   "systemCode": "hlig00"
+  },
+  "Commerce, Science, and Transportation Committee": {
+   "name": "Commerce, Science, and Transportation Committee",
+   "chamber": "Senate",
+   "systemCode": "sscm00"
+  },
+  "Banking, Housing, and Urban Affairs Committee": {
+   "name": "Banking, Housing, and Urban Affairs Committee",
+   "chamber": "Senate",
+   "systemCode": "ssbk00"
+  },
+  "Health, Education, Labor, and Pensions Committee": {
+   "name": "Health, Education, Labor, and Pensions Committee",
+   "chamber": "Senate",
+   "systemCode": "sshr00"
+  },
+  "Foreign Relations Committee": {
+   "name": "Foreign Relations Committee",
+   "chamber": "Senate",
+   "systemCode": "ssfr00"
+  },
+  "Small Business and Entrepreneurship Committee": {
+   "name": "Small Business and Entrepreneurship Committee",
+   "chamber": "Senate",
+   "systemCode": "sssb00"
+  },
+  "Finance Committee": {
+   "name": "Finance Committee",
+   "chamber": "Senate",
+   "systemCode": "ssfi00"
+  },
+  "Agriculture, Nutrition, and Forestry Committee": {
+   "name": "Agriculture, Nutrition, and Forestry Committee",
+   "chamber": "Senate",
+   "systemCode": "ssaf00"
+  },
+  "Environment and Public Works Committee": {
+   "name": "Environment and Public Works Committee",
+   "chamber": "Senate",
+   "systemCode": "ssev00"
+  },
+  "Rules and Administration Committee": {
+   "name": "Rules and Administration Committee",
+   "chamber": "Senate",
+   "systemCode": "ssra00"
+  }
+ },
+ "stats": {
+  "totalBills": 700,
+  "billsWithCommittees": 700
+ }
+}
