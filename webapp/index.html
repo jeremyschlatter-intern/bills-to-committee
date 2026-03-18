@@ -10,7 +10,7 @@
     <header>
         <div class="container">
             <h1>Committee Predictor</h1>
-            <p class="subtitle">Predict which congressional committees a bill will be referred to</p>
+            <p class="subtitle">Predict which congressional committees a bill will be referred to, based on historical referral patterns</p>
         </div>
     </header>
 
@@ -25,7 +25,7 @@
 
             <div class="input-row">
                 <div class="input-group">
-                    <label for="policy-area">Policy Area (optional, improves accuracy)</label>
+                    <label for="policy-area">Policy Area <span style="font-weight: normal; color: var(--text-light);">(optional, improves accuracy significantly)</span></label>
                     <select id="policy-area">
                         <option value="">-- Auto-detect from title --</option>
                     </select>
@@ -40,7 +40,7 @@
             </div>
 
             <div class="input-group">
-                <label for="subjects-input">Legislative Subjects (optional, comma-separated)</label>
+                <label for="subjects-input">Legislative Subjects <span style="font-weight: normal; color: var(--text-light);">(optional, comma-separated CRS terms)</span></label>
                 <input type="text" id="subjects-input" placeholder="e.g., Income tax, Tax credits, Families">
             </div>
 
@@ -56,7 +56,7 @@
         <!-- Live Lookup -->
         <section class="lookup-section" id="lookup">
             <h2>Look Up a Real Bill</h2>
-            <p class="section-desc">Enter a bill number to see its actual committee referral and compare with our prediction.</p>
+            <p class="section-desc">Enter a bill number to see its actual committee referral and compare with our prediction. Data is fetched live from the Congress.gov API.</p>
             <div class="input-row">
                 <div class="input-group">
                     <label for="lookup-congress">Congress</label>
@@ -64,15 +64,20 @@
                         <option value="119">119th (2025-2026)</option>
                         <option value="118" selected>118th (2023-2024)</option>
                         <option value="117">117th (2021-2022)</option>
+                        <option value="116">116th (2019-2020)</option>
                     </select>
                 </div>
                 <div class="input-group">
                     <label for="lookup-type">Type</label>
                     <select id="lookup-type">
-                        <option value="hr">H.R.</option>
-                        <option value="s">S.</option>
+                        <option value="hr">H.R. (House Bill)</option>
+                        <option value="s">S. (Senate Bill)</option>
                         <option value="hjres">H.J.Res.</option>
                         <option value="sjres">S.J.Res.</option>
+                        <option value="hconres">H.Con.Res.</option>
+                        <option value="sconres">S.Con.Res.</option>
+                        <option value="hres">H.Res.</option>
+                        <option value="sres">S.Res.</option>
                     </select>
                 </div>
                 <div class="input-group">
@@ -101,7 +106,7 @@
         <!-- Dataset Explorer -->
         <section class="dataset-section" id="dataset">
             <h2>Historical Referral Patterns</h2>
-            <p class="section-desc">Explore how bills are distributed across committees by policy area.</p>
+            <p class="section-desc">Explore how bills are distributed across committees by policy area. House and Senate committees are tracked separately.</p>
             <div id="pattern-chart" class="pattern-chart"></div>
             <div class="input-group">
                 <label for="dataset-filter">Filter by Policy Area</label>
@@ -130,29 +135,33 @@
             <h2>How It Works</h2>
             <div class="about-grid">
                 <div class="about-card">
-                    <h3>Data Collection</h3>
-                    <p>We analyzed thousands of bills from the 114th-118th Congresses (2015-2024) using the Congress.gov API, tracking which committees each bill was referred to.</p>
+                    <h3>Data</h3>
+                    <p>Bills from multiple recent Congresses are collected via the Congress.gov API, including their CRS policy areas, legislative subject tags, and committee referral records.</p>
                 </div>
                 <div class="about-card">
-                    <h3>Pattern Recognition</h3>
-                    <p>The model identifies patterns between bill characteristics (policy area, subjects, title keywords) and committee referrals. Policy area is the strongest predictor, as committees have defined jurisdictions.</p>
+                    <h3>Model</h3>
+                    <p>Committee jurisdictions are defined in House Rule X and Senate rules. The model learns the statistical mapping from policy area, subject tags, and title keywords to committee referrals. House and Senate committees are tracked separately.</p>
                 </div>
                 <div class="about-card">
                     <h3>Prediction</h3>
-                    <p>For new bills, the model combines signals from policy area, subject tags, and title analysis to predict the most likely committee(s). Multi-referral is supported for bills spanning multiple jurisdictions.</p>
+                    <p>For new bills, three signals are combined: policy area (strongest), legislative subjects, and title keyword analysis. When multiple committees score highly, the tool flags a possible joint or sequential referral.</p>
                 </div>
             </div>
             <div class="accuracy-note">
-                <h3>Accuracy</h3>
-                <p id="accuracy-text">Model accuracy statistics will appear here once loaded.</p>
+                <h3>Model Accuracy</h3>
+                <p id="accuracy-text">Loading evaluation metrics...</p>
+            </div>
+            <div class="accuracy-note" style="margin-top: 12px; border-left-color: var(--primary-lighter);">
+                <h3>Limitations</h3>
+                <p>This model predicts based on historical patterns and does not account for: the Speaker's discretion in House referrals, changes in committee jurisdiction between Congresses, committee name changes, or political factors that may influence referral decisions. Subcommittee referrals are not yet predicted. For authoritative jurisdiction information, consult <a href="https://rules.house.gov/sites/republicans.rules118.house.gov/files/documents/Rules-of-the-House-2023.pdf" target="_blank">House Rule X</a> or Senate standing rules.</p>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>Built with data from <a href="https://congress.gov" target="_blank">Congress.gov</a> API.
-            This is a demonstration project showing AI-powered legislative analysis.</p>
+            <p>Built with data from the <a href="https://api.congress.gov" target="_blank">Congress.gov API</a>.
+            Predictions are based on historical referral patterns and should not be considered authoritative.</p>
         </div>
     </footer>
 

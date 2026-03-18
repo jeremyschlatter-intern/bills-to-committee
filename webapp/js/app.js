@@ -1,5 +1,6 @@
 /**
  * Committee Predictor - Main application logic.
+ * Uses the Congress.gov API for live bill lookups.
  */
 
 const API_KEY = "CONGRESS_API_KEY";
@@ -9,11 +10,10 @@ const PAGE_SIZE = 50;
 
 // Initialize
 document.addEventListener("DOMContentLoaded", async () => {
-    // Load model
     const loaded = await CommitteeModel.load();
     if (!loaded) {
         document.getElementById("results-list").innerHTML =
-            '<p class="loading">Failed to load prediction model.</p>';
+            '<p>Failed to load prediction model. Please refresh.</p>';
         return;
     }
 
@@ -37,15 +37,60 @@ document.addEventListener("DOMContentLoaded", async () => {
         console.error("Failed to load dataset:", e);
     }
 
-    // Update stats
-    const stats = CommitteeModel.getStats();
-    document.getElementById("accuracy-text").innerHTML =
-        `Trained on <strong>${stats.billsWithCommittees || 0}</strong> bills ` +
-        `from Congresses 114-118 (2015-2024) with known committee referrals. ` +
-        `The model covers <strong>${policyAreas.length}</strong> policy areas and ` +
-        `<strong>${Object.keys(CommitteeModel.data.committees).length}</strong> committees. ` +
-        `Policy area is the strongest predictor — when provided, top-1 accuracy typically exceeds 70%.`;
+    // Update stats with real evaluation data
+    updateStatsDisplay();
+
+    // Allow Enter key to trigger prediction
+    document.getElementById("bill-title").addEventListener("keydown", (e) => {
+        if (e.key === "Enter" && !e.shiftKey) {
+            e.preventDefault();
+            runPrediction();
+        }
+    });
 });
+
+/**
+ * Update the accuracy section with real evaluation metrics.
+ */
+function updateStatsDisplay() {
+    const stats = CommitteeModel.getStats();
+    const eval_ = CommitteeModel.getEvaluation();
+
+    let html = `Trained on <strong>${stats.billsWithCommittees || 0}</strong> bills `;
+    if (stats.congresses && stats.congresses.length > 0) {
+        const first = stats.congresses[0];
+        const last = stats.congresses[stats.congresses.length - 1];
+        html += `from the ${first}th through ${last}th Congresses. `;
+    }
+    html += `The model covers <strong>${CommitteeModel.getPolicyAreas().length}</strong> policy areas ` +
+        `and <strong>${Object.keys(CommitteeModel.data.committees).length}</strong> committees.`;
+
+    if (eval_) {
+        html += `<br><br><strong>Cross-validated accuracy (${eval_.folds}-fold, ${eval_.total_evaluated} bills):</strong><br>`;
+        html += `Top-1: <strong>${(eval_.top1_accuracy * 100).toFixed(1)}%</strong> · `;
+        html += `Top-3: <strong>${(eval_.top3_accuracy * 100).toFixed(1)}%</strong> · `;
+        html += `Top-5: <strong>${(eval_.top5_accuracy * 100).toFixed(1)}%</strong>`;
+
+        // Show per-policy-area breakdown
+        if (eval_.by_policy_area) {
+            const areas = Object.entries(eval_.by_policy_area)
+                .sort((a, b) => b[1].total - a[1].total)
+                .slice(0, 10);
+
+            if (areas.length > 0) {
+                html += `<br><br><strong>Top-1 accuracy by policy area:</strong><br>`;
+                html += '<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2px 16px; margin-top: 4px; font-size: 0.85rem;">';
+                for (const [pa, data] of areas) {
+                    const pct = (data.top1 * 100).toFixed(0);
+                    html += `<span>${pa}: <strong>${pct}%</strong> <span style="color: var(--text-light);">(n=${data.total})</span></span>`;
+                }
+                html += '</div>';
+            }
+        }
+    }
+
+    document.getElementById("accuracy-text").innerHTML = html;
+}
 
 /**
  * Run prediction from form inputs.
@@ -58,18 +103,20 @@ function runPrediction() {
     const subjects = subjectsRaw ? subjectsRaw.split(",").map(s => s.trim()).filter(Boolean) : [];
 
     if (!title && !policyArea && subjects.length === 0) {
-        alert("Please enter a bill title, select a policy area, or provide subjects.");
+        document.getElementById("results").style.display = "block";
+        document.getElementById("results-list").innerHTML =
+            '<p style="color: var(--text-light);">Please enter a bill title, select a policy area, or provide subjects to get a prediction.</p>';
         return;
     }
 
     const predictions = CommitteeModel.predict(title, policyArea, subjects, chamber);
-    displayPredictions(predictions);
+    displayPredictions(predictions, chamber);
 }
 
 /**
  * Display prediction results.
  */
-function displayPredictions(predictions) {
+function displayPredictions(predictions, chamber) {
     const container = document.getElementById("results");
     const list = document.getElementById("results-list");
     const explanation = document.getElementById("explanation");
@@ -77,7 +124,7 @@ function displayPredictions(predictions) {
     container.style.display = "block";
 
     if (predictions.length === 0) {
-        list.innerHTML = '<p>No predictions available. Try providing more information.</p>';
+        list.innerHTML = '<p>No predictions available. Try providing more information about the bill.</p>';
         explanation.innerHTML = "";
         return;
     }
@@ -86,15 +133,15 @@ function displayPredictions(predictions) {
     predictions.forEach((pred, i) => {
         const pct = Math.round(pred.confidence * 100);
         const barClass = pct >= 40 ? "confidence-high" : pct >= 20 ? "confidence-med" : "confidence-low";
-        const reasonsHtml = pred.reasons.map(r => `<span>${r}</span>`).join(" · ");
+        const reasonsHtml = pred.reasons.map(r => `<span>${escapeHtml(r)}</span>`).join(" · ");
 
         html += `
             <div class="result-card">
                 <div class="result-rank">${i + 1}</div>
                 <div class="result-bar-container">
-                    <div class="result-name">${pred.committee}</div>
+                    <div class="result-name">${escapeHtml(pred.committee)}</div>
                     <div class="result-bar">
-                        <div class="result-bar-fill ${barClass}" style="width: ${pct}%"></div>
+                        <div class="result-bar-fill ${barClass}" style="width: ${Math.max(pct, 2)}%"></div>
                     </div>
                     <div class="result-reasons">${reasonsHtml}</div>
                 </div>
@@ -105,36 +152,29 @@ function displayPredictions(predictions) {
 
     list.innerHTML = html;
 
-    // Explanation
+    // Multi-referral explanation
     const topPred = predictions[0];
-    if (topPred.confidence > 0.5) {
-        explanation.innerHTML = `<strong>High confidence:</strong> The model strongly predicts referral to <strong>${topPred.committee}</strong>. ${topPred.reasons[0] || ""}`;
-    } else if (topPred.confidence > 0.3) {
-        explanation.innerHTML = `<strong>Moderate confidence:</strong> The model favors <strong>${topPred.committee}</strong>, but this bill may touch multiple committee jurisdictions.`;
-    } else {
-        explanation.innerHTML = `<strong>Multiple jurisdictions:</strong> This bill spans several policy areas and may be referred to multiple committees or have a split referral.`;
-    }
+    const multiReferral = predictions.filter(p => p.confidence > 0.15).length > 1;
 
-    // Animate bars
-    setTimeout(() => {
-        document.querySelectorAll(".result-bar-fill").forEach(bar => {
-            bar.style.width = bar.style.width; // trigger reflow
-        });
-    }, 50);
+    if (topPred.confidence > 0.5) {
+        explanation.innerHTML = `<strong>High confidence:</strong> Based on historical referral patterns, this bill would most likely be referred to <strong>${escapeHtml(topPred.committee)}</strong>.`;
+    } else if (multiReferral) {
+        const topComms = predictions.filter(p => p.confidence > 0.15).map(p => `<strong>${escapeHtml(p.committee)}</strong>`);
+        explanation.innerHTML = `<strong>Possible multiple referral:</strong> This bill touches jurisdictions of ${topComms.join(", ")}. In the House, the Speaker may order a joint, sequential, or split referral under Rule XII.`;
+    } else {
+        explanation.innerHTML = `<strong>Moderate confidence:</strong> The model favors <strong>${escapeHtml(topPred.committee)}</strong> but has limited signal. Providing a policy area will improve accuracy.`;
+    }
 }
 
 /**
- * Look up a real bill from Congress.gov API.
+ * Look up a real bill from Congress.gov API and compare prediction vs. actual.
  */
 async function lookupBill() {
     const congress = document.getElementById("lookup-congress").value;
     const type = document.getElementById("lookup-type").value;
     const number = document.getElementById("lookup-number").value;
 
-    if (!number) {
-        alert("Please enter a bill number.");
-        return;
-    }
+    if (!number) return;
 
     const resultsDiv = document.getElementById("lookup-results");
     const billInfo = document.getElementById("lookup-bill-info");
@@ -147,7 +187,6 @@ async function lookupBill() {
     predictedDiv.innerHTML = "";
 
     try {
-        // Fetch bill detail
         const baseUrl = `https://api.congress.gov/v3/bill/${congress}/${type}/${number}`;
         const detail = await apiGet(baseUrl);
 
@@ -160,12 +199,27 @@ async function lookupBill() {
         const title = bill.title || "Untitled";
         const policyArea = bill.policyArea ? bill.policyArea.name : "";
         const chamber = bill.originChamber || "House";
-        const typeLabel = type.toUpperCase().replace("HR", "H.R.").replace("SJRES", "S.J.Res.").replace("HJRES", "H.J.Res.");
+
+        const typeLabels = {
+            "hr": "H.R.", "s": "S.", "hjres": "H.J.Res.", "sjres": "S.J.Res.",
+            "hconres": "H.Con.Res.", "sconres": "S.Con.Res.",
+            "hres": "H.Res.", "sres": "S.Res."
+        };
+        const typeLabel = typeLabels[type] || type.toUpperCase();
+
+        // Congress.gov URL
+        const typeSlug = {
+            "hr": "house-bill", "s": "senate-bill",
+            "hjres": "house-joint-resolution", "sjres": "senate-joint-resolution",
+            "hconres": "house-concurrent-resolution", "sconres": "senate-concurrent-resolution",
+            "hres": "house-resolution", "sres": "senate-resolution",
+        };
+        const congressGovUrl = `https://www.congress.gov/bill/${congress}th-congress/${typeSlug[type] || "house-bill"}/${number}`;
 
         billInfo.innerHTML = `
-            <h3>${typeLabel} ${number} — ${title}</h3>
+            <h3><a href="${congressGovUrl}" target="_blank" style="color: inherit; text-decoration: underline;">${typeLabel} ${number}</a> — ${escapeHtml(title)}</h3>
             <div class="bill-meta">
-                ${congress}th Congress · ${chamber} · Policy Area: ${policyArea || "Not assigned"}
+                ${congress}th Congress · ${chamber} · Policy Area: ${policyArea || "Not assigned yet"}
             </div>
         `;
 
@@ -174,11 +228,11 @@ async function lookupBill() {
         const actualComms = [];
         if (commData && commData.committees) {
             for (const c of commData.committees) {
-                actualComms.push(c.name);
+                actualComms.push({ name: c.name, chamber: c.chamber || "" });
             }
         }
 
-        // Fetch subjects for better prediction
+        // Fetch subjects
         let subjects = [];
         const subjData = await apiGet(`${baseUrl}/subjects`);
         if (subjData && subjData.subjects && subjData.subjects.legislativeSubjects) {
@@ -188,7 +242,7 @@ async function lookupBill() {
         // Display actual committees
         if (actualComms.length > 0) {
             actualDiv.innerHTML = actualComms
-                .map(c => `<span class="committee-tag actual">${c}</span>`)
+                .map(c => `<span class="committee-tag actual">${escapeHtml(c.name)}<br><small>${c.chamber}</small></span>`)
                 .join("");
         } else {
             actualDiv.innerHTML = "<p>No committee referral recorded yet.</p>";
@@ -196,39 +250,46 @@ async function lookupBill() {
 
         // Run prediction
         const predictions = CommitteeModel.predict(title, policyArea, subjects, chamber);
-        const predictedNames = predictions.slice(0, 5).map(p => p.committee);
 
         // Display predicted with match highlighting
+        const actualNames = actualComms.map(c => c.name);
         predictedDiv.innerHTML = predictions.slice(0, 5)
             .map(p => {
-                const isMatch = actualComms.includes(p.committee);
+                const isMatch = actualNames.includes(p.committee);
                 const cls = isMatch ? "committee-tag match" : "committee-tag predicted";
                 const pct = Math.round(p.confidence * 100);
-                return `<span class="${cls}">${p.committee} (${pct}%)${isMatch ? " ✓" : ""}</span>`;
+                const checkmark = isMatch ? " &#10003;" : "";
+                return `<span class="${cls}">${escapeHtml(p.committee)} (${pct}%)${checkmark}<br><small>${p.chamber}</small></span>`;
             })
             .join("");
 
-        // Match indicator
+        // Match accuracy indicator
         if (actualComms.length > 0) {
-            const matches = actualComms.filter(c => predictedNames.includes(c));
-            const matchPct = Math.round((matches.length / actualComms.length) * 100);
+            const predNames = predictions.slice(0, 5).map(p => p.committee);
+            const matches = actualNames.filter(n => predNames.includes(n));
 
             let indicator;
             if (matches.length === actualComms.length) {
-                indicator = `<div class="match-indicator correct">All ${matches.length} committee(s) correctly predicted</div>`;
+                indicator = `<div class="match-indicator correct">All ${matches.length} committee(s) correctly predicted in top 5</div>`;
             } else if (matches.length > 0) {
-                indicator = `<div class="match-indicator partial">${matches.length} of ${actualComms.length} committees matched (${matchPct}%)</div>`;
+                indicator = `<div class="match-indicator partial">${matches.length} of ${actualComms.length} committees matched in top 5</div>`;
             } else {
-                indicator = `<div class="match-indicator partial">Primary committee not in top-5 predictions</div>`;
+                // Check if primary committee is at least top-1
+                const top1Match = actualNames.includes(predictions[0]?.committee);
+                if (top1Match) {
+                    indicator = `<div class="match-indicator correct">Primary committee correctly predicted</div>`;
+                } else {
+                    indicator = `<div class="match-indicator partial">Actual committee not in top-5 predictions</div>`;
+                }
             }
             predictedDiv.innerHTML += indicator;
         }
 
-        // Also show the full prediction below
-        displayPredictions(predictions);
+        // Also show in the main prediction area
+        displayPredictions(predictions, chamber);
 
     } catch (e) {
-        billInfo.innerHTML = `<p>Error looking up bill: ${e.message}</p>`;
+        billInfo.innerHTML = `<p>Error: ${escapeHtml(e.message)}. Check your connection and try again.</p>`;
     }
 }
 
@@ -244,38 +305,51 @@ async function apiGet(url) {
 }
 
 /**
- * Render the pattern chart showing committee distribution.
+ * Render the pattern chart showing committee distribution by chamber.
  */
 function renderPatternChart() {
     if (!CommitteeModel.loaded) return;
 
     const chartDiv = document.getElementById("pattern-chart");
-    const commCounts = {};
+    const houseCounts = {};
+    const senateCounts = {};
 
     for (const bill of dataset) {
         for (const comm of bill.committees) {
-            commCounts[comm] = (commCounts[comm] || 0) + 1;
+            const name = typeof comm === "string" ? comm : comm.name;
+            const chamber = typeof comm === "string" ? "" : (comm.chamber || "");
+            if (chamber === "House" || (!chamber && bill.type === "HR")) {
+                houseCounts[name] = (houseCounts[name] || 0) + 1;
+            } else if (chamber === "Senate" || (!chamber && bill.type === "S")) {
+                senateCounts[name] = (senateCounts[name] || 0) + 1;
+            } else {
+                houseCounts[name] = (houseCounts[name] || 0) + 1;
+            }
         }
     }
 
-    const sorted = Object.entries(commCounts)
-        .sort((a, b) => b[1] - a[1])
-        .slice(0, 20);
-
-    const maxCount = sorted[0] ? sorted[0][1] : 1;
-
-    let html = '<h3 style="font-size: 1rem; color: var(--primary); margin-bottom: 12px;">Committee Referral Frequency (Training Data)</h3>';
-    for (const [name, count] of sorted) {
-        const width = Math.round((count / maxCount) * 100);
-        html += `
-            <div class="chart-bar-group">
-                <div class="chart-label" title="${name}">${name}</div>
-                <div class="chart-bar" style="width: ${width}%">
-                    <span>${count}</span>
+    function renderBar(counts, label) {
+        const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 15);
+        const max = sorted[0] ? sorted[0][1] : 1;
+        let html = `<h4 style="font-size: 0.9rem; color: var(--primary); margin: 12px 0 8px;">${label}</h4>`;
+        for (const [name, count] of sorted) {
+            const width = Math.round((count / max) * 100);
+            html += `
+                <div class="chart-bar-group">
+                    <div class="chart-label" title="${name}">${name}</div>
+                    <div class="chart-bar" style="width: ${width}%">
+                        <span>${count}</span>
+                    </div>
                 </div>
-            </div>
-        `;
+            `;
+        }
+        return html;
     }
+
+    let html = '<h3 style="font-size: 1rem; color: var(--primary); margin-bottom: 4px;">Committee Referral Frequency</h3>';
+    html += '<p style="color: var(--text-light); font-size: 0.85rem; margin-bottom: 8px;">From training data across Congresses 114-118</p>';
+    html += renderBar(houseCounts, "House Committees");
+    html += renderBar(senateCounts, "Senate Committees");
 
     chartDiv.innerHTML = html;
 }
@@ -294,14 +368,23 @@ function renderDataset() {
     const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
 
     const tbody = document.getElementById("dataset-tbody");
-    tbody.innerHTML = page.map(b => `
+    tbody.innerHTML = page.map(b => {
+        const typeSlug = {
+            "HR": "house-bill", "S": "senate-bill",
+            "HJRES": "house-joint-resolution", "SJRES": "senate-joint-resolution",
+        };
+        const slug = typeSlug[b.type] || "house-bill";
+        const url = `https://www.congress.gov/bill/${b.congress}th-congress/${slug}/${b.number}`;
+        const comms = (b.committees || []).map(c => typeof c === "string" ? c : c.name).join(", ");
+
+        return `
         <tr>
-            <td><a href="https://congress.gov/bill/${b.congress}th-congress/${b.type === 'HR' ? 'house' : 'senate'}-bill/${b.number}" target="_blank">${b.type} ${b.number}</a></td>
-            <td>${b.title.substring(0, 80)}${b.title.length > 80 ? "..." : ""}</td>
-            <td>${b.policyArea || "—"}</td>
-            <td>${b.committees.join(", ")}</td>
-        </tr>
-    `).join("");
+            <td><a href="${url}" target="_blank">${b.type} ${b.number}</a></td>
+            <td>${escapeHtml((b.title || "").substring(0, 80))}${(b.title || "").length > 80 ? "..." : ""}</td>
+            <td>${escapeHtml(b.policyArea || "—")}</td>
+            <td>${escapeHtml(comms)}</td>
+        </tr>`;
+    }).join("");
 
     // Pagination
     const pagDiv = document.getElementById("pagination");
@@ -312,11 +395,11 @@ function renderDataset() {
 
     let pagHtml = "";
     if (datasetPage > 0) {
-        pagHtml += `<button onclick="changePage(${datasetPage - 1})">← Prev</button>`;
+        pagHtml += `<button onclick="changePage(${datasetPage - 1})">Prev</button>`;
     }
     pagHtml += `<span style="padding: 6px 12px; font-size: 0.85rem; color: var(--text-light);">Page ${datasetPage + 1} of ${totalPages} (${filtered.length} bills)</span>`;
     if (datasetPage < totalPages - 1) {
-        pagHtml += `<button onclick="changePage(${datasetPage + 1})">Next →</button>`;
+        pagHtml += `<button onclick="changePage(${datasetPage + 1})">Next</button>`;
     }
     pagDiv.innerHTML = pagHtml;
 }
@@ -324,9 +407,16 @@ function renderDataset() {
 function changePage(page) {
     datasetPage = page;
     renderDataset();
+    document.getElementById("dataset-table-container").scrollTop = 0;
 }
 
 function filterDataset() {
     datasetPage = 0;
     renderDataset();
+}
+
+function escapeHtml(str) {
+    const div = document.createElement("div");
+    div.textContent = str;
+    return div.innerHTML;
 }
