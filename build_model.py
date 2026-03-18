@@ -23,6 +23,57 @@ OUTPUT_DIR = Path("webapp/data")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
+# Map historical/variant committee names to current official names
+# Uses the "Committee on X" format per House Rule X and Senate Standing Rules
+COMMITTEE_NAME_MAP = {
+    # House committees - current as of 119th Congress
+    "Oversight and Government Reform Committee": "Committee on Oversight and Accountability",
+    "Oversight and Accountability Committee": "Committee on Oversight and Accountability",
+    "Judiciary Committee": "Committee on the Judiciary",
+    "Ways and Means Committee": "Committee on Ways and Means",
+    "Energy and Commerce Committee": "Committee on Energy and Commerce",
+    "Armed Services Committee": "Committee on Armed Services",
+    "Financial Services Committee": "Committee on Financial Services",
+    "Foreign Affairs Committee": "Committee on Foreign Affairs",
+    "Education and Workforce Committee": "Committee on Education and the Workforce",
+    "Education and Labor Committee": "Committee on Education and the Workforce",
+    "Natural Resources Committee": "Committee on Natural Resources",
+    "Transportation and Infrastructure Committee": "Committee on Transportation and Infrastructure",
+    "Agriculture Committee": "Committee on Agriculture",
+    "Appropriations Committee": "Committee on Appropriations",
+    "Budget Committee": "Committee on the Budget",
+    "Homeland Security Committee": "Committee on Homeland Security",
+    "Rules Committee": "Committee on Rules",
+    "Science, Space, and Technology Committee": "Committee on Science, Space, and Technology",
+    "Small Business Committee": "Committee on Small Business",
+    "Veterans' Affairs Committee": "Committee on Veterans' Affairs",
+    "Committee on House Administration": "Committee on House Administration",
+    # Senate committees
+    "Finance Committee": "Committee on Finance",
+    "Health, Education, Labor, and Pensions Committee": "Committee on Health, Education, Labor, and Pensions",
+    "Homeland Security and Governmental Affairs Committee": "Committee on Homeland Security and Governmental Affairs",
+    "Commerce, Science, and Transportation Committee": "Committee on Commerce, Science, and Transportation",
+    "Banking, Housing, and Urban Affairs Committee": "Committee on Banking, Housing, and Urban Affairs",
+    "Agriculture, Nutrition, and Forestry Committee": "Committee on Agriculture, Nutrition, and Forestry",
+    "Energy and Natural Resources Committee": "Committee on Energy and Natural Resources",
+    "Environment and Public Works Committee": "Committee on Environment and Public Works",
+    "Foreign Relations Committee": "Committee on Foreign Relations",
+    "Indian Affairs Committee": "Committee on Indian Affairs",
+    "Intelligence Committee": "Select Committee on Intelligence",
+    "Small Business and Entrepreneurship Committee": "Committee on Small Business and Entrepreneurship",
+}
+
+
+def normalize_committee_name(name):
+    """Normalize to official committee name format."""
+    if name in COMMITTEE_NAME_MAP:
+        return COMMITTEE_NAME_MAP[name]
+    # If already in "Committee on" format, keep it
+    if name.startswith("Committee on"):
+        return name
+    return name
+
+
 STOP_WORDS = {
     "a", "an", "the", "of", "to", "and", "in", "for", "on", "at", "by",
     "or", "is", "be", "as", "it", "with", "from", "that", "this", "are",
@@ -46,7 +97,7 @@ def extract_significant_words(title):
 
 def get_committee_key(committee):
     """Create a unique key for a committee that preserves chamber distinction."""
-    name = committee.get("name", "")
+    name = normalize_committee_name(committee.get("name", ""))
     chamber = committee.get("chamber", "")
     return f"{chamber}|{name}"
 
@@ -84,7 +135,7 @@ def build_model(training_data):
 
             if key not in committee_info:
                 committee_info[key] = {
-                    "name": name,
+                    "name": normalize_committee_name(name),
                     "chamber": chamber,
                     "systemCode": c.get("systemCode", ""),
                 }
@@ -357,7 +408,7 @@ def main():
                 "title": b.get("title"),
                 "policyArea": b.get("policyArea", ""),
                 "committees": [
-                    {"name": c.get("name"), "chamber": c.get("chamber", "")}
+                    {"name": normalize_committee_name(c.get("name", "")), "chamber": c.get("chamber", "")}
                     for c in b.get("committees", [])
                 ],
                 "subjects": b.get("subjects", [])[:5],

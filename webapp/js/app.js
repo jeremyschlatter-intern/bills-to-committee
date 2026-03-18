@@ -3,6 +3,7 @@
  * Uses the Congress.gov API for live bill lookups.
  */
 
+// Congress.gov API key for live bill lookups (public demo key with standard rate limits)
 const API_KEY = "CONGRESS_API_KEY";
 let dataset = [];
 let datasetPage = 0;
@@ -56,14 +57,20 @@ function updateStatsDisplay() {
     const stats = CommitteeModel.getStats();
     const eval_ = CommitteeModel.getEvaluation();
 
+    function ordinal(n) {
+        const s = ["th","st","nd","rd"], v = n % 100;
+        return n + (s[(v-20)%10]||s[v]||s[0]);
+    }
+
     let html = `Trained on <strong>${stats.billsWithCommittees || 0}</strong> bills `;
     if (stats.congresses && stats.congresses.length > 0) {
         const first = stats.congresses[0];
         const last = stats.congresses[stats.congresses.length - 1];
-        html += `from the ${first}th through ${last}th Congresses. `;
+        html += `from the ${ordinal(first)} through ${ordinal(last)} Congresses. `;
     }
     html += `The model covers <strong>${CommitteeModel.getPolicyAreas().length}</strong> policy areas ` +
         `and <strong>${Object.keys(CommitteeModel.data.committees).length}</strong> committees.`;
+    html += `<br><span style="font-size: 0.85rem; color: var(--text-light);">Model last updated: March 2026.</span>`;
 
     if (eval_) {
         html += `<br><br><strong>Cross-validated accuracy (${eval_.folds}-fold, ${eval_.total_evaluated} bills):</strong><br>`;
@@ -347,7 +354,10 @@ function renderPatternChart() {
     }
 
     let html = '<h3 style="font-size: 1rem; color: var(--primary); margin-bottom: 4px;">Committee Referral Frequency</h3>';
-    html += '<p style="color: var(--text-light); font-size: 0.85rem; margin-bottom: 8px;">From training data across Congresses 114-118</p>';
+    const stats = CommitteeModel.getStats();
+    const congresses = (stats.congresses || []);
+    const congStr = congresses.length > 0 ? `${congresses[0]}th\u2013${congresses[congresses.length-1]}th` : "";
+    html += `<p style="color: var(--text-light); font-size: 0.85rem; margin-bottom: 8px;">From training data across ${congStr} Congresses</p>`;
     html += renderBar(houseCounts, "House Committees");
     html += renderBar(senateCounts, "Senate Committees");
 
