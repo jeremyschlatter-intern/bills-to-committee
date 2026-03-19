@@ -4,7 +4,7 @@
  */
 
 // Congress.gov API key for live bill lookups (public demo key with standard rate limits)
-const API_KEY = "CONGRESS_API_KEY";
+const API_KEY = "DEMO_KEY";
 let dataset = [];
 let datasetPage = 0;
 const PAGE_SIZE = 50;
